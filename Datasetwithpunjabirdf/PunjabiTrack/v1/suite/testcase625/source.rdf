@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:nodeID="Nc92d96b61be449738fc3f1bb3a5680f4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N01ab5ea26f2b458096043014649497b6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-3226074-1431136">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">zamítnutý příspěvek</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-3287206-2910370"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-1190293-1452378">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">pozván recenzentem</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-4031048-8395615"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-4031048-8395615"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-0591090-5215479">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">být členem výboru</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-1112243-1020532"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-4725319-4647454"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-1735427-3305771">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">prezentoval</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-8640980-0721617"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-9331243-4779356"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-6017131-3727174"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-7903252-5899421">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">článek</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-3429667-5977494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-1135733-3119175">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">recenzuje příspěvek</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-3287206-2910370"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-6305183-2425508"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-4949010-3662569">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">má workshop</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-7303760-0930356"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-4836036-2463982"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-4743974-4154196">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">má spolupředsedu výboru</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-1112243-1020532"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-3314196-2799283"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-5274729-9484726"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-6534764-1001288"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-0052771-8389028">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">být předsedou výboru</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-1112243-1020532"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2564952-6106792"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-0591090-5215479"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-7786381-2659425">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">URL webových stránek konference</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-8247444-1877589"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-6534764-1001288">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">být spolupředsedou výboru</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-1112243-1020532"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-3314196-2799283"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-0591090-5215479"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N93699f0011f5437bbd87c5a77995ae78">
+    <rdf:first rdf:resource="http://conference_cz#c-4725319-4647454"/>
+    <rdf:rest rdf:nodeID="Nf1d5549292c2461fa1063d47b141d336"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-7334099-6096069">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">časně přihlášený zájemce o konferenci</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-6176528-2437242"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne9ac0da5a04b4a8894d30fe0f98cea28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N5aa938a7bdd947d09e9bfee563b3ee43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-7657399-5875767">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">sborník konference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-7206113-6936461">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">důležitý den konference</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2556370-0598224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-0021065-5530005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">přijatý příspěvek</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-3287206-2910370"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-3226074-1431136"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-6818366-1216195">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">publikováno dne</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-3102145-6029457"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-2163224-8186934">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">poster</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-9094498-2407697"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-3429667-5977494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-3018945-2209031">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">být organizačním výborem konference</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-1570703-7422661"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-5452204-1894970"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-8132438-0197533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-3410495-1517764">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">hlavní autor příspěvku</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-4046973-3688593"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1547d46984e24a7b9557ac7f283f8ad8">
+    <rdf:first rdf:resource="http://conference_cz#c-3429667-5977494"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9ed0b66866bc41c5988ed95af81398af">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N6b2fd1ce84b1408b9b69f0fa0d480837"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3f6c2f4040a84ec2be818b4e39955870">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cz#op-5640822-1541181"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cz#c-1654012-3103015"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-3287206-2910370">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">recenzovaný příspěvek</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N40accf53fb8c42bb9308958cafa83219"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-6567459-9092417"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-6638451-8829665">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">posláno kam</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-9094498-2407697"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-9621545-5769332"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne1460f75934b4f2f8ed973d858904583">
+    <rdf:first rdf:resource="http://conference_cz#c-0021065-5530005"/>
+    <rdf:rest rdf:nodeID="N5ac349c319034292a328de10463bb0ee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-5188882-5100565">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">den oznámení přijetí příspěvku</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2556370-0598224"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0119092d41984dd5b6c84dbf51b8c693">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N5e62a71ccc8d460d9355c609743f3961"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N16687f1aaed04e35b88d71dd3519b1fe">
+    <rdf:first rdf:resource="http://conference_cz#c-6840857-0046483"/>
+    <rdf:rest rdf:nodeID="Nf1add0e99a9241eb96bab8f8ee96b178"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-9063289-1316773">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">má důležitý den</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-2556370-0598224"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-7206113-6936461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-5324949-3815538">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">má abstrakt</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-2261813-6781658"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-9222114-1166926"/>
+    <rdfs:domain rdf:nodeID="Nc34035a7f350466d8dcc7eb250ade52d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-6017131-3727174">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">prezentováno kým</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-8640980-0721617"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-9331243-4779356"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-5653023-8689662">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">má odeslaný příspěvek</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2680443-5617688"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-6567459-9092417"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-0385265-1077649"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-7453599-6364769">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">publikuje</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-5635563-3020657"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-7657399-5875767"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N01ab5ea26f2b458096043014649497b6">
+    <rdf:first rdf:resource="http://conference_cz#c-2163224-8186934"/>
+    <rdf:rest rdf:nodeID="Nd9c9b5daabe4414aa3d59f9e31211c0c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-0725552-0143970">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">počáteční den</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2556370-0598224"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-4046973-3688593">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">řádný autor příspěvku</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N1a4b0af7b0bc49a1b3f1f94264fbd24d"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-0415762-8538997"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-9307194-6246389">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">sekce konference</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-6942937-8721904"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-8640980-0721617">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">aktivní účastník konference</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-0415762-8538997"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-7413987-3654495"/>
+    <rdfs:subClassOf rdf:nodeID="N75e4cb78551c4d948f804b85ea069dec"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-9116150-7196148"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-4941024-8998791">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">psaný příspěvek</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-9094498-2407697"/>
+    <rdfs:subClassOf rdf:nodeID="N0024b686d70c4d7ebeb39dc7d2bc6eb6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-7051949-0139652">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">tématem nebo odeslaným příspěvkem je</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-6424299-5245852"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-6794162-7631088"/>
+    <rdfs:range rdf:nodeID="Nf532e475c5604af2bacabc57beee873f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-0072443-2657356">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">být předsedou workshopu čeho</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-6942937-8721904"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-7032209-1502570"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-1826690-7381451"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-2360245-9256142">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">má téma workshopu</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-6840857-0046483"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-6942937-8721904"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-2486569-1742223"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-9331243-4779356">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">prezentace</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-9094498-2407697"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nccb62e53bd5b44bb81751da0a71cb590">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cz#op-1646097-0548165"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cz#c-4031048-8395615"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-7591461-3530334">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">příjmení</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-9766852-4078923"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N541983a4a7224cde94f1584484119ba1">
+    <rdf:first rdf:resource="http://conference_cz#c-6567459-9092417"/>
+    <rdf:rest rdf:nodeID="N18d0ce26de1a4920b59c71eb12ee78ba"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N513af30febc6459bb16ba0a61edeaf5c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cz#op-1646097-0548165"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cz#c-4031048-8395615"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N804350b281f14024a3ed8ae590b70010">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</rdf:first>
+    <rdf:rest rdf:nodeID="N2dd31f33ef7143b29521fe18f94d48a5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-5939470-5775419">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">konferenční poplatky</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-1231459-5151646">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="cs">email</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-9766852-4078923"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-3314196-2799283">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">spolupředseda</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N9c450b1e96244d6d9f3825298b98b889"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-4725319-4647454"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N53a267d15ec64db9a4330ce31d4b932d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nfff3f6e1cf2f4e24bb6681bca6f5a90e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-8215223-8202619">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">má sekci</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-9307194-6246389"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-4836036-2463982"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd042a83a1599428cb63063cb91ab5189">
+    <rdf:first rdf:resource="http://conference_cz#c-1570703-7422661"/>
+    <rdf:rest rdf:nodeID="Ne48e01fdbc464e85b3fbff1f991cfddb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfbce6f90585f4e668afd7b349901c3b5">
+    <rdf:first rdf:resource="http://conference_cz#c-6567459-9092417"/>
+    <rdf:rest rdf:nodeID="N2ae20a3bcedd406a9be6cbb9b0a61099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-0100726-2478461">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">má autora</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-3102145-6029457"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-9766852-4078923"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbc8f06e8baf4487b9d35d2d4c118748f">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium</rdf:first>
+    <rdf:rest rdf:nodeID="Nbda311878dff4b908ea143d714ccc742"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-1112243-1020532">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">výbor</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N4f69a86f10834e08842da19f46470c0a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-6840857-0046483">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">téma</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-8263653-3774038">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">má předsedu výboru</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-1112243-1020532"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-2564952-6106792"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-0052771-8389028"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-5274729-9484726"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne12dfd76c4f44c4d839fc67b19d1a5b9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N541983a4a7224cde94f1584484119ba1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-1518517-4131663">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">vydavatelem sborníku je</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-5635563-3020657"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-7657399-5875767"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-7453599-6364769"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-7197454-3779225">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">zvaný přednášející</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N3f6c2f4040a84ec2be818b4e39955870"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-0415762-8538997"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N06eef9f628bd40f1832b3a9c91090412">
+    <rdf:first rdf:resource="http://conference_cz#c-9701180-9965139"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfa3c5b1757a94787a5f193b7e7e49732">
+    <rdf:first rdf:resource="http://conference_cz#c-1654012-3103015"/>
+    <rdf:rest rdf:nodeID="N718ab97261c34d66ad7b1009f544cca1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-5452204-1894970">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">konference má organizační výbor</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-1570703-7422661"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-0370826-7579888"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf1add0e99a9241eb96bab8f8ee96b178">
+    <rdf:first rdf:resource="http://conference_cz#c-6942937-8721904"/>
+    <rdf:rest rdf:nodeID="Nb81ed36197d74b24b005850eea819a66"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-1654012-3103015">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">zvaná přednáška</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-9331243-4779356"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-2163224-8186934"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-3429667-5977494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-1570703-7422661">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">organizační výbor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-1112243-1020532"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-2332447-3203582"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-2378489-2307626"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N60814ebc255b46b9bc9aaf6c70ae046d">
+    <rdf:first rdf:resource="http://conference_cz#c-2163224-8186934"/>
+    <rdf:rest rdf:nodeID="Ne44e90193b27484a9f27bc91424dc9e6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-9066606-0204143">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">pozvat spolurecenzenta</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-4031048-8395615"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-4031048-8395615"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-1190293-1452378"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-7303760-0930356">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">workshop</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-6942937-8721904"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-8626450-0587172"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-9307194-6246389"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-0571742-4244794">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">výzva na psaní článku</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-3102145-6029457"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-7809490-8242263">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">částí konference</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-6942937-8721904"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-5408719-1437616">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">má název</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:nodeID="N53a267d15ec64db9a4330ce31d4b932d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8dfc7670e5324585a3883557be8f8f40">
+    <rdf:first rdf:resource="http://conference_cz#c-2163224-8186934"/>
+    <rdf:rest rdf:nodeID="N1547d46984e24a7b9557ac7f283f8ad8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2dd31f33ef7143b29521fe18f94d48a5">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</rdf:first>
+    <rdf:rest rdf:nodeID="Nbc8f06e8baf4487b9d35d2d4c118748f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-9621545-5769332">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">má příspěvek</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-9094498-2407697"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-6176528-2437242">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">přihlášený zájemce o konferenci</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nc8e9afc06105458a9a5b6972770103ff"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-8451920-7456660"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-8626450-0587172">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">tutoriál</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-6942937-8721904"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-9307194-6246389"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-5602588-2007419">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">konference má programový výbor</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-2332447-3203582"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-0370826-7579888"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-4398512-5644621">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">číslo svazku sborníku</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-7657399-5875767"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf03eb1ff8f2240cebb56d97102debd0a">
+    <rdf:first rdf:resource="http://conference_cz#c-7197454-3779225"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2ec68a7f0dc54f0898fac53671af2943">
+    <rdf:first rdf:nodeID="N69900f06fe0e45c6a87618ed8c114556"/>
+    <rdf:rest rdf:nodeID="N8e850ffcd87c4ae0877087aa87d898ee"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na00bceb975944330a6657c365ed3b5ba">
+    <rdf:first rdf:resource="http://conference_cz#c-6424299-5245852"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-4715749-5004891">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">den odeslání abstraktu</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2556370-0598224"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-4800565-4387110">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="cs">místo konání konference</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-3112684-6338853">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">téma svázané s preferovaným tématem</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-6424299-5245852"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-6840857-0046483"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N69900f06fe0e45c6a87618ed8c114556">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N1033ae3e4e1042a689a1e5413cd8626e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-6028078-9652705">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">má  recenzi</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-3287206-2910370"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-6305183-2425508"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-1135733-3119175"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neadca9fd944b4aa8853b6428622d7a63">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cz#op-0052771-8389028"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cz#c-1112243-1020532"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-8840341-2524079">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">konference má řídicí výbor</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-2378489-2307626"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-0370826-7579888"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-4418149-4512611"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-9617544-7237912">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">den odeslání řádného příspěvku</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2556370-0598224"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-0714352-5147090">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">stupeň preference recenze</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-6424299-5245852"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-0385265-1077649">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">má recenzní posudek</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-2680443-5617688"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-6567459-9092417"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-8132438-0197533">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">být výborem konference</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-1112243-1020532"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-5852743-2051365">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">organizátor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="Nf92d15766aee41ed94c5be4084e12da4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N65e420b77bab4952b7b72a55653be1e8">
+    <rdf:first rdf:resource="http://conference_cz#c-9331243-4779356"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-4418149-4512611">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">být řídicím výborem konference</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2378489-2307626"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-8132438-0197533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-2486569-1742223">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">téma sekce konference</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-6840857-0046483"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-6942937-8721904"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-3429667-5977494">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">řádný příspěvek</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N0119092d41984dd5b6c84dbf51b8c693"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-4941024-8998791"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-0415762-8538997">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">přispěvatel konference</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-9766852-4078923"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9c450b1e96244d6d9f3825298b98b889">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cz#op-6534764-1001288"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cz#c-1112243-1020532"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-4725319-4647454">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">člen výboru</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nc2ada146039a4c4a9c8ecced9a61d1e5"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-9766852-4078923"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-1640829-3370116">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">ISBN sborníku</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-7657399-5875767"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-9026723-8945521">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">organizace</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-9766852-4078923">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">osoba</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-2160986-7553890">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">pozdně přihlášený zájemce o konferenci</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-6176528-2437242"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-7334099-6096069"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-7753418-7847535">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">zájemce o konferenci</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-9766852-4078923"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-7032209-1502570">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">předseda workshopu</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N45ab8e80b69f4861a9b3625e23650940"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-9766852-4078923"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-2332447-3203582">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">programový výbor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-1112243-1020532"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-2378489-2307626"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-9116150-7196148">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">pasivní účastník konference</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-7413987-3654495"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-9222114-1166926">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">první částí dokumentu</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2261813-6781658"/>
+    <rdfs:range rdf:nodeID="Nc92d96b61be449738fc3f1bb3a5680f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N58921b5c1db94457ae5614a384dc5ce7">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:oneOf rdf:nodeID="N424dadfda5064491b43289f89115c35e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-2261813-6781658">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">abstrakt</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-0747782-7485025"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5ac349c319034292a328de10463bb0ee">
+    <rdf:first rdf:resource="http://conference_cz#c-3226074-1431136"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc34035a7f350466d8dcc7eb250ade52d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nbcfeb676faea46e09446abd567509cfc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4a6454318fcd42b2ad199a2c0b7c6c8a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cz#op-7051949-0139652"/>
+    <owl:someValuesFrom rdf:nodeID="N9ed0b66866bc41c5988ed95af81398af"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N271faae84fc64919aaa462cc90140b6e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N8dfc7670e5324585a3883557be8f8f40"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N49c2198dd0274aefb8979f323f1e450d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N8e244bc53b8a4337a12a0e43bb5b9223"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc8e9afc06105458a9a5b6972770103ff">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N408c7054393f461c94ca99062dfd17c6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-6305183-2425508">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">recenze</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-3102145-6029457"/>
+    <rdfs:subClassOf rdf:nodeID="N5093690e2d534e1d8c60ec6c5824d00b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-4045862-3918706">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">konferenční oznámení</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-3102145-6029457"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndc26b2db91724de38a4e807f9ee63d42">
+    <rdf:first rdf:resource="http://conference_cz#c-3429667-5977494"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-5640822-1541181">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">přispěl konferenci</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-3102145-6029457"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-9766852-4078923"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-0100726-2478461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-6794162-7631088">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">byl přiřazen zájem recenzenta</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-6424299-5245852"/>
+    <rdfs:domain rdf:nodeID="Ne12dfd76c4f44c4d839fc67b19d1a5b9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-8826146-2128777">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">pohlaví</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-9766852-4078923"/>
+    <rdfs:range rdf:nodeID="N58921b5c1db94457ae5614a384dc5ce7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-4123094-2745825">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">kamera-ready verze příspěvku</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-0021065-5530005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-2378489-2307626">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">řídící výbor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-1112243-1020532"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a3d12db593946189fb4a9848df4ed39">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cz#op-5640822-1541181"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cz#c-9094498-2407697"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4b52aedcf3b4213885d5d0b64abfe1e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N0caf526ac29740d3968a8a88c7460453"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N46aecefa29d24f2eaa2d2259cb882007">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:oneOf rdf:nodeID="N804350b281f14024a3ed8ae590b70010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-5274729-9484726">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">má člena</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-1112243-1020532"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-4725319-4647454"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-0591090-5215479"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-4690633-8875774">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="cs">být programovým výborem konference</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2332447-3203582"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-5602588-2007419"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-8132438-0197533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-5635563-3020657">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">vydavatel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-3724411-3348731">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">finální den</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2556370-0598224"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-2969967-0101197">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">spoluautor příspěvku</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-4046973-3688593"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-3410495-1517764"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-4031048-8395615">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">recenzent</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-9766852-4078923"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-8401261-7558930">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">má tutoriál</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-8626450-0587172"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cz#op-4836036-2463982"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-6567459-9092417">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">poslaný příspěvek</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-4941024-8998791"/>
+    <rdfs:subClassOf rdf:nodeID="N271faae84fc64919aaa462cc90140b6e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-5271881-0958914">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">den odeslání kamera-ready verze příspěvku</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2556370-0598224"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-6424299-5245852">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">preference experta</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="Nccb62e53bd5b44bb81751da0a71cb590"/>
+    <rdfs:subClassOf rdf:nodeID="N4a6454318fcd42b2ad199a2c0b7c6c8a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-2122358-0594664">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="cs">křestní jméno</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-9766852-4078923"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-9094498-2407697">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">konferenční příspěvek</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nb4b52aedcf3b4213885d5d0b64abfe1e"/>
+    <owl:equivalentClass rdf:nodeID="N05ae85d7e599467d803165581e8842e8"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-3102145-6029457"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbdc8bcde08a34e968aa7b8517d74561b">
+    <rdf:first rdf:resource="http://conference_cz#c-2680443-5617688"/>
+    <rdf:rest rdf:nodeID="Na00bceb975944330a6657c365ed3b5ba"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1a4b0af7b0bc49a1b3f1f94264fbd24d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N2ec68a7f0dc54f0898fac53671af2943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-7413987-3654495">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">účastník konference</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Naa177795c5bd47cfb2041df909a71b2d"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-9766852-4078923"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-8451920-7456660">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">registrovaný zájemce o konferenci</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-7753418-7847535"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N424dadfda5064491b43289f89115c35e">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</rdf:first>
+    <rdf:rest rdf:nodeID="Na1ee9e7c763e42268a3a21775daeec4d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc2ada146039a4c4a9c8ecced9a61d1e5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cz#op-0591090-5215479"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cz#c-1112243-1020532"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-1826690-7381451">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">má předsedu workshopu</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-6942937-8721904"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-7032209-1502570"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb81ed36197d74b24b005850eea819a66">
+    <rdf:first rdf:resource="http://conference_cz#c-7657399-5875767"/>
+    <rdf:rest rdf:nodeID="N06eef9f628bd40f1832b3a9c91090412"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N18238f13967b49b4a2ba7b2425e8e3c7">
+    <rdf:first rdf:resource="http://conference_cz#c-6840857-0046483"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N591b8984928e4ce8a769da2a86e0ad9c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cz#op-5653023-8689662"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cz#c-6567459-9092417"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbcfeb676faea46e09446abd567509cfc">
+    <rdf:first rdf:resource="http://conference_cz#c-2163224-8186934"/>
+    <rdf:rest rdf:nodeID="Nf4bc0dca4e0c43e2b91508a2c0861e83"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1033ae3e4e1042a689a1e5413cd8626e">
+    <rdf:first rdf:resource="http://conference_cz#c-2969967-0101197"/>
+    <rdf:rest rdf:nodeID="N07d8c9c57bef48d3bb85c4b1b966f0ed"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N45ab8e80b69f4861a9b3625e23650940">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cz#op-0072443-2657356"/>
+    <owl:someValuesFrom rdf:nodeID="Ne9ac0da5a04b4a8894d30fe0f98cea28"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf1d5549292c2461fa1063d47b141d336">
+    <rdf:first rdf:resource="http://conference_cz#c-9026723-8945521"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-1646097-0548165">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">preference či odbornost koho</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cz#c-4031048-8395615"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-9085487-8025974"/>
+    <rdfs:domain rdf:nodeID="N4f4cdef75d8c4636bde656a2af0ffd79"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-9701180-9965139">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">konference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfff3f6e1cf2f4e24bb6681bca6f5a90e">
+    <rdf:first rdf:resource="http://conference_cz#c-5635563-3020657"/>
+    <rdf:rest rdf:nodeID="N16687f1aaed04e35b88d71dd3519b1fe"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N718ab97261c34d66ad7b1009f544cca1">
+    <rdf:first rdf:resource="http://conference_cz#c-2163224-8186934"/>
+    <rdf:rest rdf:nodeID="Ndc26b2db91724de38a4e807f9ee63d42"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2ae20a3bcedd406a9be6cbb9b0a61099">
+    <rdf:first rdf:resource="http://conference_cz#c-6840857-0046483"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-9085487-8025974">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">preference nebo odbornost recenzenta</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-4031048-8395615"/>
+    <rdfs:range rdf:nodeID="N49c2198dd0274aefb8979f323f1e450d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-0299030-4427802">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">konference</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-9701180-9965139"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-8247444-1877589">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">webové stránky konference</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-3102145-6029457"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbd956baf6fcf4a16ad4535d3d97427ee">
+    <rdf:first rdf:resource="http://conference_cz#c-9307194-6246389"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-0370826-7579888">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">konference má výbor</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-1112243-1020532"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-8132438-0197533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-2680443-5617688">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">odbornost experta</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="N513af30febc6459bb16ba0a61edeaf5c"/>
+    <rdfs:subClassOf rdf:nodeID="N591b8984928e4ce8a769da2a86e0ad9c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-2556370-0598224">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">důležité termíny</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N40accf53fb8c42bb9308958cafa83219">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ne1460f75934b4f2f8ed973d858904583"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e850ffcd87c4ae0877087aa87d898ee">
+    <rdf:first rdf:nodeID="N0a3d12db593946189fb4a9848df4ed39"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#op-4836036-2463982">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="cs">má část</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-0299030-4427802"/>
+    <rdfs:range rdf:resource="http://conference_cz#c-6942937-8721904"/>
+    <owl:inverseOf rdf:resource="http://conference_cz#op-7809490-8242263"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N408c7054393f461c94ca99062dfd17c6">
+    <rdf:first rdf:resource="http://conference_cz#c-2160986-7553890"/>
+    <rdf:rest rdf:nodeID="Nf0d000e75dd2472c988ffd06457d1fdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-2564952-6106792">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">předseda</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Neadca9fd944b4aa8853b6428622d7a63"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-4725319-4647454"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N63590ce52e1844dbaf552f14884bd41c">
+    <rdf:first rdf:resource="http://conference_cz#c-9116150-7196148"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N05ae85d7e599467d803165581e8842e8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nfa3c5b1757a94787a5f193b7e7e49732"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne48e01fdbc464e85b3fbff1f991cfddb">
+    <rdf:first rdf:resource="http://conference_cz#c-2332447-3203582"/>
+    <rdf:rest rdf:nodeID="N7483d629419b4f6db8d3cb91e0011365"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf92d15766aee41ed94c5be4084e12da4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N93699f0011f5437bbd87c5a77995ae78"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbda311878dff4b908ea143d714ccc742">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">very high</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-3102145-6029457">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">dokument konference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-6942937-8721904">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">konferenční akce</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nda956680c14643f4a9b0b0fc39b813db">
+    <rdf:first rdf:resource="http://conference_cz#c-4046973-3688593"/>
+    <rdf:rest rdf:nodeID="Nf03eb1ff8f2240cebb56d97102debd0a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7483d629419b4f6db8d3cb91e0011365">
+    <rdf:first rdf:resource="http://conference_cz#c-2378489-2307626"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb56275dbc51f443f979ace4814db4383">
+    <rdf:first rdf:resource="http://conference_cz#c-9331243-4779356"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf0d000e75dd2472c988ffd06457d1fdc">
+    <rdf:first rdf:resource="http://conference_cz#c-7334099-6096069"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5093690e2d534e1d8c60ec6c5824d00b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cz#op-0100726-2478461"/>
+    <owl:allValuesFrom rdf:resource="http://conference_cz#c-4031048-8395615"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N44162b377adf43c68748c00ac8d55330">
+    <rdf:first rdf:resource="http://conference_cz#c-9331243-4779356"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e244bc53b8a4337a12a0e43bb5b9223">
+    <rdf:first rdf:resource="http://conference_cz#c-2680443-5617688"/>
+    <rdf:rest rdf:nodeID="N72ca2120e47940169006bff79a185dd3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N18d0ce26de1a4920b59c71eb12ee78ba">
+    <rdf:first rdf:resource="http://conference_cz#c-6840857-0046483"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf532e475c5604af2bacabc57beee873f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nfbce6f90585f4e668afd7b349901c3b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne44e90193b27484a9f27bc91424dc9e6">
+    <rdf:first rdf:resource="http://conference_cz#c-3429667-5977494"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa177795c5bd47cfb2041df909a71b2d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N0c52fd49d82f4e5fac925d4ef3cadeec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-5258760-1059711">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">informace pro účastníky</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-3102145-6029457"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N07d8c9c57bef48d3bb85c4b1b966f0ed">
+    <rdf:first rdf:resource="http://conference_cz#c-3410495-1517764"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0c52fd49d82f4e5fac925d4ef3cadeec">
+    <rdf:first rdf:resource="http://conference_cz#c-8640980-0721617"/>
+    <rdf:rest rdf:nodeID="N63590ce52e1844dbaf552f14884bd41c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4f69a86f10834e08842da19f46470c0a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nd042a83a1599428cb63063cb91ab5189"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0024b686d70c4d7ebeb39dc7d2bc6eb6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N60814ebc255b46b9bc9aaf6c70ae046d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na1ee9e7c763e42268a3a21775daeec4d">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd9c9b5daabe4414aa3d59f9e31211c0c">
+    <rdf:first rdf:resource="http://conference_cz#c-7903252-5899421"/>
+    <rdf:rest rdf:nodeID="N44162b377adf43c68748c00ac8d55330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4f4cdef75d8c4636bde656a2af0ffd79">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nbdc8bcde08a34e968aa7b8517d74561b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0caf526ac29740d3968a8a88c7460453">
+    <rdf:first rdf:resource="http://conference_cz#c-4941024-8998791"/>
+    <rdf:rest rdf:nodeID="Nb56275dbc51f443f979ace4814db4383"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-2771306-6603944">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">výzva k účasti na konferenci</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-3102145-6029457"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#ent-0127328-3373703">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="cs">stupeň odbornosti recenzenta</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cz#c-2680443-5617688"/>
+    <rdfs:range rdf:nodeID="N46aecefa29d24f2eaa2d2259cb882007"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6b2fd1ce84b1408b9b69f0fa0d480837">
+    <rdf:first rdf:resource="http://conference_cz#c-6567459-9092417"/>
+    <rdf:rest rdf:nodeID="N18238f13967b49b4a2ba7b2425e8e3c7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cz#c-0747782-7485025">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="cs">rozšířený abstrakt</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cz#c-3429667-5977494"/>
+    <owl:disjointWith rdf:resource="http://conference_cz#c-7903252-5899421"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc4e221c6f9844e2eb1f5b925bcf8d546">
+    <rdf:first rdf:resource="http://conference_cz#c-7903252-5899421"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf4bc0dca4e0c43e2b91508a2c0861e83">
+    <rdf:first rdf:resource="http://conference_cz#c-7903252-5899421"/>
+    <rdf:rest rdf:nodeID="N65e420b77bab4952b7b72a55653be1e8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5aa938a7bdd947d09e9bfee563b3ee43">
+    <rdf:first rdf:resource="http://conference_cz#c-7303760-0930356"/>
+    <rdf:rest rdf:nodeID="Nbd956baf6fcf4a16ad4535d3d97427ee"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N72ca2120e47940169006bff79a185dd3">
+    <rdf:first rdf:resource="http://conference_cz#c-6424299-5245852"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5e62a71ccc8d460d9355c609743f3961">
+    <rdf:first rdf:resource="http://conference_cz#c-0747782-7485025"/>
+    <rdf:rest rdf:nodeID="Nc4e221c6f9844e2eb1f5b925bcf8d546"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N75e4cb78551c4d948f804b85ea069dec">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nda956680c14643f4a9b0b0fc39b813db"/>
+  </rdf:Description>
+</rdf:RDF>

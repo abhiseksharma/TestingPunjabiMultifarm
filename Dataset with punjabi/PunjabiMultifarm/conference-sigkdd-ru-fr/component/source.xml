@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://conference_ru#c-4613020-3472471">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Труд в окончательной версии</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9375617-6783950"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-6859220-4806564">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">дата подачи полной статьи</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-3875115-1672653"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-7763577-0279220">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">дата подачи окончательной версии статьи</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-3875115-1672653"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-1151385-9062180">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">важные даты</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-3875115-1672653"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-8897176-3730553"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-0240369-1140492">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">дата начала</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-3875115-1672653"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-9824418-4401810">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">организационный комитет</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-2078771-1867573"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-0269222-4977654"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N72dfe55d387c441985f6077d7c58a306">
+    <rdf:first rdf:resource="http://conference_ru#c-9113480-3653826"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf99ad7595d934f82b80367192268fb25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nd633e8e77c774be1b10824737cf1465a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-5015180-9742278">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Выпуск конференции</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-6405106-5351357"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-9900855-1246956">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Секция</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7124847-1957515"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-4184868-7873448">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">рецензия</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-2532937-6741375"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-6030262-8074526"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-3388898-2733190"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-6765292-0960890">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">компетентность рецензии</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-6050199-2041589"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-9125167-9317059"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-4816487-4176878">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Организация</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-2676128-6469362">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Поздно оплативший участник</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-8535446-9805258"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-3056303-5436239"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-7945913-2803126">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Семинар</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7124847-1957515"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-9900855-1246956"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-9118335-7448441">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">степень</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-3880579-5188609"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-4438003-8416200">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">вносит вклад</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-7736439-5987461"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-9112529-2960668"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-2919434-7056439"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N787ff6e1796648419138b679d54f7758">
+    <rdf:first rdf:resource="http://conference_ru#c-3464782-2569515"/>
+    <rdf:rest rdf:nodeID="N9a14a9e5adfb44ceaf2d79800c26758f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-9010754-5991970">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Лицо внесшее вклад в конференцию</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9112529-2960668"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N368a2de63b8f455ca94b66d2e05a8ee2">
+    <rdf:first rdf:resource="http://conference_ru#c-2236097-1198085"/>
+    <rdf:rest rdf:nodeID="Nb4d833759bfe49ea91f3196ffa8b3c57"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-2980792-4106215">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Стенд</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9609945-6696822"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-4371272-7822226"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-9810107-2572095"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-1073372-6945041">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">являлся председателем секции, семинара</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-1610664-1819468"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-7124847-1957515"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-9354589-2313858"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-6492048-3329803">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">являлся программным комитетом</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-9113480-3653826"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-1746661-1200851"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-6551927-0938790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-1206340-7234699">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Тема</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-3901062-5097378">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Обучающий курс</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7124847-1957515"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-7945913-2803126"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-9900855-1246956"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N81d55d1cdb074aa7822a2975adf9b95a">
+    <rdf:first rdf:resource="http://conference_ru#c-3888178-7345767"/>
+    <rdf:rest rdf:nodeID="N1ba0b3b98f6341689a67df592c4b1de9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nba2b3f06c55a43ec915c60ce2b85f5f3">
+    <rdf:first rdf:resource="http://conference_ru#c-6050199-2041589"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-1316180-1221268">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">тема секции, семинара, обучающего курса</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-1206340-7234699"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-7124847-1957515"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-6920916-1373384"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-4112598-4157714">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">дата подачи аннотации</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-3875115-1672653"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-6458797-4715951">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">выпуск</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5017694-3237258"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-5587322-2165078">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Рецензент</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9112529-2960668"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncf2d530b0a294f9782b44434b77402c6">
+    <rdf:first rdf:resource="http://conference_ru#c-8684289-6960533"/>
+    <rdf:rest rdf:nodeID="N11e649a4802d4563aa0c6aeae5a3c055"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9a14a9e5adfb44ceaf2d79800c26758f">
+    <rdf:first rdf:resource="http://conference_ru#c-5970214-1047332"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-3486152-7113503">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">семинары</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-7945913-2803126"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-7169333-8193247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-4512264-7789925">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Зарегистрированный участник</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9520533-4218189"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e646789938741a1bc2d0a3c7b48276a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N46498a86d27b4a46a63ccdf55f9961d7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na6c1f88a76984ca69159d9601cbcfd60">
+    <rdf:first rdf:resource="http://conference_ru#c-2980792-4106215"/>
+    <rdf:rest rdf:nodeID="N10e5cd4acb9f43aca775672b94e89071"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-8545277-6435263">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Соавтор работы</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7930891-4244102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-8897176-3730553">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">указано в выпуске конференции</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-3875115-1672653"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-5015180-9742278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-5825990-9032567">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">принадлежит рецензентам</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-5587322-2165078"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-6038667-8403677"/>
+    <rdfs:domain rdf:nodeID="N388d6c869966497b86160e8b907cfe97"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N519c1a28e2384e4da53dc8cd0fe199d2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_ru#op-5825990-9032567"/>
+    <owl:someValuesFrom rdf:resource="http://conference_ru#c-5587322-2165078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-5630882-9289703">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Председатель</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nce18761522c14aeb87b7e85be3a785d2"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-2236097-1198085"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-7168124-1162927">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">дата окончания</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-3875115-1672653"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-5970214-1047332">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Письменный труд</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9609945-6696822"/>
+    <rdfs:subClassOf rdf:nodeID="N4c647c8b6b3f487ab5b9cd2b154e597e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-2919434-7056439">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">авторы</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-7736439-5987461"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-9112529-2960668"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N10e5cd4acb9f43aca775672b94e89071">
+    <rdf:first rdf:resource="http://conference_ru#c-3464782-2569515"/>
+    <rdf:rest rdf:nodeID="Na8c55c1d938b453eb36891e1f1ab95a9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-1610664-1819468">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Председатель секции, семинара</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N36ea2cd91f27496081397c65c853f12f"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9112529-2960668"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-8760927-6175740">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">труды</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-9609945-6696822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-0013682-8194042">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">фамилия</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-9112529-2960668"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-2778267-2662101">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">компетентность</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-9125167-9317059"/>
+    <rdfs:range rdf:nodeID="N50bcc52533ed4e99b1aecede1d3c7878"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0034b19b511e434db32b3788e5aa2f6d">
+    <rdf:first rdf:resource="http://conference_ru#c-7124847-1957515"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-5017694-3237258">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Сборник трудов конференции</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N90383d359db0458d87273f4fc43aca83">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_ru#op-4438003-8416200"/>
+    <owl:someValuesFrom rdf:resource="http://conference_ru#c-9609945-6696822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-9520533-4218189">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Заявитель конференции</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9112529-2960668"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-9810107-2572095">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Полный труд</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N197b8fe7eca14066b1d569175d254d04"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-5970214-1047332"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-3752190-9245902">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">тема или поданный труд</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-3880579-5188609"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-8104782-7804991"/>
+    <rdfs:range rdf:nodeID="N88684ee67a7e43e29c44048457b56a2f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2d330ea05992465abca3945ffa2e639b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N8aceb06168cb49c99fadbedf8a537404"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-1746661-1200851">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">являлся комиссией</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-2007880-4971241"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-5015180-9742278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-5355228-6269716">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">1й автор работы</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7930891-4244102"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-8545277-6435263"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-6770522-3469062">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">члены</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-2007880-4971241"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-2236097-1198085"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-3337872-8448758"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-9676335-4339062">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">обучающие курсы</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-3901062-5097378"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-7169333-8193247"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N388d6c869966497b86160e8b907cfe97">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N3820a9d4bf2b44d7aa4d214d1492ccae"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N352daa03154a4e318e62fefdbb129e7c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_ru#op-4438003-8416200"/>
+    <owl:someValuesFrom rdf:resource="http://conference_ru#c-4371272-7822226"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-3880579-5188609">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Требования к рецензии</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="Ndaaa2fbd1f784439885e3a528248c0e5"/>
+    <rdfs:subClassOf rdf:nodeID="Nbed38cb31185454f997279cfe0abb94d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4218b881e2ca46c09838333633fc9a6b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_ru#op-8799646-9414988"/>
+    <owl:someValuesFrom rdf:resource="http://conference_ru#c-6050199-2041589"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-8374321-6878585">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">интернет-адрес</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-1998245-5537306"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf54287dd067c4d6392614639c1b02ca5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N733301b9ccd04e01b963f5b7f07a3b80"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-9113480-3653826">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Программный коммитет</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-2007880-4971241"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N983dc3699fd64927b5398968fa871d91">
+    <rdf:first rdf:resource="http://conference_ru#c-9810107-2572095"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncb6a9acca92243d7a49783294234435f">
+    <rdf:first rdf:resource="http://conference_ru#c-2676128-6469362"/>
+    <rdf:rest rdf:nodeID="Na072d58b494b4e318c215108ed9f8e87"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nce18761522c14aeb87b7e85be3a785d2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_ru#op-3931434-5106577"/>
+    <owl:someValuesFrom rdf:resource="http://conference_ru#c-2007880-4971241"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-0269222-4977654">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">комиссия</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-2007880-4971241"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-1746661-1200851"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-9876854-1130020">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="ru">имя</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-9112529-2960668"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-7124847-1957515">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Часть конференции</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-8535446-9805258">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Оплативший участник</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nf48b7c8518c74cb88a37ba202e7c1f50"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-4512264-7789925"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-8799646-9414988">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">поданый труд</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-6050199-2041589"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-9125167-9317059"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-6765292-0960890"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N66f2d11c5a564a559be6b6c7cc3c8a20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N130e74ede2614d13b785b0469400c507"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf48b7c8518c74cb88a37ba202e7c1f50">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ncb6a9acca92243d7a49783294234435f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36ea2cd91f27496081397c65c853f12f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_ru#op-1073372-6945041"/>
+    <owl:someValuesFrom rdf:nodeID="Nf487c27b0e194b62a15528fa21bf1e62"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-6877590-4309777">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Активный участник конференции</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7735417-4295801"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9010754-5991970"/>
+    <rdfs:subClassOf rdf:nodeID="N68c4138ae61d4fc5955e1bc323af34b1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9b9ba67b21f84ff881067707c33f686b">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:oneOf rdf:nodeID="N2c0319b8437f4ef29915c514a362a4ba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-7696590-7398420">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">делает презентацию</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-3464782-2569515"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-6877590-4309777"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-1212758-9304539"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-9089653-9416402">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Сопредседатель</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N35c3cd9a9fd84049a476fb6a1a983204"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-2236097-1198085"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N35c3cd9a9fd84049a476fb6a1a983204">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_ru#op-9496922-8421246"/>
+    <owl:someValuesFrom rdf:resource="http://conference_ru#c-2007880-4971241"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-2920036-0575446">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">указано в требованиях к рецензии</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-1206340-7234699"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-3880579-5188609"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-6263746-7337911">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Пассивный участник конференции</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7735417-4295801"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-6877590-4309777"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9eaccf4b3f244eb5a9e82e459fbad29c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_ru#op-3337872-8448758"/>
+    <owl:someValuesFrom rdf:resource="http://conference_ru#c-2007880-4971241"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-9990766-7538563">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">являлся организационным комитетом</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-2078771-1867573"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-1746661-1200851"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-9824418-4401810"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-7930891-4244102">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Автор</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Naa1bf00b6c8143b09a4a7f9de9c5b255"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9010754-5991970"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8aceb06168cb49c99fadbedf8a537404">
+    <rdf:first rdf:resource="http://conference_ru#c-1206340-7234699"/>
+    <rdf:rest rdf:nodeID="Nba2b3f06c55a43ec915c60ce2b85f5f3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N68c4138ae61d4fc5955e1bc323af34b1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nfc2c78328c6e4fcf9e7e832592c10650"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-9516397-5302402">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">является 1й частью</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-6186091-4877051"/>
+    <rdfs:range rdf:nodeID="N8e646789938741a1bc2d0a3c7b48276a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na0ae2813d97e4106bed42f0d71c7d9e6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N17185588bea1486faafa1bd7b17259d7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-7169333-8193247">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">части</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-7124847-1957515"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-7116252-6901195"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-4166171-0591001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">аннотация</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-6186091-4877051"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-9516397-5302402"/>
+    <rdfs:domain rdf:nodeID="Nc84dc015ebff42fc93bb01d88cf2e2d5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-4224606-4749642">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Отклонённый труд</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-2532937-6741375"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-9375617-6783950"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbed38cb31185454f997279cfe0abb94d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_ru#op-3752190-9245902"/>
+    <owl:someValuesFrom rdf:nodeID="N2d330ea05992465abca3945ffa2e639b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-5136131-2280147">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">дата объявления о приняти</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-3875115-1672653"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-2880740-4769380">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Информационное письмо</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7736439-5987461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-1212758-9304539">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">кем выполнена</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-3464782-2569515"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-6877590-4309777"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N130e74ede2614d13b785b0469400c507">
+    <rdf:first rdf:resource="http://conference_ru#c-2980792-4106215"/>
+    <rdf:rest rdf:nodeID="N983dc3699fd64927b5398968fa871d91"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N23aa81943d144ecdb9a19fd4668c92fe">
+    <rdf:first rdf:resource="http://conference_ru#c-2980792-4106215"/>
+    <rdf:rest rdf:nodeID="N25a14a66da8649f3b767090dcbce28da"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-1998245-5537306">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">интернет адрес конференции</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7736439-5987461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-2830010-2303561">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">подан в</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-9609945-6696822"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-8760927-6175740"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-9354589-2313858">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">председатель секции, семинара, обучающегокурса</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-1610664-1819468"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-7124847-1957515"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-1935351-7975955">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">секции</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-9900855-1246956"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-7169333-8193247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-6050199-2041589">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Поданый труд</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-5970214-1047332"/>
+    <rdfs:subClassOf rdf:nodeID="N66f2d11c5a564a559be6b6c7cc3c8a20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-1884861-3671828">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">научный совет</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-6668095-0729391"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-0269222-4977654"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-4270611-7031268"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-7735417-4295801">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Участник конференции</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N0b381eb6488848fbb55a617e09cb607f"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9112529-2960668"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb407352df53b4a41b55bda32962a7a1c">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</rdf:first>
+    <rdf:rest rdf:nodeID="Nfca320b49ed645759c5d5aac5cf304d2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-4270611-7031268">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">являлся научным советом</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-6668095-0729391"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-1746661-1200851"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nad96aba936d44e7996ea2d81d6a52410">
+    <rdf:first rdf:resource="http://conference_ru#c-9900855-1246956"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-7351676-7934122">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">кем приглашён</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5587322-2165078"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-5587322-2165078"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N50bcc52533ed4e99b1aecede1d3c7878">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:oneOf rdf:nodeID="Nb407352df53b4a41b55bda32962a7a1c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne3926ee9c23b4adfbaca5ace153ee20a">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">very high</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4d833759bfe49ea91f3196ffa8b3c57">
+    <rdf:first rdf:resource="http://conference_ru#c-4816487-4176878"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-3388898-2733190">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">рецензирует</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-2532937-6741375"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-6030262-8074526"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N272103be82a24bf0a2362c20dc7281da">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N368a2de63b8f455ca94b66d2e05a8ee2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na501a6380a9b4eb6a1e5019f6e49f33f">
+    <rdf:first rdf:resource="http://conference_ru#c-1206340-7234699"/>
+    <rdf:rest rdf:nodeID="N4c57f9f8946e4a2e898573401a6f761b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-8104782-7804991">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">рекоммендация рецензирования</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-3880579-5188609"/>
+    <rdfs:domain rdf:nodeID="N7b3ee448ad474203b3a15796bd661d22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-8280899-2021816">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">председатель комиссии</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-2007880-4971241"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-5630882-9289703"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-3931434-5106577"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-6770522-3469062"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-3337872-8448758">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">являлся членом</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-2007880-4971241"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-2236097-1198085"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-9609945-6696822">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Труд конференции</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Na825a3410c524160abe6dfc69db9332c"/>
+    <owl:equivalentClass rdf:nodeID="Nd1110e8d0b15489bab6586b2077b52a4"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7736439-5987461"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0b381eb6488848fbb55a617e09cb607f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nab8ffd08f7d24fe19fa96aa3ede01aa0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-5313870-8424295">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="ru">место проведения</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd1110e8d0b15489bab6586b2077b52a4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N787ff6e1796648419138b679d54f7758"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfca320b49ed645759c5d5aac5cf304d2">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</rdf:first>
+    <rdf:rest rdf:nodeID="N1ff58eac9c1740109e1993e57147f736"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-2078771-1867573">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Организационная комиссия</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-2007880-4971241"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-6668095-0729391"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-9113480-3653826"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-3931434-5106577">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">являлся председателем комиссии</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-2007880-4971241"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5630882-9289703"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-3337872-8448758"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-9781174-7415891">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">заместитель председателя комиссии</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-2007880-4971241"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-9089653-9416402"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-6770522-3469062"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-9496922-8421246"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf487c27b0e194b62a15528fa21bf1e62">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nd9564b97501c433c871a1a0784713b5d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-1758419-8942220">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">ISBN</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5017694-3237258"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-9375617-6783950">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Принятый труд</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-2532937-6741375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-6640362-0286938">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">дата издания</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-7736439-5987461"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-6920916-1373384">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">является темой частей конференции</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-1206340-7234699"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-7124847-1957515"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-6668095-0729391">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Научный совет</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-2007880-4971241"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-9113480-3653826"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-6551927-0938790">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">программный коммитет</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-9113480-3653826"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-0269222-4977654"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-9409063-0154778">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">издатель</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-3888178-7345767"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5017694-3237258"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-3184990-5890799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-6186091-4877051">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Аннотация</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-8684289-6960533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-9800633-6188474">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Организатор</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="N272103be82a24bf0a2362c20dc7281da"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd09fa75c7bba4159832b628b2dec2c6b">
+    <rdf:first rdf:resource="http://conference_ru#c-9375617-6783950"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-8337071-5208616">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Приглашённый докладчик</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N352daa03154a4e318e62fefdbb129e7c"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9010754-5991970"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2840276f1e554a38b2b376bf9b481aad">
+    <rdf:first rdf:resource="http://conference_ru#c-8926700-0464893"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3fd8ff9817f64617b5c0da78f4d8f803">
+    <rdf:first rdf:resource="http://conference_ru#c-2980792-4106215"/>
+    <rdf:rest rdf:nodeID="N54f95817df6d496aa63b66737be1b7ca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-7116252-6901195">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">является частью выпусков конференции</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-5015180-9742278"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-7124847-1957515"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-9968068-8963573">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="ru">адрес электронной почты</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-9112529-2960668"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-3888178-7345767">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Издатель</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne663aa412fc44f67a50a6112acd967c8">
+    <rdf:first rdf:resource="http://conference_ru#c-6050199-2041589"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbdb800eee5314145be751f8c751ce3df">
+    <rdf:first rdf:resource="http://conference_ru#c-4224606-4749642"/>
+    <rdf:rest rdf:nodeID="Nd09fa75c7bba4159832b628b2dec2c6b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N46498a86d27b4a46a63ccdf55f9961d7">
+    <rdf:first rdf:resource="http://conference_ru#c-2980792-4106215"/>
+    <rdf:rest rdf:nodeID="Nc49715a7fc614c78aacfa6116bf7ae3d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd633e8e77c774be1b10824737cf1465a">
+    <rdf:first rdf:resource="http://conference_ru#c-1206340-7234699"/>
+    <rdf:rest rdf:nodeID="N81d55d1cdb074aa7822a2975adf9b95a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-2236097-1198085">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Член комиссии</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N9eaccf4b3f244eb5a9e82e459fbad29c"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9112529-2960668"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-2532937-6741375">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Отрецензированнй труд</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N415724cce1f946c6b63c318c4c31c843"/>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-6050199-2041589"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndedf7b55a3574065a5300388da474100">
+    <rdf:first rdf:nodeID="N02537f794cff40cabf1dfa1605b0d966"/>
+    <rdf:rest rdf:nodeID="N9a12ac5a145041afbd61972a12a13cfd"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4f516218f7e4453681cbb5a44f263d11">
+    <rdf:first rdf:resource="http://conference_ru#c-6405106-5351357"/>
+    <rdf:rest rdf:nodeID="N0034b19b511e434db32b3788e5aa2f6d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-2205133-1287977">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Объявление конференции</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7736439-5987461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-9112529-2960668">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Лицо</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1061fe73e2b94c51951df8f5dd22d0c7">
+    <rdf:first rdf:resource="http://conference_ru#c-9810107-2572095"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-2007880-4971241">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Комиссия</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Na0ae2813d97e4106bed42f0d71c7d9e6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-5624859-7572010">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">приглашает ко-рецензентов</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-5587322-2165078"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5587322-2165078"/>
+    <owl:inverseOf rdf:resource="http://conference_ru#op-7351676-7934122"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N872dc7fcd3c048deb0a019e733892ea2">
+    <rdf:first rdf:resource="http://conference_ru#c-6668095-0729391"/>
+    <rdf:rest rdf:nodeID="N72dfe55d387c441985f6077d7c58a306"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndaaa2fbd1f784439885e3a528248c0e5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_ru#op-5825990-9032567"/>
+    <owl:someValuesFrom rdf:resource="http://conference_ru#c-5587322-2165078"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd6e0e4a9d5dc4596ae4b295249d564bf">
+    <rdf:first rdf:resource="http://conference_ru#c-6877590-4309777"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9a12ac5a145041afbd61972a12a13cfd">
+    <rdf:first rdf:nodeID="N90383d359db0458d87273f4fc43aca83"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-5195130-6178773">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Сборы конференции</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa41ef55fcd94ce39ed8ef8ab222e91d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_ru#op-2919434-7056439"/>
+    <owl:allValuesFrom rdf:resource="http://conference_ru#c-5587322-2165078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-9125167-9317059">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Компетентность рецензии</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="N4218b881e2ca46c09838333633fc9a6b"/>
+    <rdfs:subClassOf rdf:nodeID="N519c1a28e2384e4da53dc8cd0fe199d2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc49715a7fc614c78aacfa6116bf7ae3d">
+    <rdf:first rdf:resource="http://conference_ru#c-3464782-2569515"/>
+    <rdf:rest rdf:nodeID="N2840276f1e554a38b2b376bf9b481aad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N197b8fe7eca14066b1d569175d254d04">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ncf2d530b0a294f9782b44434b77402c6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N34bcaf6e73ec40d9809d592075765757">
+    <rdf:first rdf:resource="http://conference_ru#c-8545277-6435263"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-2694519-9782184">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">пол</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-9112529-2960668"/>
+    <rdfs:range rdf:nodeID="N9b9ba67b21f84ff881067707c33f686b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-9496922-8421246">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">являлся сопредседателем комиссии</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_ru#c-2007880-4971241"/>
+    <rdfs:domain rdf:resource="http://conference_ru#c-9089653-9416402"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_ru#op-3337872-8448758"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-3464782-2569515">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Презентация</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9609945-6696822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-8684289-6960533">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Развёрнутая аннотация</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9810107-2572095"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-8926700-0464893"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N198ae00a9fc1421588ee1d7ec182ef15">
+    <rdf:first rdf:resource="http://conference_ru#c-1206340-7234699"/>
+    <rdf:rest rdf:nodeID="Ne663aa412fc44f67a50a6112acd967c8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa1bf00b6c8143b09a4a7f9de9c5b255">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Ndedf7b55a3574065a5300388da474100"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N25a14a66da8649f3b767090dcbce28da">
+    <rdf:first rdf:resource="http://conference_ru#c-9810107-2572095"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-2742540-3079610">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Информация для участников</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7736439-5987461"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N11e649a4802d4563aa0c6aeae5a3c055">
+    <rdf:first rdf:resource="http://conference_ru#c-8926700-0464893"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N88684ee67a7e43e29c44048457b56a2f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Na501a6380a9b4eb6a1e5019f6e49f33f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd9564b97501c433c871a1a0784713b5d">
+    <rdf:first rdf:resource="http://conference_ru#c-7945913-2803126"/>
+    <rdf:rest rdf:nodeID="Nad96aba936d44e7996ea2d81d6a52410"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N02537f794cff40cabf1dfa1605b0d966">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N7a2bd19754a645af9ba2ebd14f7414d7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-6615867-3919328">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Приглашение к участию</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7736439-5987461"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na072d58b494b4e318c215108ed9f8e87">
+    <rdf:first rdf:resource="http://conference_ru#c-3056303-5436239"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#ent-2718756-9978190">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="ru">название</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:nodeID="Nf99ad7595d934f82b80367192268fb25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-3056303-5436239">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Досрочно оплативший участник</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-8535446-9805258"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4bd47c4a89f44b9fb07c4569efaf4eb0">
+    <rdf:first rdf:resource="http://conference_ru#c-9125167-9317059"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6f2c7fa594144144b9f96beed4b666e3">
+    <rdf:first rdf:resource="http://conference_ru#c-9125167-9317059"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nab8ffd08f7d24fe19fa96aa3ede01aa0">
+    <rdf:first rdf:resource="http://conference_ru#c-6263746-7337911"/>
+    <rdf:rest rdf:nodeID="Nd6e0e4a9d5dc4596ae4b295249d564bf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-3875115-1672653">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Важные даты</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N17185588bea1486faafa1bd7b17259d7">
+    <rdf:first rdf:resource="http://conference_ru#c-2078771-1867573"/>
+    <rdf:rest rdf:nodeID="N872dc7fcd3c048deb0a019e733892ea2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfe8d56db82ef48a493188cb5491e677d">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-6038667-8403677">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="ru">рекоммендация рецензирования или компетентность</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-5587322-2165078"/>
+    <rdfs:range rdf:nodeID="Nf54287dd067c4d6392614639c1b02ca5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1ff58eac9c1740109e1993e57147f736">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium</rdf:first>
+    <rdf:rest rdf:nodeID="Ne3926ee9c23b4adfbaca5ace153ee20a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N733301b9ccd04e01b963f5b7f07a3b80">
+    <rdf:first rdf:resource="http://conference_ru#c-3880579-5188609"/>
+    <rdf:rest rdf:nodeID="N6f2c7fa594144144b9f96beed4b666e3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N415724cce1f946c6b63c318c4c31c843">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nbdb800eee5314145be751f8c751ce3df"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na8c55c1d938b453eb36891e1f1ab95a9">
+    <rdf:first rdf:resource="http://conference_ru#c-8926700-0464893"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-4371272-7822226">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Приглашённый доклад</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-3464782-2569515"/>
+    <owl:disjointWith rdf:resource="http://conference_ru#c-9810107-2572095"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N54f95817df6d496aa63b66737be1b7ca">
+    <rdf:first rdf:resource="http://conference_ru#c-4371272-7822226"/>
+    <rdf:rest rdf:nodeID="N1061fe73e2b94c51951df8f5dd22d0c7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4c647c8b6b3f487ab5b9cd2b154e597e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N23aa81943d144ecdb9a19fd4668c92fe"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na825a3410c524160abe6dfc69db9332c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N3fd8ff9817f64617b5c0da78f4d8f803"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-6030262-8074526">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Рецензия</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-7736439-5987461"/>
+    <rdfs:subClassOf rdf:nodeID="Naa41ef55fcd94ce39ed8ef8ab222e91d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#op-3184990-5890799">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="ru">издаёт</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_ru#c-3888178-7345767"/>
+    <rdfs:range rdf:resource="http://conference_ru#c-5017694-3237258"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4c57f9f8946e4a2e898573401a6f761b">
+    <rdf:first rdf:resource="http://conference_ru#c-6050199-2041589"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-8926700-0464893">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Статья</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_ru#c-9810107-2572095"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1ba0b3b98f6341689a67df592c4b1de9">
+    <rdf:first rdf:resource="http://conference_ru#c-5017694-3237258"/>
+    <rdf:rest rdf:nodeID="N4f516218f7e4453681cbb5a44f263d11"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2c0319b8437f4ef29915c514a362a4ba">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</rdf:first>
+    <rdf:rest rdf:nodeID="Nfe8d56db82ef48a493188cb5491e677d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfc2c78328c6e4fcf9e7e832592c10650">
+    <rdf:first rdf:resource="http://conference_ru#c-7930891-4244102"/>
+    <rdf:rest rdf:nodeID="Na1c3d8ba3e854cef84fe79e14ec0d3af"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7a2bd19754a645af9ba2ebd14f7414d7">
+    <rdf:first rdf:resource="http://conference_ru#c-5355228-6269716"/>
+    <rdf:rest rdf:nodeID="N34bcaf6e73ec40d9809d592075765757"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-6405106-5351357">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Конференция</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_ru#c-7736439-5987461">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Документ конференции</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7b3ee448ad474203b3a15796bd661d22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N198ae00a9fc1421588ee1d7ec182ef15"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3820a9d4bf2b44d7aa4d214d1492ccae">
+    <rdf:first rdf:resource="http://conference_ru#c-3880579-5188609"/>
+    <rdf:rest rdf:nodeID="N4bd47c4a89f44b9fb07c4569efaf4eb0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc84dc015ebff42fc93bb01d88cf2e2d5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Na6c1f88a76984ca69159d9601cbcfd60"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na1c3d8ba3e854cef84fe79e14ec0d3af">
+    <rdf:first rdf:resource="http://conference_ru#c-8337071-5208616"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+</rdf:RDF>

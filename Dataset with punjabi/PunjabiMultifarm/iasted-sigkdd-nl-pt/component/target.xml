@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-8555775-6681141">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">pesquisado por</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-1018477-7890876"/>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-7562301-3228477"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-4763935-5197994">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">prêmio</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N0703a8608b094e1995b6487d1f6f0527"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-3356330-3005402">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">possui prêmio</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-4763935-5197994"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-2169289-1448943">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">prêmio  para o melhor artigo sobre uma aplicação</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-4763935-5197994"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N97f97d15007c497197693947f6516afc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-3356330-3005402"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-5572148-7305416"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-9440037-1520972">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">coordenador geral</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-1952800-3115185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-3623010-3661999">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">patrocinador prata</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-7562301-3228477"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-3925303-8287310">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">conferência realizada</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-1018477-7890876"/>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-7270357-2566962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-3871336-9689457">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">pessoa</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N12b0e17d10264920aed17599fdf96d19"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="N9a7d1aa87d6b4ea5896a56c105e758aa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-3966562-4312968">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">autor de artigo</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-9344251-9279104"/>
+    <rdfs:subClassOf rdf:nodeID="N97f97d15007c497197693947f6516afc"/>
+    <rdfs:subClassOf rdf:nodeID="Nbcb85481fca7449db81abb3177881b5a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-8468062-9203056">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">pesquisa</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-1018477-7890876"/>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-7562301-3228477"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_pt#op-8555775-6681141"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-7081125-0124732">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">inscrição de membro da sigkdd</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-3739400-3456874"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-1841088-3063987">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">comitê para o prêmio de melhor artigo</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-4945358-3196074"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-9344251-9279104">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">autor</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Ne307793baad34ffeb3d6c6f76cf805ba"/>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-8989828-1328406"/>
+    <rdfs:subClassOf rdf:nodeID="N7b780ee93c36452badf28f5d9d749909"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-2393469-1731845">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">ouvinte</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-3871336-9689457"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-2505021-4105531">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">revisão</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-8294536-6351348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-2118615-6560426">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">apresentado por</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-8294536-6351348"/>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-8989828-1328406"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_pt#op-5303483-3123361"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-4973048-3778507">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">conjunto de prazos para</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-1018477-7890876"/>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-5082531-0055982"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_pt#op-0527378-9587470"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#ent-7106786-1397770">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="pt">data</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-5082531-0055982"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-7690908-6857902">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">inscrição paga por</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-3739400-3456874"/>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-3871336-9689457"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-6795189-7073828">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">membro do comitê organizador</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-1952800-3115185"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbcb85481fca7449db81abb3177881b5a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-3356330-3005402"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-2169289-1448943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#ent-6560834-2095372">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="pt">data de início da conferência</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-7270357-2566962"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-8997895-0342307">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">inscrição de membro da sigmod</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-3739400-3456874"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0703a8608b094e1995b6487d1f6f0527">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-2834680-6568220"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-1952800-3115185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-2834680-6568220">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">premiados por</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-4763935-5197994"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_pt#op-3356330-3005402"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne04e0e265d6e4bd58025a7c947c35650">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-8468062-9203056"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-7562301-3228477"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-1018477-7890876">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">acm sigkdd</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="Ne04e0e265d6e4bd58025a7c947c35650"/>
+    <rdfs:subClassOf rdf:nodeID="N536a12270d5b42769f0d966140f0e451"/>
+    <rdfs:subClassOf rdf:nodeID="N4d419a5d18724318a77ff24c01001592"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1ef92981ff834da4bc049cea6e59c82d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-0940861-9472287"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-7056342-9071029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-7305202-3499801">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">artigo</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N1ef92981ff834da4bc049cea6e59c82d"/>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-8294536-6351348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-1294121-1068524">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">inscricao de não membros</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-3739400-3456874"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#ent-2241801-1905243">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="pt">moeda</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-3739400-3456874"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-7562301-3228477">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">patrocinador</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nae76219f86ea47518645ce4a2eef9f5b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#ent-7666786-5573233">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="pt">cidade da conferência</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-7270357-2566962"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-0843643-7961746">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">comitê de programa</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-4945358-3196074"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#ent-3152485-0271401">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="pt">possui preço</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-3739400-3456874"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncec689b1f55a4f699fbb911fe8943158">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-0940861-9472287"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-9829926-1264126"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#ent-8492254-4947445">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="pt">possui nome</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-3871336-9689457"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-2666383-8627207">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">patrocinador ouro</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-7562301-3228477"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-7739733-4428328">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">patrocinador  melhor artigo estudante</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-7562301-3228477"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-8989828-1328406">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">palestrante</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Ne357333aa5f64b57b139d6b43d481c44"/>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-3871336-9689457"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-0623033-9511014">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">notificação de autor até</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-9030166-8785594"/>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-9344251-9279104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-4744227-5725680">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">autor de artigo de estudante</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-9344251-9279104"/>
+    <rdfs:subClassOf rdf:nodeID="N144c5b3924674148bc287f2fb405c591"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N144c5b3924674148bc287f2fb405c591">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-3356330-3005402"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-8199018-4071465"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-3739400-3456874">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">taxa de inscrição</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-0024038-3462578"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-9310809-2672791">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">patrocinador bronze</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-7562301-3228477"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-8199018-4071465">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">prêmio  para o melhor artigo de estudante</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-4763935-5197994"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-9119472-4566960">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">palestrante convidado</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-8989828-1328406"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-4007691-8351420">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">inscrição para estudantes</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-3739400-3456874"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-0812759-9554292">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">lugar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-4463758-2591863">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">conferência realizada por</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-1018477-7890876"/>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-7270357-2566962"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_pt#op-3925303-8287310"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-8508491-7121532">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">webmaster</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-1952800-3115185"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7b780ee93c36452badf28f5d9d749909">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-0623033-9511014"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-9030166-8785594"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#ent-4962304-7932419">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="pt">email</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-3871336-9689457"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-0081640-0386413">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">submissão de artigo</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-7305202-3499801"/>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-9344251-9279104"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N12b0e17d10264920aed17599fdf96d19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-0478149-8867447"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-3739400-3456874"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#ent-1826506-3938605">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="pt">possui nome da conferência</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-7270357-2566962"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne307793baad34ffeb3d6c6f76cf805ba">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-0081640-0386413"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-7305202-3499801"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-1952800-3115185">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">organizador</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-3871336-9689457"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-7056342-9071029">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">prazo de submissão para artigos</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-5082531-0055982"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-0478149-8867447">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">pagamento de inscrição</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-3739400-3456874"/>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-3871336-9689457"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_pt#op-7690908-6857902"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-1832414-5112315">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">membro do comitê de programação</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-1952800-3115185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-9030166-8785594">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">prazo de notificação dos autores</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-5082531-0055982"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-1371599-6882880">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">resumo</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Ncec689b1f55a4f699fbb911fe8943158"/>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-8294536-6351348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-3692944-0304903">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">hotel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-0812759-9554292"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4d419a5d18724318a77ff24c01001592">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-3925303-8287310"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-7270357-2566962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-7270357-2566962">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">conferência</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-9404980-2618157">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">patrocinador platina</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-7562301-3228477"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-0940861-9472287">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">possui prazo de submissão</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-5082531-0055982"/>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-8294536-6351348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-0527378-9587470">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">conjunto de prazos</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-1018477-7890876"/>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-5082531-0055982"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-8294536-6351348">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">documento</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-4365151-8149173">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">comitê organizador</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-4945358-3196074"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-2540973-7173468">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">escritório principal</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-0812759-9554292"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-4945358-3196074">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">comitê de programa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N536a12270d5b42769f0d966140f0e451">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-0527378-9587470"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-5082531-0055982"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-8091266-3034113">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">obter prêmio</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-4763935-5197994"/>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-9344251-9279104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-9829926-1264126">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">prazo de submissão para resumos</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-5082531-0055982"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-5082531-0055982">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">prazo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#ent-6745647-7189772">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="pt">data final da conferência</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-7270357-2566962"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9a7d1aa87d6b4ea5896a56c105e758aa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-4826846-6012103"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-3692944-0304903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-9226419-0746456">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">coordenador de programa</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-1952800-3115185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-5303483-3123361">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">apresentação</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-8294536-6351348"/>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-8989828-1328406"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#op-4826846-6012103">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">pode ficar em</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_pt#c-0812759-9554292"/>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-3871336-9689457"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#ent-4042087-9915632">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="pt">possui nome do patrocinador</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-7562301-3228477"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne357333aa5f64b57b139d6b43d481c44">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-5303483-3123361"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-8294536-6351348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-1593837-8073888">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">exibidor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-7562301-3228477"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-2785817-7779706">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">taxa para patrocínio</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-0024038-3462578"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-5572148-7305416">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">prêmio  para o melhor artigo sobre pesquisa</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-4763935-5197994"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#ent-7078739-8297798">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="pt">possui nacionalidade</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_pt#c-3871336-9689457"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-5827714-0365174">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">salão da conferência</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_pt#c-0812759-9554292"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nae76219f86ea47518645ce4a2eef9f5b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_pt#op-0478149-8867447"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_pt#c-2785817-7779706"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_pt#c-0024038-3462578">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">taxa</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

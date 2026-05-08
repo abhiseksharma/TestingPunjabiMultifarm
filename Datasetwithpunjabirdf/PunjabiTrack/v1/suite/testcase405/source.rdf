@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://conference_cn#c-8767431-8865125">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">与会者</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N6e67f65a69e3487faca1be7b96b0e0a6"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-0303892-1814191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-3928862-8242891">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个摘要</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-6321882-0880652"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-8374329-5896815"/>
+    <rdfs:domain rdf:nodeID="N8b170cd3db9a431da210234cafa55b6d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N08c945df693e415787f84fb4c62e3e13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cn#op-1112015-2539103"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cn#c-8378121-4112879"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-6443303-1219145">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">有作者</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-0303892-1814191"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-3554496-7468792"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-5218980-5192208">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">属于一个审稿参考</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-0761152-8794260"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8854326-1086163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-2303811-8542745">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">拒收稿件</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-8410478-8751562"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-8347862-9693008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-4187918-4915509">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">晚付费申请人</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-7714669-1265737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-7550186-5195018">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个审稿意见</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-1342284-9566424"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8410478-8751562"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-9587070-4401229"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-2308882-4392305">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个全文投稿日期</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-7581058-6321066"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-7714669-1265737">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">付费申请人</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N1ed40b0d53b2420e96905b9473725b43"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-1624856-6964623"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-3135057-2198800">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">有研讨会</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-6926672-9037231"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-0771447-6124635"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-5080162-2301751">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">会议论文集</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8057927563774276882b203dfe18dadf">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-4612606-3565270">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个程序委员会</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8671713-5700321"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-4939086-2911452"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-8212064-4806744">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个投稿</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-2167088-5414867"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8190505-2879219"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-6217428-9253672"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-4939086-2911452">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">有一个委员会</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-1222165-4711193"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-9598412-4424297"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-5401439-9644116">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个研讨会教程主席</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-0093779-4365422"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-4901638-8623780"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1e0f4c0c7df14205afbecf308e75d3f9">
+    <rdf:first rdf:resource="http://conference_cn#c-2629069-4055824"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-5340236-6811618">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">有一个审稿参考或者专长</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0616852-2463017"/>
+    <rdfs:range rdf:nodeID="Nc441f63dc4f54c99a276f645ed111d69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-9587070-4401229">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">评审</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-1342284-9566424"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8410478-8751562"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-0696061-5856960">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">会议投稿人</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-0303892-1814191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-8092603-6598498">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个照相制版提交日期</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-7581058-6321066"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N01a71eb9b4664c20aa7aba527b831f77">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:oneOf rdf:nodeID="N0722a25dceba4f1cbbc6de99f021d7a5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4066a73255054da5b857e97626ebce27">
+    <rdf:first rdf:resource="http://conference_cn#c-2303811-8542745"/>
+    <rdf:rest rdf:nodeID="Nd47d452aaa424611af5a72d3fc5db4bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-2967223-4240010">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">曾是一个组织委员会</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-2095635-3901454"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-2042126-7019591"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-9598412-4424297"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-0093779-4365422">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">研讨会主席</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N43316530220746a6b291be894ece2052"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-0303892-1814191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-1709978-2912032">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">组织</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7bed7f53cda84039af61bede9d462c96">
+    <rdf:first rdf:resource="http://conference_cn#c-8854326-1086163"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf164f07c45e34009a149b033a25844d6">
+    <rdf:first rdf:resource="http://conference_cn#c-5080162-2301751"/>
+    <rdf:rest rdf:nodeID="N5da4f59416124609b7e4133c97c5e8e7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-1789727-1476426">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">照相制版稿件</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-8347862-9693008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-7836525-8578059">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个主题或者投稿</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0761152-8794260"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-2718258-8311810"/>
+    <rdfs:range rdf:nodeID="Nf2249d80cb6947acb2df96142d07f9a9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-2042126-7019591">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个组织委员会</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-2095635-3901454"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-4939086-2911452"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb93eb788f2024e14b3ba878a25abb84e">
+    <rdf:first rdf:resource="http://conference_cn#c-1324196-0860261"/>
+    <rdf:rest rdf:nodeID="N1e0f4c0c7df14205afbecf308e75d3f9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-1379873-0723070">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个网址</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-9459674-9618383"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-9551518-7013661">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">有成员</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-1222165-4711193"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-7231695-3438312"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-8748640-7968974"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-8378121-4112879">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">会议征稿通知</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N20688936cdee4d95b68ef459eb4653ee"/>
+    <owl:equivalentClass rdf:nodeID="Nc490235c886d42079615623d97b75cf2"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-3554496-7468792"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-1286720-8897226">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个名字</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:nodeID="Ne8acc54ed65743efbe5fc0383da7ee75"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0ed3ca8a411847f5848f198c4e47969b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cn#op-6102947-0258301"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cn#c-1222165-4711193"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-1318161-8398469">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个出版商</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-5080162-2301751"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8705165-8496652"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-9354729-8566403"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-6926672-9037231">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">研讨会</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-4901638-8623780"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-7510981-3509283"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-8807539-1109418"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-2718258-8311810">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">被分配给审稿参考</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-0761152-8794260"/>
+    <rdfs:domain rdf:nodeID="N48298d3bef1f4354bfc67afcc1e077f7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-9598412-4424297">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">曾是一个委员会</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-1222165-4711193"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8605961-0132727"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-9800107-1420273">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">征集参与者通知</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-3554496-7468792"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-8549749-5268663">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">有一个研讨会教程主题</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-4901638-8623780"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8854326-1086163"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-0380280-2251650"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N226cfe60fe2445c08a8640a6cf467707">
+    <rdf:first rdf:resource="http://conference_cn#c-8854326-1086163"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-6495536-2293950">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个委员会主席</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-1222165-4711193"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-7043069-9708118"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-6102947-0258301"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-9551518-7013661"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0722a25dceba4f1cbbc6de99f021d7a5">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</rdf:first>
+    <rdf:rest rdf:nodeID="Nce4e8172cc814813b66a9149be012c75"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8a390ee1f765418da4d16939eb83f0c5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cn#op-8748640-7968974"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cn#c-1222165-4711193"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-6408979-2861972">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">组织者</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="N1605b821445947fcb3426140f7c5e483"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-9354729-8566403">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">发行</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-5080162-2301751"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8705165-8496652"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-1991023-0606800">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">被动与会者</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-8767431-8865125"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-5868151-1672428"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-0761152-8794260">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">审稿优先选择</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="Ncac93f6154bf4823b2b66f61f4f2b58c"/>
+    <rdfs:subClassOf rdf:nodeID="N8eec8856327f400cbd43f8f3d1af9f28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-1324196-0860261">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">长摘要</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-7201875-5372963"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-2629069-4055824"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N090f30685e134f33a8446b1742207f69">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N4066a73255054da5b857e97626ebce27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-3342436-6821881">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">书面投稿</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-8378121-4112879"/>
+    <rdfs:subClassOf rdf:nodeID="N5f083e450a5442d4b1096bfb31fe73db"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nde0852540eec4ff99002c2b8ddc78bed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nd5bbb61bedbb4e389a86d67a123db921"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N81f8f572c9734e5384cfb6a8a734f170">
+    <rdf:first rdf:resource="http://conference_cn#c-4901638-8623780"/>
+    <rdf:rest rdf:nodeID="Nf164f07c45e34009a149b033a25844d6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9c048a8b376448d2b15ab14eb5e5b750">
+    <rdf:first rdf:resource="http://conference_cn#c-9329539-8004095"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-1661707-5491515">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有重要日期</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-7581058-6321066"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-6371378-4913874"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3f5d92850a8f4af9be1c78e614b2154f">
+    <rdf:first rdf:resource="http://conference_cn#c-4447529-2843211"/>
+    <rdf:rest rdf:nodeID="N9826bf1399e7440f9b805559cfe30129"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-9329539-8004095">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">正规作者</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nd543bb48160c43619d5ef3e5e2a76779"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-0696061-5856960"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-5891356-5099080">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">曾是一个委员会联合主席</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-1222165-4711193"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-7632427-6171275"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-8748640-7968974"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf2249d80cb6947acb2df96142d07f9a9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nc937b3ecf1f1498fa59b9c56205349a7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbb6b888ceacb4f7a9b290da3630a4488">
+    <rdf:first rdf:resource="http://conference_cn#c-3342436-6821881"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc30f0b8a38db40be809484bf5c8800bb">
+    <rdf:first rdf:resource="http://conference_cn#c-2167088-5414867"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-1825246-2369809">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">是由之作</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-2481676-8465784"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-5868151-1672428"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-6217428-9253672">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个审稿专长</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-2167088-5414867"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8190505-2879219"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-1032488-6754321">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">有投稿</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-8378121-4112879"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8605961-0132727"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-7043069-9708118">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">主席</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N0ed3ca8a411847f5848f198c4e47969b"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-7231695-3438312"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-6102947-0258301">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">曾是一个委员会主席</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-1222165-4711193"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-7043069-9708118"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-8748640-7968974"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N416ef88649bb47059a03a8ca94d6f239">
+    <rdf:first rdf:resource="http://conference_cn#c-6964746-1010196"/>
+    <rdf:rest rdf:nodeID="Na17f667cc73942afac25b885f4801983"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-5935467-6641785">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">有一个委员会联合主席</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-1222165-4711193"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-7632427-6171275"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-5891356-5099080"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-9551518-7013661"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5873070d82884665a13b6c3eba484ee4">
+    <rdf:first rdf:resource="http://conference_cn#c-8850526-1216914"/>
+    <rdf:rest rdf:nodeID="Nf74e1f6edad144f796cd6ea5cb76a369"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N06494e4677cd498880fa300d5053a607">
+    <rdf:first rdf:resource="http://conference_cn#c-2167088-5414867"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-4815562-5367679">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">投稿第一作者</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-9329539-8004095"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-9905617-7890958"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncac93f6154bf4823b2b66f61f4f2b58c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cn#op-6399796-7234456"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cn#c-0616852-2463017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-3051261-2960041">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="zh">有一个地点</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-7510981-3509283">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">教程</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-4901638-8623780"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-8807539-1109418"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-2629069-4055824">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">论文</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-7201875-5372963"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-9905617-7890958">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">投稿合作作者</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-9329539-8004095"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-8347862-9693008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">录用稿件</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-8410478-8751562"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N236f851aaf5a4b0789d5db5705573b1d">
+    <rdf:first rdf:resource="http://conference_cn#c-8190505-2879219"/>
+    <rdf:rest rdf:nodeID="N226cfe60fe2445c08a8640a6cf467707"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-8058561-5048213">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">是投至</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8378121-4112879"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-1032488-6754321"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-6771303-1107489">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个专长</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-2167088-5414867"/>
+    <rdfs:range rdf:nodeID="N01a71eb9b4664c20aa7aba527b831f77"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd88c138950a84d8185af57678842f597">
+    <rdf:first rdf:resource="http://conference_cn#c-2481676-8465784"/>
+    <rdf:rest rdf:nodeID="N7615a3e3c4ee423ba7cfce115f3c5093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-4901638-8623780">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">会议部分</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-0303892-1814191">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">人员</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N519c35518948442892b6e301987d3ddf">
+    <rdf:first rdf:resource="http://conference_cn#c-4143210-8661289"/>
+    <rdf:rest rdf:nodeID="N9c048a8b376448d2b15ab14eb5e5b750"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-5187609-1034391">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个结束日期</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-7581058-6321066"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc6bfe609440741418f577df1d1752777">
+    <rdf:first rdf:resource="http://conference_cn#c-1709978-2912032"/>
+    <rdf:rest rdf:nodeID="N0e6d6d3ad2824aba93070c19c481dce4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-0380280-2251650">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">是一个会议部分的主题</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-4901638-8623780"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8854326-1086163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-8190505-2879219">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">投稿</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-3342436-6821881"/>
+    <rdfs:subClassOf rdf:nodeID="N81928b7c70cb4d869c3e53d6e45aff27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-0771447-6124635">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">有部分</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-4901638-8623780"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-6861253-2110670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-9631123-7009536">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个度</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0761152-8794260"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbcfbb8fa2c1741b186d5dc463d70271b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cn#op-8212064-4806744"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cn#c-8190505-2879219"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-4352115-8489633">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个摘要投稿日期</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-7581058-6321066"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-4515255-0277664">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">曾是一个研讨会主席</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0093779-4365422"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-4901638-8623780"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-5401439-9644116"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5833fb5ca5084b75b9253d38e23bc87f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cn#op-1112015-2539103"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cn#c-6964746-1010196"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0e6d6d3ad2824aba93070c19c481dce4">
+    <rdf:first rdf:resource="http://conference_cn#c-7231695-3438312"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-4447529-2843211">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">海报</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-8378121-4112879"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-6964746-1010196"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-7201875-5372963"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-2095635-3901454">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">组委会</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-1222165-4711193"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-8671713-5700321"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-5858016-6611160">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">有教程</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-7510981-3509283"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-0771447-6124635"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-2167088-5414867">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">审稿专长</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="N8660f9e5726047c48fc1f72c832590db"/>
+    <rdfs:subClassOf rdf:nodeID="Nbcfbb8fa2c1741b186d5dc463d70271b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne7756f57885b47b99874c9301a05603b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N519c35518948442892b6e301987d3ddf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5da4f59416124609b7e4133c97c5e8e7">
+    <rdf:first rdf:resource="http://conference_cn#c-8705165-8496652"/>
+    <rdf:rest rdf:nodeID="N5873070d82884665a13b6c3eba484ee4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-0948243-2990012">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">征文启事</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-3554496-7468792"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-9459674-9618383">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">会议网站</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-3554496-7468792"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-7944512-1327128">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">曾是一个程序委员会</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8671713-5700321"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-4612606-3565270"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-9598412-4424297"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N43316530220746a6b291be894ece2052">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cn#op-4515255-0277664"/>
+    <owl:someValuesFrom rdf:nodeID="Nc6e3833cf6bd47d79154a3eaf8b40280"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd47d452aaa424611af5a72d3fc5db4bb">
+    <rdf:first rdf:resource="http://conference_cn#c-8347862-9693008"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7117b64cbc184c85be5fb26c43c1a0c0">
+    <rdf:first rdf:resource="http://conference_cn#c-8807539-1109418"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-6670849-0738421">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">曾是一个指导委员会</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0270768-7415104"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-9598412-4424297"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-0616852-2463017">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">审稿人</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-0303892-1814191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-1342284-9566424">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">审稿意见</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-3554496-7468792"/>
+    <rdfs:subClassOf rdf:nodeID="N911ba50ba4274f47bf1179655dfc3bbc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N797428388623489981dbb6a73c14214e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N54408b2098fb408e8181e9846a03f43d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-3322899-3507087">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个ISBN</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-5080162-2301751"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-0349331-2807631">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="zh">有名</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0303892-1814191"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-6110385-9428205">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">邀请联合审稿人</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-0616852-2463017"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0616852-2463017"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-6589698-7147407"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-5868151-1672428">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">主动与会者</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-0696061-5856960"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-8767431-8865125"/>
+    <rdfs:subClassOf rdf:nodeID="Ne7756f57885b47b99874c9301a05603b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd6621428cea844bf89cbbd8cd58b6c88">
+    <rdf:first rdf:resource="http://conference_cn#c-9905617-7890958"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-1984692-1981469">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有姓</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0303892-1814191"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2b58494026274cc0882223c95d220d96">
+    <rdf:first rdf:resource="http://conference_cn#c-0761152-8794260"/>
+    <rdf:rest rdf:nodeID="Nc30f0b8a38db40be809484bf5c8800bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na17f667cc73942afac25b885f4801983">
+    <rdf:first rdf:resource="http://conference_cn#c-7201875-5372963"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-8748640-7968974">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">曾是一个成员</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-1222165-4711193"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-7231695-3438312"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-8374329-5896815">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">是第一部分</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-6321882-0880652"/>
+    <rdfs:range rdf:nodeID="Nde0852540eec4ff99002c2b8ddc78bed"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf71e47e6b635487086646ed529f89e74">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cn#op-5891356-5099080"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cn#c-1222165-4711193"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne8acc54ed65743efbe5fc0383da7ee75">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N81f8f572c9734e5384cfb6a8a734f170"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-8807539-1109418">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">轨道</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-4901638-8623780"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-7630346-9883552">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个开始日期</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-7581058-6321066"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-6371378-4913874">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:label xml:lang="zh">属于一个会议卷册</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-7581058-6321066"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8605961-0132727"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb5f7a1bf771d46d7ab41f24914d3e600">
+    <rdf:first rdf:resource="http://conference_cn#c-0270768-7415104"/>
+    <rdf:rest rdf:nodeID="N72dd0d05c2ff457cb1db816fa3b33fd2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-9117676-5296944">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">会议通知</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-3554496-7468792"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf74e1f6edad144f796cd6ea5cb76a369">
+    <rdf:first rdf:resource="http://conference_cn#c-8854326-1086163"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1d4064f0b7f042b381d8fefcf9c80b63">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</rdf:first>
+    <rdf:rest rdf:nodeID="N8057927563774276882b203dfe18dadf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-1112015-2539103">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">投稿</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0303892-1814191"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-3554496-7468792"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-6443303-1219145"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N72dd0d05c2ff457cb1db816fa3b33fd2">
+    <rdf:first rdf:resource="http://conference_cn#c-2095635-3901454"/>
+    <rdf:rest rdf:nodeID="N77abd685fad94a9fa60c4a9cbe3b7eff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-0192762-9998580">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="zh">有一个电子邮箱</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0303892-1814191"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na923d266d0f54d849bb35caf1881409b">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium</rdf:first>
+    <rdf:rest rdf:nodeID="N7db656ad261645f5ad01e9bd7611ed46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-8850526-1216914">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">会议</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc937b3ecf1f1498fa59b9c56205349a7">
+    <rdf:first rdf:resource="http://conference_cn#c-8190505-2879219"/>
+    <rdf:rest rdf:nodeID="N7bed7f53cda84039af61bede9d462c96"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-8971329-1726032">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个发行日题</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-3554496-7468792"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-4143210-8661289">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">特邀报告人</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N5833fb5ca5084b75b9253d38e23bc87f"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-0696061-5856960"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N14cde2ae3b9441daa4d8f2d211c2cc26">
+    <rdf:first rdf:resource="http://conference_cn#c-8854326-1086163"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-8410478-8751562">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">被审稿件</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N090f30685e134f33a8446b1742207f69"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-8190505-2879219"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N77d4c8a8e343455baa5029a2648b3134">
+    <rdf:first rdf:nodeID="N3b29e804c69249688fb01dea267582eb"/>
+    <rdf:rest rdf:nodeID="N686da12345ac4948b1ad31a103b585ed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-6964746-1010196">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">特邀报告</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-2481676-8465784"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-7201875-5372963"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-6399796-7234456">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">属于审稿人</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-0616852-2463017"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-5340236-6811618"/>
+    <rdfs:domain rdf:nodeID="N797428388623489981dbb6a73c14214e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc441f63dc4f54c99a276f645ed111d69">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N2b58494026274cc0882223c95d220d96"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-3235270-1447226">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个指导委员会</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-0270768-7415104"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-4939086-2911452"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-6670849-0738421"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc6e3833cf6bd47d79154a3eaf8b40280">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Na55834e87ad242f39f9b3bae422ff71a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N20688936cdee4d95b68ef459eb4653ee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nc851640d16d3487dbdc96eb1e1f9e434"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na82c53acd9894867b9172c82df12e97d">
+    <rdf:first rdf:resource="http://conference_cn#c-5868151-1672428"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N942fcb900a324cdaad2fb4156f29e09e">
+    <rdf:first rdf:resource="http://conference_cn#c-4447529-2843211"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-5544763-2634309">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">与会者信息</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-3554496-7468792"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-7598149-3025987">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">有轨道</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-8605961-0132727"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8807539-1109418"/>
+    <rdfs:subPropertyOf rdf:resource="http://conference_cn#op-0771447-6124635"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4329b841f5f4d988ea5b86714401d64">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nb5f7a1bf771d46d7ab41f24914d3e600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-6321882-0880652">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">摘要</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-1324196-0860261"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-1624856-6964623">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">已注册申请人</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-2409353-1237300"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5f083e450a5442d4b1096bfb31fe73db">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Na4c2a97494d1470995fe23c04e4d3b01"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8b170cd3db9a431da210234cafa55b6d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nd88c138950a84d8185af57678842f597"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-7632427-6171275">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">联合主席</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nf71e47e6b635487086646ed529f89e74"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-7231695-3438312"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-1677285-9036800">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">会议费用</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-3183034-4854997">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个录用通知日期</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-7581058-6321066"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-1095048-4876856">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">提前付费申请人</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-7714669-1265737"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-4187918-4915509"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-1222165-4711193">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">委员会</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nb4329b841f5f4d988ea5b86714401d64"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc490235c886d42079615623d97b75cf2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N686c25f920c54bf9a3964759becf7654"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc59b921ad5d843e4b18162993facdfd3">
+    <rdf:first rdf:resource="http://conference_cn#c-4815562-5367679"/>
+    <rdf:rest rdf:nodeID="Nd6621428cea844bf89cbbd8cd58b6c88"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc851640d16d3487dbdc96eb1e1f9e434">
+    <rdf:first rdf:resource="http://conference_cn#c-2481676-8465784"/>
+    <rdf:rest rdf:nodeID="Nbb6b888ceacb4f7a9b290da3630a4488"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N686da12345ac4948b1ad31a103b585ed">
+    <rdf:first rdf:nodeID="N08c945df693e415787f84fb4c62e3e13"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-8605961-0132727">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">会议卷册</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-8850526-1216914"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-0264696-7902275">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">作报告</rdfs:label>
+    <rdfs:range rdf:resource="http://conference_cn#c-2481676-8465784"/>
+    <rdfs:domain rdf:resource="http://conference_cn#c-5868151-1672428"/>
+    <owl:inverseOf rdf:resource="http://conference_cn#op-1825246-2369809"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-6589698-7147407">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">受邀于</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0616852-2463017"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-0616852-2463017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7db656ad261645f5ad01e9bd7611ed46">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">very high</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-2409353-1237300">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">会议申请人</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-0303892-1814191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-0270768-7415104">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">指导委员会</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-1222165-4711193"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-2095635-3901454"/>
+    <owl:disjointWith rdf:resource="http://conference_cn#c-8671713-5700321"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-7201875-5372963">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">正规投稿</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Ndba0ece37d8d4281b2d2db49ce77025a"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-3342436-6821881"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-1856607-0386452">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有一个卷册</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-5080162-2301751"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd2305a75e49140be9136fe8e9ad4bd9b">
+    <rdf:first rdf:resource="http://conference_cn#c-7201875-5372963"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N77abd685fad94a9fa60c4a9cbe3b7eff">
+    <rdf:first rdf:resource="http://conference_cn#c-8671713-5700321"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N48298d3bef1f4354bfc67afcc1e077f7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nf1cfb1e51f7e4880afee88a878379285"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6e67f65a69e3487faca1be7b96b0e0a6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N4078ef6885e541e0896eaa642f941535"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-3554496-7468792">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">会议文件</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N294a4943c2fb40949a89ff2e617d9492">
+    <rdf:first rdf:resource="http://conference_cn#c-1095048-4876856"/>
+    <rdf:rest rdf:nodeID="N12c093780d7b407d8279497fdf9faf61"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4078ef6885e541e0896eaa642f941535">
+    <rdf:first rdf:resource="http://conference_cn#c-1991023-0606800"/>
+    <rdf:rest rdf:nodeID="Na82c53acd9894867b9172c82df12e97d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na4c2a97494d1470995fe23c04e4d3b01">
+    <rdf:first rdf:resource="http://conference_cn#c-4447529-2843211"/>
+    <rdf:rest rdf:nodeID="Nd2305a75e49140be9136fe8e9ad4bd9b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-8671713-5700321">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">程序委员会</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-1222165-4711193"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N12c093780d7b407d8279497fdf9faf61">
+    <rdf:first rdf:resource="http://conference_cn#c-4187918-4915509"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#ent-4974127-9911882">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="zh">有性别</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-0303892-1814191"/>
+    <rdfs:range rdf:nodeID="N0b1a4f83218843ac94d695b52f8aee0f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#op-6861253-2110670">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="zh">是会议卷册的一部分</rdfs:label>
+    <rdfs:domain rdf:resource="http://conference_cn#c-4901638-8623780"/>
+    <rdfs:range rdf:resource="http://conference_cn#c-8605961-0132727"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-7231695-3438312">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">委员会成员</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N8a390ee1f765418da4d16939eb83f0c5"/>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-0303892-1814191"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naf1db361e5ab4f26b7c14d2ee0736fdd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N236f851aaf5a4b0789d5db5705573b1d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nce4e8172cc814813b66a9149be012c75">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</rdf:first>
+    <rdf:rest rdf:nodeID="Na923d266d0f54d849bb35caf1881409b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3b29e804c69249688fb01dea267582eb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nc59b921ad5d843e4b18162993facdfd3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf1cfb1e51f7e4880afee88a878379285">
+    <rdf:first rdf:resource="http://conference_cn#c-8190505-2879219"/>
+    <rdf:rest rdf:nodeID="N14cde2ae3b9441daa4d8f2d211c2cc26"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndba0ece37d8d4281b2d2db49ce77025a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nb93eb788f2024e14b3ba878a25abb84e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7615a3e3c4ee423ba7cfce115f3c5093">
+    <rdf:first rdf:resource="http://conference_cn#c-2629069-4055824"/>
+    <rdf:rest rdf:nodeID="N942fcb900a324cdaad2fb4156f29e09e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N911ba50ba4274f47bf1179655dfc3bbc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cn#op-6443303-1219145"/>
+    <owl:allValuesFrom rdf:resource="http://conference_cn#c-0616852-2463017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd543bb48160c43619d5ef3e5e2a76779">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N77d4c8a8e343455baa5029a2648b3134"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1605b821445947fcb3426140f7c5e483">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nc6bfe609440741418f577df1d1752777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-2481676-8465784">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">报告</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://conference_cn#c-8378121-4112879"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8660f9e5726047c48fc1f72c832590db">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cn#op-6399796-7234456"/>
+    <owl:someValuesFrom rdf:resource="http://conference_cn#c-0616852-2463017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9826bf1399e7440f9b805559cfe30129">
+    <rdf:first rdf:resource="http://conference_cn#c-7201875-5372963"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd5bbb61bedbb4e389a86d67a123db921">
+    <rdf:first rdf:resource="http://conference_cn#c-2481676-8465784"/>
+    <rdf:rest rdf:nodeID="Nedb6ee46910f4b02a2da41bc644283c4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8eec8856327f400cbd43f8f3d1af9f28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://conference_cn#op-7836525-8578059"/>
+    <owl:someValuesFrom rdf:nodeID="Naf1db361e5ab4f26b7c14d2ee0736fdd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N54408b2098fb408e8181e9846a03f43d">
+    <rdf:first rdf:resource="http://conference_cn#c-0761152-8794260"/>
+    <rdf:rest rdf:nodeID="N06494e4677cd498880fa300d5053a607"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nedb6ee46910f4b02a2da41bc644283c4">
+    <rdf:first rdf:resource="http://conference_cn#c-2629069-4055824"/>
+    <rdf:rest rdf:nodeID="Nb4608aa7a36f4176a394144e2e11e171"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N81928b7c70cb4d869c3e53d6e45aff27">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N3f5d92850a8f4af9be1c78e614b2154f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0b1a4f83218843ac94d695b52f8aee0f">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:oneOf rdf:nodeID="N1d4064f0b7f042b381d8fefcf9c80b63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-8854326-1086163">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">主题</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-7581058-6321066">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">重要日期</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N686c25f920c54bf9a3964759becf7654">
+    <rdf:first rdf:resource="http://conference_cn#c-4447529-2843211"/>
+    <rdf:rest rdf:nodeID="N416ef88649bb47059a03a8ca94d6f239"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4608aa7a36f4176a394144e2e11e171">
+    <rdf:first rdf:resource="http://conference_cn#c-4447529-2843211"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na55834e87ad242f39f9b3bae422ff71a">
+    <rdf:first rdf:resource="http://conference_cn#c-6926672-9037231"/>
+    <rdf:rest rdf:nodeID="N7117b64cbc184c85be5fb26c43c1a0c0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://conference_cn#c-8705165-8496652">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="zh">出版商</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1ed40b0d53b2420e96905b9473725b43">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N294a4943c2fb40949a89ff2e617d9492"/>
+  </rdf:Description>
+</rdf:RDF>

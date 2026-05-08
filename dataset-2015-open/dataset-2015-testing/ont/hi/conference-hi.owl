@@ -1,0 +1,1624 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://conference_hi#"
+     xml:base="http://conference_hi"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:conference_hi="http://conference_hi#">
+    <owl:Ontology rdf:about="http://conference_hi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://conference_hi#op-9680867-3226376 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-9680867-3226376">
+        <rdfs:label xml:lang="hi">द्वारा प्रस्तुत</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-8091793-4283861"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-3645283-9852742"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-4062001-8027296 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-4062001-8027296">
+        <rdfs:label xml:lang="hi">समीक्षा की वरीयता या विशेषज्ञता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-7492032-1665679"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-2613420-6969818"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-3875069-6930617"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-4437619-3974576 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-4437619-3974576">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समीक्षा विशेषज्ञता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9682991-4482646"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-3875069-6930617"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-9521454-4621995 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-9521454-4621995">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सम्मेलन की कार्यक्रम समिति है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-5881282-8254980"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-2464000-4377832"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-5135742-1208528"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-3994163-5400227 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-3994163-5400227">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समिति के अध्यक्ष है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-4357976-5282148"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9734235-1564490"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-4831087-2857702"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-4127060-6566317"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-3633876-3421681 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-3633876-3421681">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समीक्षा है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-8066802-4037852"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-8721631-8018503"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-6123008-3265593"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-4831087-2857702 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-4831087-2857702">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समिति के अध्यक्ष हैं</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-4357976-5282148"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-9734235-1564490"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-7722168-2232083"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-8297785-2094974 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-8297785-2094974">
+        <rdfs:label xml:lang="hi">को प्रस्तुत</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-3296561-9897684"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-8516087-2974387"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-7383053-5235162 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-7383053-5235162">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सम्मेलन की आयोजन समिति है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-7384436-2632552"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-8057080-9439925"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-8743753-7847265 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-8743753-7847265">
+        <rdfs:label xml:lang="hi">लेखक है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-3693857-1481281"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-6739198-8184437"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-2695052-7364210 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-2695052-7364210">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">विषय या प्रस्तुति योगदान है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-2613420-6969818"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-7940764-8033387"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-9682991-4482646"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-8625261-9234897"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-2583733-2441244 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-2583733-2441244">
+        <rdfs:label xml:lang="hi">समिति के सह-अध्यक्ष हैं</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-9734235-1564490"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-5419446-3302011"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-7722168-2232083"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-8691600-3073794 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-8691600-3073794">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">योगदान जमा किया है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-9682991-4482646"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-3875069-6930617"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-4437619-3974576"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-7722168-2232083 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-7722168-2232083">
+        <rdfs:label xml:lang="hi">का सदस्य है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-9734235-1564490"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-8683772-1192915"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-1873015-9207143 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-1873015-9207143">
+        <rdfs:label xml:lang="hi">सह-समीक्षक को आमंत्रित करता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-7492032-1665679"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-7492032-1665679"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-5386663-2381775"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-2801045-4620030 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-2801045-4620030">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समीक्षा वरीयता से संबंधित विषय</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-8625261-9234897"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-2613420-6969818"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-7583350-5466796 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-7583350-5466796">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सम्मेलन की आयोजन समिति है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-7384436-2632552"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-7383053-5235162"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-5135742-1208528"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-8348098-7783601 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-8348098-7783601">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">कार्यशाला का अध्यक्ष है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-3137235-2317292"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-7496098-9433532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-1973494-4176241 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-1973494-4176241">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सार है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-5858004-9956566"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-5290929-4047859"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-5725140-2710928"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-3645283-9852742"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-4480992-6702785"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-3114216-8330311 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-3114216-8330311">
+        <rdfs:label xml:lang="hi">सम्मेलन भाग का विषय है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-8625261-9234897"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-7496098-9433532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-2464000-4377832 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-2464000-4377832">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सम्मेलन की कार्यक्रम समिति है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-5881282-8254980"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-8057080-9439925"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-5290929-4047859 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-5290929-4047859">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">का पहला भाग है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-5858004-9956566"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-5725140-2710928"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-3645283-9852742"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-4480992-6702785"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-8349808-8165204 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-8349808-8165204">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">महत्वपूर्ण तिथि है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-9755800-6390664"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-2737870-9263655"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-8516087-2974387 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-8516087-2974387">
+        <rdfs:label xml:lang="hi">योगदान है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-3296561-9897684"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-2737870-9263655 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-2737870-9263655">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सम्मेलन श्रृंखला की महत्वपूर्ण तिथि</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9755800-6390664"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-2201129-5033291 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-2201129-5033291">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">कार्यवाही का प्रकाशक है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-7481153-5479462"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-5378532-5622696"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-2456774-8973864"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-7468803-9195311 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-7468803-9195311">
+        <rdfs:label xml:lang="hi">सम्मेलन का हिस्सा है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-7496098-9433532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-7957273-1949542 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-7957273-1949542">
+        <rdfs:label xml:lang="hi">समीक्षक की वरीयता या विशेषज्ञता</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-7492032-1665679"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-4062001-8027296"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-2613420-6969818"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-3875069-6930617"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-7664074-7603884 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-7664074-7603884">
+        <rdfs:label xml:lang="hi">प्रस्तुति देता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-8091793-4283861"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-3645283-9852742"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-9680867-3226376"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-2024890-7556914 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-2024890-7556914">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सम्मेलन की संचालन समिति है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-5468304-4910862"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-5135742-1208528"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-6123008-3265593 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-6123008-3265593">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समीक्षा योगदान</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-8066802-4037852"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-8721631-8018503"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-6522717-6494417 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-6522717-6494417">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सम्मेलन की संचालन समिति है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-5468304-4910862"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-2024890-7556914"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-8057080-9439925"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-5135742-1208528 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-5135742-1208528">
+        <rdfs:label xml:lang="hi">सम्मेलन की समिति है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9734235-1564490"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-5054483-1941010 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-5054483-1941010">
+        <rdfs:label xml:lang="hi">कार्यशाला का विषय है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-8625261-9234897"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-7496098-9433532"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-3114216-8330311"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-4127060-6566317 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-4127060-6566317">
+        <rdfs:label xml:lang="hi">सदस्य है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9734235-1564490"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-8683772-1192915"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-7722168-2232083"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-2464502-2926318 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-2464502-2926318">
+        <rdfs:label xml:lang="hi">कार्यशाला है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-3252098-3769440"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-7272910-2844070"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-5175898-8010842 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-5175898-8010842">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">कार्यशाला के अध्यक्ष है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-3137235-2317292"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-7496098-9433532"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-8348098-7783601"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-6663181-1584692 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-6663181-1584692">
+        <rdfs:label xml:lang="hi">सम्मेलन में योगदान देता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-3693857-1481281"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-6739198-8184437"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-8743753-7847265"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-5386663-2381775 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-5386663-2381775">
+        <rdfs:label xml:lang="hi">समीक्षक द्वारा आमंत्रित</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-7492032-1665679"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-7492032-1665679"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-8057080-9439925 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-8057080-9439925">
+        <rdfs:label xml:lang="hi">सम्मेलन की समिति है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-9734235-1564490"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-5135742-1208528"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-2456774-8973864 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-2456774-8973864">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">प्रकाशित करते है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-7481153-5479462"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-5378532-5622696"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-1333321-9584321 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-1333321-9584321">
+        <rdfs:label xml:lang="hi">समिति के सह-अध्यक्ष हैं</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9734235-1564490"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-5419446-3302011"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-2583733-2441244"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-4127060-6566317"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-3135609-5277512 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-3135609-5277512">
+        <rdfs:label xml:lang="hi">ट्रैक है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-4836078-1491957"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-7272910-2844070"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-7940764-8033387 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-7940764-8033387">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समीक्षा वरीयता दी गई है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-2613420-6969818"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-9682991-4482646"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-8625261-9234897"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-6326118-5540435 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-6326118-5540435">
+        <rdfs:label xml:lang="hi">ट्यूटोरियल है</rdfs:label>
+        <rdfs:range rdf:resource="http://conference_hi#c-5013901-5089955"/>
+        <rdfs:domain rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:subPropertyOf rdf:resource="http://conference_hi#op-7272910-2844070"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://conference_hi#op-7272910-2844070 -->
+
+    <owl:ObjectProperty rdf:about="http://conference_hi#op-7272910-2844070">
+        <rdfs:label xml:lang="hi">भाग है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:range rdf:resource="http://conference_hi#c-7496098-9433532"/>
+        <owl:inverseOf rdf:resource="http://conference_hi#op-7468803-9195311"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://conference_hi#ent-2337750-1791829 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-2337750-1791829">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">तारीख को प्रकाशित</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-6739198-8184437"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-8043198-2286944 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-8043198-2286944">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">कार्यवाही की मात्रा संख्या</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-5378532-5622696"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-1415165-5721031 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-1415165-5721031">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">नाम है</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-2708781-3977121"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-8625261-9234897"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-7481153-5479462"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-5378532-5622696"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-7496098-9433532"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-9206694-3640183 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-9206694-3640183">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सम्मेलन वेब का यूआरएल है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-6798897-2893280"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-7333179-8972814 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-7333179-8972814">
+        <rdfs:label xml:lang="hi">सम्मेलन का स्थान</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-1176812-2896619"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-1120296-5762568 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-1120296-5762568">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">कैमरा-रेडी प्रस्तुति करने की तारीख</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9755800-6390664"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-3908094-5385176 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-3908094-5385176">
+        <rdfs:label xml:lang="hi">ईमेल है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-3693857-1481281"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-3153161-6357605 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-3153161-6357605">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सार प्रस्तुत करने की तिथि</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9755800-6390664"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-1758415-3749759 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-1758415-3749759">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">शुरू करने की तिथि</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9755800-6390664"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-1794863-6945242 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-1794863-6945242">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">पूर्ण शोध पत्र प्रस्तुत करने की तिथि</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9755800-6390664"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-4141542-3282528 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-4141542-3282528">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">स्वीकृति अधिसूचना की तिथि</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9755800-6390664"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-9539495-9110018 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-9539495-9110018">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समीक्षा वरीयता का स्तर</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-2613420-6969818"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-6295231-1776739 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-6295231-1776739">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">कार्यवाही का आईएसबीएन</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-5378532-5622696"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-7877598-3191709 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-7877598-3191709">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">लिंग है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-3693857-1481281"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-6781700-9806191 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-6781700-9806191">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समीक्षक का विशेषज्ञता स्तर</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-3875069-6930617"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">very high</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-4331068-2859190 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-4331068-2859190">
+        <rdfs:label xml:lang="hi">पहला नाम है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-3693857-1481281"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-1073225-8050428 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-1073225-8050428">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">उपनाम है</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-3693857-1481281"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://conference_hi#ent-9507955-5122260 -->
+
+    <owl:DatatypeProperty rdf:about="http://conference_hi#ent-9507955-5122260">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">अंतिम दिन</rdfs:label>
+        <rdfs:domain rdf:resource="http://conference_hi#c-9755800-6390664"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://conference_hi#c-8988089-9951499 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-8988089-9951499">
+        <rdfs:label xml:lang="hi">आमंत्रित वक्ता</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://conference_hi#op-6663181-1584692"/>
+                <owl:someValuesFrom rdf:resource="http://conference_hi#c-3946200-2475905"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-1880142-4007656"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-9895914-5298351 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-9895914-5298351">
+        <rdfs:label xml:lang="hi">योगदान के पहले लेखक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-8076192-9399767"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-5432163-7813322"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-5858004-9956566 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-5858004-9956566">
+        <rdfs:label xml:lang="hi">सार</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-6320110-6716721"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-1880142-4007656 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-1880142-4007656">
+        <rdfs:label xml:lang="hi">सम्मेलन के लिए योगदानकर्ता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3693857-1481281"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-8986601-9248809 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-8986601-9248809">
+        <rdfs:label xml:lang="hi">सम्मेलन के लिए आवेदक जिन्होंने हाल ही में सम्मेलन शुल्क का भुगतान किया</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-5344479-4353192"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-2340595-5464317"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-8066802-4037852 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-8066802-4037852">
+        <rdfs:label xml:lang="hi">समीक्षित योगदान</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-1836089-7976791"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-1591866-8790574"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-9682991-4482646"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-9682991-4482646 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-9682991-4482646">
+        <rdfs:label xml:lang="hi">जमा किया गया योगदान</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-6176281-7462130"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-4732885-3599833"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-4480992-6702785"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-2708781-3977121 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-2708781-3977121">
+        <rdfs:label xml:lang="hi">सम्मेलन</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-5013901-5089955 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-5013901-5089955">
+        <rdfs:label xml:lang="hi">ट्यूटोरियल</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-7496098-9433532"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-3252098-3769440"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-4836078-1491957"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-0950472-8008907 -->
+    <!--v2
+    <owl:Class rdf:about="http://conference_hi#c-0950472-8008907">
+        <rdfs:label xml:lang="hi">null</rdfs:label>
+    </owl:Class>-->
+    
+
+
+    <!-- http://conference_hi#c-8076192-9399767 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-8076192-9399767">
+        <rdfs:label xml:lang="hi">योगदान के लेखक</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://conference_hi#c-9895914-5298351"/>
+                            <rdf:Description rdf:about="http://conference_hi#c-5432163-7813322"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://conference_hi#op-6663181-1584692"/>
+                        <owl:someValuesFrom rdf:resource="http://conference_hi#c-3296561-9897684"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-1880142-4007656"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-1836089-7976791 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-1836089-7976791">
+        <rdfs:label xml:lang="hi">अस्वीकृत योगदान</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-8066802-4037852"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-1591866-8790574"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-6320110-6716721 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-6320110-6716721">
+        <rdfs:label xml:lang="hi">विस्तारित सार</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-4732885-3599833"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-5725140-2710928"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-6541979-1325830 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-6541979-1325830">
+        <rdfs:label xml:lang="hi">योगदान का कैमरा-तैयार संस्करण</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-1591866-8790574"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-5468304-4910862 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-5468304-4910862">
+        <rdfs:label xml:lang="hi">संचालन समिति</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-9734235-1564490"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-7384436-2632552"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-5881282-8254980"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-8625261-9234897 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-8625261-9234897">
+        <rdfs:label xml:lang="hi">विषय</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-4732885-3599833 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-4732885-3599833">
+        <rdfs:label xml:lang="hi">नियमित योगदान</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-6320110-6716721"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-5725140-2710928"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-6176281-7462130"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-4480992-6702785"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-3946200-2475905"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-8721631-8018503 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-8721631-8018503">
+        <rdfs:label xml:lang="hi">समीक्षा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-6739198-8184437"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://conference_hi#op-8743753-7847265"/>
+                <owl:allValuesFrom rdf:resource="http://conference_hi#c-7492032-1665679"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-2613420-6969818 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-2613420-6969818">
+        <rdfs:label xml:lang="hi">समीक्षक की वरीयता</rdfs:label>
+        <!--v2<rdfs:subClassOf rdf:resource="http://conference_hi#c-5505956-2398811"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://conference_hi#op-2695052-7364210"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://conference_hi#c-9682991-4482646"/>
+                            <rdf:Description rdf:about="http://conference_hi#c-8625261-9234897"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://conference_hi#op-7957273-1949542"/>
+                <owl:someValuesFrom rdf:resource="http://conference_hi#c-7492032-1665679"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-6798897-2893280 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-6798897-2893280">
+        <rdfs:label xml:lang="hi">सम्मेलन का जाल</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-6739198-8184437"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-8091793-4283861 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-8091793-4283861">
+        <rdfs:label xml:lang="hi">सम्मेलन के सक्रिय प्रतिभागी</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-1880142-4007656"/>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3188984-4657861"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-8988089-9951499"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-8076192-9399767"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-5153203-9003414"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-2340595-5464317 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-2340595-5464317">
+        <rdfs:label xml:lang="hi">सम्मेलन के लिए आवेदक जिन्होंने जल्दी सम्मेलन शुल्क का भुगतान किया</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-5344479-4353192"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-1591866-8790574 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-1591866-8790574">
+        <rdfs:label xml:lang="hi">स्वीकृत योगदान</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-8066802-4037852"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-5725140-2710928 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-5725140-2710928">
+        <rdfs:label xml:lang="hi">शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-4732885-3599833"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-7492032-1665679 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-7492032-1665679">
+        <rdfs:label xml:lang="hi">आलोचक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3693857-1481281"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-3645283-9852742 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-3645283-9852742">
+        <rdfs:label xml:lang="hi">प्रस्तुतीकरण</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3296561-9897684"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-7481153-5479462 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-7481153-5479462">
+        <rdfs:label xml:lang="hi">प्रकाशक</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-4357976-5282148 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-4357976-5282148">
+        <rdfs:label xml:lang="hi">अध्यक्ष</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://conference_hi#op-4831087-2857702"/>
+                <owl:someValuesFrom rdf:resource="http://conference_hi#c-9734235-1564490"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-8683772-1192915"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-1176812-2896619 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-1176812-2896619">
+        <rdfs:label xml:lang="hi">सम्मेलन श्रृंखला</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-2708781-3977121"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-2151171-7855767 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-2151171-7855767">
+        <rdfs:label xml:lang="hi">व्यवस्था करनेवाला</rdfs:label>
+        <!--<rdfs:subClassOf rdf:resource="http://conference_hi#c-5505956-2398811"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-4523021-7293675"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-8683772-1192915"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-7384436-2632552 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-7384436-2632552">
+        <rdfs:label xml:lang="hi">आयोजन समिति</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-9734235-1564490"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-5881282-8254980"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-3188984-4657861 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-3188984-4657861">
+        <rdfs:label xml:lang="hi">सम्मेलन के प्रतिभागी</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-8091793-4283861"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-5153203-9003414"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3693857-1481281"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-5505956-2398811 -->
+    <!--v2
+    <owl:Class rdf:about="http://conference_hi#c-5505956-2398811">
+        <rdfs:label xml:lang="hi">null</rdfs:label>
+    </owl:Class>
+    -->
+    
+
+
+    <!-- http://conference_hi#c-5153203-9003414 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-5153203-9003414">
+        <rdfs:label xml:lang="hi">सम्मेलन के निष्क्रिय प्रतिभागी</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3188984-4657861"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-3296561-9897684 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-3296561-9897684">
+        <rdfs:label xml:lang="hi">सम्मेलन योगदान</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-4732885-3599833"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-4480992-6702785"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-3946200-2475905"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-3645283-9852742"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-6176281-7462130"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-6739198-8184437"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-3875069-6930617 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-3875069-6930617">
+        <rdfs:label xml:lang="hi">समीक्षक की विशेषज्ञता</rdfs:label>
+        <!--v2<rdfs:subClassOf rdf:resource="http://conference_hi#c-5505956-2398811"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://conference_hi#op-8691600-3073794"/>
+                <owl:someValuesFrom rdf:resource="http://conference_hi#c-9682991-4482646"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://conference_hi#op-7957273-1949542"/>
+                <owl:someValuesFrom rdf:resource="http://conference_hi#c-7492032-1665679"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-4451194-1482935 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-4451194-1482935">
+        <rdfs:label xml:lang="hi">प्रतिभागियों के लिए सूचना</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-6739198-8184437"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-9755800-6390664 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-9755800-6390664">
+        <rdfs:label xml:lang="hi">महत्वपूर्ण तिथि</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-3693857-1481281 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-3693857-1481281">
+        <rdfs:label xml:lang="hi">व्यक्ति</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-9734235-1564490 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-9734235-1564490">
+        <rdfs:label xml:lang="hi">समिति</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-5468304-4910862"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-7384436-2632552"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-5881282-8254980"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-5881282-8254980 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-5881282-8254980">
+        <rdfs:label xml:lang="hi">कार्यक्रम समिति</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-9734235-1564490"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-4523021-7293675 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-4523021-7293675">
+        <rdfs:label xml:lang="hi">संगठन</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-6664460-8697070 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-6664460-8697070">
+        <rdfs:label xml:lang="hi">भागीदारी के लिए बुलावा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-6739198-8184437"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-5432163-7813322 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-5432163-7813322">
+        <rdfs:label xml:lang="hi">योगदान के सह-लेखक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-8076192-9399767"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-4480992-6702785 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-4480992-6702785">
+        <rdfs:label xml:lang="hi">पोस्टर</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3296561-9897684"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-3946200-2475905"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-3252098-3769440 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-3252098-3769440">
+        <rdfs:label xml:lang="hi">कार्यशाला</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-7496098-9433532"/>
+        <owl:disjointWith rdf:resource="http://conference_hi#c-4836078-1491957"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-3137235-2317292 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-3137235-2317292">
+        <rdfs:label xml:lang="hi">कार्यशाला ट्रैक के अध्यक्ष</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://conference_hi#op-5175898-8010842"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://conference_hi#c-3252098-3769440"/>
+                            <rdf:Description rdf:about="http://conference_hi#c-4836078-1491957"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3693857-1481281"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-3946200-2475905 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-3946200-2475905">
+        <rdfs:label xml:lang="hi">आमंत्रित वार्ता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3645283-9852742"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-8683772-1192915 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-8683772-1192915">
+        <rdfs:label xml:lang="hi">समिति के सदस्य</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://conference_hi#op-7722168-2232083"/>
+                <owl:someValuesFrom rdf:resource="http://conference_hi#c-9734235-1564490"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3693857-1481281"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-1705568-8342796 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-1705568-8342796">
+        <rdfs:label xml:lang="hi">शोध पत्र के लिए बुलावा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-6739198-8184437"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-5344479-4353192 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-5344479-4353192">
+        <rdfs:label xml:lang="hi">सम्मेलन के लिए आवेदक जिन्होंने सम्मेलन शुल्क का भुगतान किया</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-8986601-9248809"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-2340595-5464317"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3045866-7958864"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-5378532-5622696 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-5378532-5622696">
+        <rdfs:label xml:lang="hi">सम्मेलन की कार्यवाही</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-4836078-1491957 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-4836078-1491957">
+        <rdfs:label xml:lang="hi">सम्मेलन का ट्रैक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-7496098-9433532"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-5419446-3302011 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-5419446-3302011">
+        <rdfs:label xml:lang="hi">सह अध्यक्ष</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://conference_hi#op-2583733-2441244"/>
+                <owl:someValuesFrom rdf:resource="http://conference_hi#c-9734235-1564490"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-8683772-1192915"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-6739198-8184437 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-6739198-8184437">
+        <rdfs:label xml:lang="hi">सम्मेलन दस्तावेज़</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-2738987-4063467 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-2738987-4063467">
+        <rdfs:label xml:lang="hi">सम्मेलन के लिए शुल्क</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-6176281-7462130 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-6176281-7462130">
+        <rdfs:label xml:lang="hi">लिखित योगदान</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3296561-9897684"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://conference_hi#c-4732885-3599833"/>
+                    <rdf:Description rdf:about="http://conference_hi#c-4480992-6702785"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-3765622-8791957 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-3765622-8791957">
+        <rdfs:label xml:lang="hi">सम्मेलन के लिए आवेदक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3693857-1481281"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-7496098-9433532 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-7496098-9433532">
+        <rdfs:label xml:lang="hi">सम्मेलन का हिस्सा</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-3045866-7958864 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-3045866-7958864">
+        <rdfs:label xml:lang="hi">पंजीकृत आवेदक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-3765622-8791957"/>
+    </owl:Class>
+    
+
+
+    <!-- http://conference_hi#c-1276727-6066363 -->
+
+    <owl:Class rdf:about="http://conference_hi#c-1276727-6066363">
+        <rdfs:label xml:lang="hi">सम्मेलन की घोषणा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://conference_hi#c-6739198-8184437"/>
+    </owl:Class>
+    <!--v2<c-0950472-8008907/>
+    <c-0950472-8008907/>-->
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+

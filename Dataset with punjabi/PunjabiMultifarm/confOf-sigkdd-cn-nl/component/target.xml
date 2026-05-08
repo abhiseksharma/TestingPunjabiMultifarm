@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:nodeID="N4bbf139b8a8e4ac8b127059cc3acbb11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-2677692-8466254"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-6231880-3503382"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N99a9b4f9c9df4795ae82c3884cc3b868">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-2771162-7718100"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-3231912-8987055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-6157221-7749194">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">betalen</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-4635808-8917151"/>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-4964548-2754830"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_nl#op-2258860-2134032"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nefd0739a3ace4f8b9dde6b003bf6c611">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-9701620-7189823"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-9613134-7598056"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-4828053-8156444">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">spreker</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N36394f56db4b4b7cbe91cd02b72cd12e"/>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-4964548-2754830"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-2994532-5177238">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">recensie</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-8182503-6500256"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-2866976-2668036">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">algemeen voorzitter</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-1972856-6347020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#ent-4955806-3510068">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="nl">naam</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-4964548-2754830"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-2258860-2134032">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">betaald door</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-4635808-8917151"/>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-4964548-2754830"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6301171-0350928">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">hotel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-5968683-1644775"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-0088270-3257121">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">abstract</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N881b3f3445324734afc668ffea5dfd06"/>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-8182503-6500256"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36394f56db4b4b7cbe91cd02b72cd12e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-4556485-6777429"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-8182503-6500256"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-4556485-6777429">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">presentatie</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-4828053-8156444"/>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-8182503-6500256"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-8160705-0025502">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">ontworpen door</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-6013467-8243363"/>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-7751948-8710710"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_nl#op-0797215-9592306"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6274133-4821320">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">commissie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-4964548-2754830">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">persoon</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N3535eedd7ed34ab0b9f73fb6298ae0e7"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="N6ebdb10d89364002b63077465e6b867f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-3411960-3868798">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">hoofdkantoor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-5968683-1644775"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-5869770-9169809">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">registratie studenten</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-4635808-8917151"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N881b3f3445324734afc668ffea5dfd06">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-9701620-7189823"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-6793756-5864678"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-4950691-7168262">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">tentoonsteller</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-3231912-8987055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-5585917-9673412">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">deadline inlichting auteur</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-7751948-8710710"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6173128-0624276">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">registratie geen lid</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-4635808-8917151"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd00f7cd7d3ad448885990ea9f5d9ae1d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-2342671-0906328"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-0885540-1905548"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6793756-5864678">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">deadline indiening abstract</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-7751948-8710710"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#ent-9514468-6142611">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="nl">datum</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-7751948-8710710"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6375150-4550411">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">voorzitter programmacommissie</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-1972856-6347020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6013467-8243363">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">ACM SIGKDD</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="N8a171ad4fc714b8c8f1f97dd5c172c44"/>
+    <rdfs:subClassOf rdf:nodeID="N99a9b4f9c9df4795ae82c3884cc3b868"/>
+    <rdfs:subClassOf rdf:nodeID="Nd00f7cd7d3ad448885990ea9f5d9ae1d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#ent-2135808-5508669">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="nl">begin van conferentie</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-0885540-1905548"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#ent-6239164-0862369">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="nl">betaalmiddel</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-4635808-8917151"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#ent-6436607-8412789">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="nl">prijs</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-4635808-8917151"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-1840808-7648812">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">inlichting tot</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-2254450-4586419"/>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-5585917-9673412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#ent-0374047-8212692">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="nl">email</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-4964548-2754830"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-4918056-1133581">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">prijs best toegepast artikel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-3611955-1848520"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8521a58a7ab741a4a09a5484558fcff4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-2677692-8466254"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-4918056-1133581"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-3231912-8987055">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">sponsor</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N1c4a178618ac4a9884166ae493db5b9a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-2677692-8466254">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">prijs</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-3611955-1848520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-5421890-0237133">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">registratie SIGMOD lid</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-4635808-8917151"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-2342671-0906328">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">houdt</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-0885540-1905548"/>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-6013467-8243363"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#ent-7820768-7923190">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="nl">naam van sponsor</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-3231912-8987055"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-2771162-7718100">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">zoeken</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-3231912-8987055"/>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-6013467-8243363"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_nl#op-2133551-7749420"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6862422-1074285">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">programmaccommissie</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-6274133-4821320"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6439682-6886335">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">auteur van artikel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-2254450-4586419"/>
+    <rdfs:subClassOf rdf:nodeID="N8521a58a7ab741a4a09a5484558fcff4"/>
+    <rdfs:subClassOf rdf:nodeID="N4bbf139b8a8e4ac8b127059cc3acbb11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-8296380-6365768">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">toegekend door</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-3611955-1848520"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_nl#op-2677692-8466254"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#ent-0559643-8504336">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="nl">naam van conferentie</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-0885540-1905548"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6675660-8952876">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">artikel</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nefd0739a3ace4f8b9dde6b003bf6c611"/>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-8182503-6500256"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-7022471-1312901">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">registratie SIGKDD lid</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-4635808-8917151"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3acbe2d4a4a34974b304df8a67a683b0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-2677692-8466254"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-9682654-1715688"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6ebdb10d89364002b63077465e6b867f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-7215747-1729532"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-6301171-0350928"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-1972856-6347020">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">organisator</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-4964548-2754830"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-3976258-4389918">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">zilver sponsor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-3231912-8987055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-4635808-8917151">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">registratiekosten</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-4808979-6881064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-5968683-1644775">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">plaats</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nba41533e2d06440e880a6e0da1447f36">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-5369253-4963465"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-6675660-8952876"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#ent-0674961-0379638">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="nl">einde van conferentie</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-0885540-1905548"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-2565845-5104005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">gehouden door</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-0885540-1905548"/>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-6013467-8243363"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_nl#op-2342671-0906328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#ent-2005392-2721630">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="nl">stad van conferentie</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-0885540-1905548"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-0797215-9592306">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">ontwerp</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-6013467-8243363"/>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-7751948-8710710"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-7215747-1729532">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">mag verblijven in</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-4964548-2754830"/>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-5968683-1644775"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8a171ad4fc714b8c8f1f97dd5c172c44">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-0797215-9592306"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-7751948-8710710"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N006140c8176848cc929aa522429f20fd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-1840808-7648812"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-5585917-9673412"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-2376070-7069240">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">organisatiecommissie</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-6274133-4821320"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-5041214-0529107">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">best studenten artikel sponsor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-3231912-8987055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-9721516-2947564">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">brons sponsor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-3231912-8987055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-9682654-1715688">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">prijs best studenten artikel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-3611955-1848520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-9909329-2578996">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">goud sponsor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-3231912-8987055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-3729363-8337951">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">gepresenteerd door</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-4828053-8156444"/>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-8182503-6500256"/>
+    <owl:inverseOf rdf:resource="http://sigkdd_nl#op-4556485-6777429"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-7708071-3245584">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">verkrijgen</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-2254450-4586419"/>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-3611955-1848520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-1647542-3256640">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">sponsorbijdrage</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-4808979-6881064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-2449314-2099201">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">platina sponsor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-3231912-8987055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-5369253-4963465">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">indienen</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-2254450-4586419"/>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-6675660-8952876"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-1712115-3636328">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">lid programmacommissie</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-1972856-6347020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6861301-4279518">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">webmaster</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-1972856-6347020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-2254450-4586419">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">auteur</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nba41533e2d06440e880a6e0da1447f36"/>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-4828053-8156444"/>
+    <rdfs:subClassOf rdf:nodeID="N006140c8176848cc929aa522429f20fd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-5050746-4121053">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">toehoorder</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-4964548-2754830"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-7751948-8710710">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">deadline</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-2133551-7749420">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">gezocht door</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-3231912-8987055"/>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-6013467-8243363"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6596252-9744231">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">auteur van studenten artikel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-2254450-4586419"/>
+    <rdfs:subClassOf rdf:nodeID="N3acbe2d4a4a34974b304df8a67a683b0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-4066772-8626570">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">lid organisatiecommissie</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-1972856-6347020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-4960132-0765588">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">gast spreker</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-4828053-8156444"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#ent-8598822-4553815">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="nl">land</rdfs:label>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-4964548-2754830"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-9626850-3633738">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">best artikel prijzencommissie</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-6274133-4821320"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6234708-4996415">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">conferentiezaal</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-5968683-1644775"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc4ff850d7f224e91bf5686348bc526ac">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-8296380-6365768"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-1972856-6347020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-9613134-7598056">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">deadline indiening artikel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-7751948-8710710"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-3611955-1848520">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">prijs</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="Nc4ff850d7f224e91bf5686348bc526ac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#op-9701620-7189823">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="nl">indienen tot</rdfs:label>
+    <rdfs:range rdf:resource="http://sigkdd_nl#c-7751948-8710710"/>
+    <rdfs:domain rdf:resource="http://sigkdd_nl#c-8182503-6500256"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-0885540-1905548">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">conferentie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1c4a178618ac4a9884166ae493db5b9a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-6157221-7749194"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-1647542-3256640"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-6231880-3503382">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">prijs best onderzoeksartikel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://sigkdd_nl#c-3611955-1848520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3535eedd7ed34ab0b9f73fb6298ae0e7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://sigkdd_nl#op-6157221-7749194"/>
+    <owl:someValuesFrom rdf:resource="http://sigkdd_nl#c-4635808-8917151"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-8182503-6500256">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">document</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sigkdd_nl#c-4808979-6881064">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="nl">bedrag</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

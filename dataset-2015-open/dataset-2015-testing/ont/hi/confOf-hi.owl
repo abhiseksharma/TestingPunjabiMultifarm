@@ -1,0 +1,1090 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://confOf_hi#"
+     xml:base="http://confOf_hi"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:confOf_hi="http://confOf_hi#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://confOf_hi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://confOf_hi#op-9805730-3161440 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-9805730-3161440">
+        <rdfs:label xml:lang="hi">लेखक द्वारा लिखित</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+        <rdfs:range rdf:resource="http://confOf_hi#c-9006565-8057928"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-5801175-2848916 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-5801175-2848916">
+        <rdfs:label xml:lang="hi">शहर में रहो</rdfs:label>
+        <rdfs:range rdf:resource="http://confOf_hi#c-8987360-2251246"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://confOf_hi#c-8449021-3077846"/>
+                    <rdf:Description rdf:about="http://confOf_hi#c-5158379-4618851"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-8242018-2876172 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-8242018-2876172">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="hi">इस प्रकार</rdfs:label>
+        <rdfs:range rdf:resource="http://confOf_hi#c-9314925-3743708"/>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-9314925-3743708"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-7871998-4579648 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-7871998-4579648">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label xml:lang="hi">समानांतर है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-9314925-3743708"/>
+        <rdfs:range rdf:resource="http://confOf_hi#c-9314925-3743708"/>
+        <owl:inverseOf rdf:resource="http://confOf_hi#op-7871998-4579648"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-9355264-6652075 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-9355264-6652075">
+        <rdfs:label xml:lang="hi">के द्वारा नियुक्त</rdfs:label>
+        <rdfs:range rdf:resource="http://confOf_hi#c-8449021-3077846"/>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-2320940-9106009 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-2320940-9106009">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">देश में रहो</rdfs:label>
+        <rdfs:range rdf:resource="http://confOf_hi#c-2308452-6024152"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://confOf_hi#c-8449021-3077846"/>
+                    <rdf:Description rdf:about="http://confOf_hi#c-5158379-4618851"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-9379313-3992958 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-9379313-3992958">
+        <rdfs:label xml:lang="hi">प्रासंगिक प्रशासनिक कार्यक्रम है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-2151161-4246847"/>
+        <rdfs:range rdf:resource="http://confOf_hi#c-9314925-3743708"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-1668827-4407638 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-1668827-4407638">
+        <rdfs:label xml:lang="hi">समीक्षा</rdfs:label>
+        <rdfs:range rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-8388886-2671939"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-5782899-9336807 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-5782899-9336807">
+        <rdfs:label xml:lang="hi">योगदान लिखता है</rdfs:label>
+        <rdfs:range rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-9006565-8057928"/>
+        <owl:inverseOf rdf:resource="http://confOf_hi#op-9805730-3161440"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-5796997-9622630 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-5796997-9622630">
+        <rdfs:label xml:lang="hi">विश्व विद्यालय में अध्ययन</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-5303408-9063790"/>
+        <rdfs:range rdf:resource="http://confOf_hi#c-3768923-5645522"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-2414109-4917619 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-2414109-4917619">
+        <rdfs:label xml:lang="hi">विषय पर विशेषज्ञ</rdfs:label>
+        <rdfs:range rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-8388886-2671939"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-9146753-9359380 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-9146753-9359380">
+        <rdfs:label xml:lang="hi">विषय है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-2151161-4246847"/>
+        <rdfs:range rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://confOf_hi#op-9945078-6078664 -->
+
+    <owl:ObjectProperty rdf:about="http://confOf_hi#op-9945078-6078664">
+        <rdfs:label xml:lang="hi">विषय से संबंधित है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+        <rdfs:range rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://confOf_hi#ent-3569127-6978319 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-3569127-6978319">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">कार्यक्रम का अंतिम दिन</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-1099938-9089176"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-3137979-3423983 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-3137979-3423983">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">कार्यक्रम की अधिकतम संख्या की स्थापना</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://confOf_hi#c-2151161-4246847"/>
+                    <rdf:Description rdf:about="http://confOf_hi#c-2405407-1186028"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-6579913-9303533 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-6579913-9303533">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">पहला नाम है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-7642612-9926764 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-7642612-9926764">
+        <rdfs:label xml:lang="hi">कार्यक्रम आयोजित किया जा रहा है</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://confOf_hi#c-2151161-4246847"/>
+                    <rdf:Description rdf:about="http://confOf_hi#c-2405407-1186028"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-6045359-4292437 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-6045359-4292437">
+        <rdfs:label xml:lang="hi">फैक्स है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-1902178-4697738 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-1902178-4697738">
+        <rdfs:label xml:lang="hi">टिप्पणी है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-8134355-3444373 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-8134355-3444373">
+        <rdfs:label xml:lang="hi">कीवर्ड हैं</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-3424979-7715337 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-3424979-7715337">
+        <rdfs:label xml:lang="hi">होम पेज है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-5640493-8452720 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-5640493-8452720">
+        <rdfs:label xml:lang="hi">संपर्क ईमेल है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-8986047-5279631 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-8986047-5279631">
+        <rdfs:label xml:lang="hi">ईमेल है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-9807391-7942147 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-9807391-7942147">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">शीर्षक है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-9675743-7504202 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-9675743-7504202">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">कार्यक्रम का प्रारंभिक दिन</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-1099938-9089176"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-4003157-9487774 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-4003157-9487774">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">शीर्षक है</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://confOf_hi#c-2151161-4246847"/>
+                    <rdf:Description rdf:about="http://confOf_hi#c-2405407-1186028"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-8768889-8325138 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-8768889-8325138">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">मूल्य वर्धित कर है</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://confOf_hi#c-2151161-4246847"/>
+                    <rdf:Description rdf:about="http://confOf_hi#c-2405407-1186028"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-2529547-4920534 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-2529547-4920534">
+        <rdfs:label xml:lang="hi">डाक कोड है</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://confOf_hi#c-8449021-3077846"/>
+                    <rdf:Description rdf:about="http://confOf_hi#c-5158379-4618851"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-2865781-6529629 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-2865781-6529629">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सम्मेलन के प्रतिभागी का प्रारंभिक पंजीकरण है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-3358034-9315185"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-4488528-8438075 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-4488528-8438075">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">संक्षिप्त शीर्षक है</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://confOf_hi#c-2151161-4246847"/>
+                    <rdf:Description rdf:about="http://confOf_hi#c-2405407-1186028"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-3171545-1471776 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-3171545-1471776">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">उपनाम है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-6515697-1454143 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-6515697-1454143">
+        <rdfs:label xml:lang="hi">गली में रहो</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://confOf_hi#c-8449021-3077846"/>
+                    <rdf:Description rdf:about="http://confOf_hi#c-5158379-4618851"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-4025406-7966473 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-4025406-7966473">
+        <rdfs:label xml:lang="hi">कार्यक्रम की न्यूनतम संख्या की स्थापना</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://confOf_hi#c-2151161-4246847"/>
+                    <rdf:Description rdf:about="http://confOf_hi#c-2405407-1186028"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-2207835-4472965 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-2207835-4472965">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सार है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-7792730-4537652 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-7792730-4537652">
+        <rdfs:label xml:lang="hi">फोन है</rdfs:label>
+        <rdfs:domain rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://confOf_hi#ent-1971831-6922851 -->
+
+    <owl:DatatypeProperty rdf:about="http://confOf_hi#ent-1971831-6922851">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">कार्यक्रम की संख्या की डिफ़ॉल्ट पसंद की सेटिंग</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://confOf_hi#c-2151161-4246847"/>
+                    <rdf:Description rdf:about="http://confOf_hi#c-2405407-1186028"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://confOf_hi#c-2953331-3331055 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-2953331-3331055">
+        <rdfs:label xml:lang="hi">लघु शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-2933218-4011349"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-1751433-6596520"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-9095022-5759198 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-9095022-5759198">
+        <rdfs:label xml:lang="hi">प्रस्तुत करने का कार्यक्रम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-9314925-3743708"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-5567263-7774227"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-3196543-5917932"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-9915616-5355465"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-7425343-9282168"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-1550628-4554698 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-1550628-4554698">
+        <rdfs:label xml:lang="hi">सम्मेलन के छात्र प्रतिभागी</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-3358034-9315185"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-9453489-6794848 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-9453489-6794848">
+        <rdfs:label xml:lang="hi">संगठन</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-8449021-3077846"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-3768923-5645522"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-9195820-1938889 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-9195820-1938889">
+        <rdfs:label xml:lang="hi">योगदान</rdfs:label>
+        <!--v2<rdfs:subClassOf rdf:resource="http://confOf_hi#c-8378905-7494536"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-5640493-8452720"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-9945078-6078664"/>
+                <owl:someValuesFrom rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-8134355-3444373"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-9945078-6078664"/>
+                <owl:allValuesFrom rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-2207835-4472965"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-9807391-7942147"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-8449021-3077846"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-2308452-6024152"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-1099938-9089176"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-8987360-2251246"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-2933218-4011349 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-2933218-4011349">
+        <rdfs:label xml:lang="hi">पोस्टर</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-1751433-6596520"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-8449021-3077846 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-8449021-3077846">
+        <rdfs:label xml:lang="hi">संगठन</rdfs:label>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-2308452-6024152"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-1099938-9089176"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-8987360-2251246"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-5567263-7774227 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-5567263-7774227">
+        <rdfs:label xml:lang="hi">परिणामों की समीक्षा करने का कार्यक्रम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-9314925-3743708"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-3196543-5917932"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-9915616-5355465"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-7425343-9282168"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-9006565-8057928 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-9006565-8057928">
+        <rdfs:label xml:lang="hi">लेखक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-5782899-9336807"/>
+                <owl:someValuesFrom rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-5782899-9336807"/>
+                <owl:allValuesFrom rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-2308452-6024152 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-2308452-6024152">
+        <rdfs:label xml:lang="hi">देश</rdfs:label>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-1099938-9089176"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-2224019-3218863 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-2224019-3218863">
+        <rdfs:label xml:lang="hi">सम्मेलन के स्वयंसेवक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-2151161-4246847 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-2151161-4246847">
+        <rdfs:label xml:lang="hi">काम करने का कार्यक्रम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-1099938-9089176"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-9146753-9359380"/>
+                <owl:allValuesFrom rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-9146753-9359380"/>
+                <owl:someValuesFrom rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-4003157-9487774"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-1971831-6922851"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-7642612-9926764"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-9314925-3743708"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-2405407-1186028"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-1099938-9089176 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-1099938-9089176">
+        <rdfs:label xml:lang="hi">कार्यक्रम</rdfs:label>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-8987360-2251246"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-4445706-4451712 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-4445706-4451712">
+        <rdfs:label xml:lang="hi">कार्यशाला</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-2151161-4246847"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-2609942-2028481"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-7246619-4558482"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-5510083-3020882 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-5510083-3020882">
+        <rdfs:label xml:lang="hi">विषय</rdfs:label>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-8987360-2251246"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-6398657-8990713 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-6398657-8990713">
+        <rdfs:label xml:lang="hi">सम्मेलन के नियमित भागीदार</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-3358034-9315185"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-8388886-2671939 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-8388886-2671939">
+        <rdfs:label xml:lang="hi">कार्यक्रम समिति के सदस्य</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-1668827-4407638"/>
+                <owl:someValuesFrom rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-1668827-4407638"/>
+                <owl:allValuesFrom rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-2414109-4917619"/>
+                <owl:allValuesFrom rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-2414109-4917619"/>
+                <owl:someValuesFrom rdf:resource="http://confOf_hi#c-5510083-3020882"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-2609942-2028481 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-2609942-2028481">
+        <rdfs:label xml:lang="hi">सम्मेलन</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-2151161-4246847"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-7246619-4558482"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-9314925-3743708 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-9314925-3743708">
+        <rdfs:label xml:lang="hi">प्रशासनिक कार्यक्रम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-1099938-9089176"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-2405407-1186028"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-5303408-9063790 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-5303408-9063790">
+        <rdfs:label xml:lang="hi">छात्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-5796997-9622630"/>
+                <owl:someValuesFrom rdf:resource="http://confOf_hi#c-3768923-5645522"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-5796997-9622630"/>
+                <owl:allValuesFrom rdf:resource="http://confOf_hi#c-3768923-5645522"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-7190870-7207522 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-7190870-7207522">
+        <rdfs:label xml:lang="hi">स्वागत समारोह</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-2405407-1186028"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-1595231-2090299"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-3128100-7934826"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-7433166-5327386 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-7433166-5327386">
+        <rdfs:label xml:lang="hi">प्रशासक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-8987360-2251246 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-8987360-2251246">
+        <rdfs:label xml:lang="hi">शहर</rdfs:label>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-3196543-5917932 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-3196543-5917932">
+        <rdfs:label xml:lang="hi">समीक्षा का कार्यक्रम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-9314925-3743708"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-9915616-5355465"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-7425343-9282168"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-9915616-5355465 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-9915616-5355465">
+        <rdfs:label xml:lang="hi">प्रतिभागियों के पंजीकरण की कार्यक्रम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-9314925-3743708"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-7425343-9282168"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-1595231-2090299 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-1595231-2090299">
+        <rdfs:label xml:lang="hi">यात्रा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-2405407-1186028"/>
+        <owl:disjointWith rdf:resource="http://confOf_hi#c-3128100-7934826"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-6332619-6348286 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-6332619-6348286">
+        <rdfs:label xml:lang="hi">विज्ञान कार्यकर्ता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-7425343-9282168 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-7425343-9282168">
+        <rdfs:label xml:lang="hi">कैमरा-तैयार संस्करण भेजने का कार्यक्रम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-9314925-3743708"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-1751433-6596520 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-1751433-6596520">
+        <rdfs:label xml:lang="hi">शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-9195820-1938889"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-5158379-4618851 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-5158379-4618851">
+        <rdfs:label xml:lang="hi">व्यक्ति</rdfs:label>
+        <!--v2<rdfs:subClassOf rdf:resource="http://confOf_hi#c-8378905-7494536"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-2320940-9106009"/>
+                <owl:someValuesFrom rdf:resource="http://confOf_hi#c-2308452-6024152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-9355264-6652075"/>
+                <owl:someValuesFrom rdf:resource="http://confOf_hi#c-8449021-3077846"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-5801175-2848916"/>
+                <owl:someValuesFrom rdf:resource="http://confOf_hi#c-8987360-2251246"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-2529547-4920534"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-3171545-1471776"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-6515697-1454143"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-8986047-5279631"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-6579913-9303533"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#op-9355264-6652075"/>
+                <owl:allValuesFrom rdf:resource="http://confOf_hi#c-8449021-3077846"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-6043870-1669069 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-6043870-1669069">
+        <rdfs:label xml:lang="hi">सम्मेलन में शामिल व्यक्ति</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-3358034-9315185"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-8378905-7494536 -->
+    <!--v2
+    <owl:Class rdf:about="http://confOf_hi#c-8378905-7494536">
+        <rdfs:label xml:lang="hi">null</rdfs:label>
+    </owl:Class>-->
+    
+
+
+    <!-- http://confOf_hi#c-3358034-9315185 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-3358034-9315185">
+        <rdfs:label xml:lang="hi">प्रतिभागी</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-9846473-6449518 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-9846473-6449518">
+        <rdfs:label xml:lang="hi">कार्यक्रम समिति के अध्यक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-3768923-5645522 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-3768923-5645522">
+        <rdfs:label xml:lang="hi">विश्वविद्यालय</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-8449021-3077846"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-3128100-7934826 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-3128100-7934826">
+        <rdfs:label xml:lang="hi">भोज</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-2405407-1186028"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-4884528-8225007 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-4884528-8225007">
+        <rdfs:label xml:lang="hi">सहायक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-5158379-4618851"/>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-2405407-1186028 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-2405407-1186028">
+        <rdfs:label xml:lang="hi">सामाजिक कार्यक्रम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-1099938-9089176"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-7642612-9926764"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-1971831-6922851"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://confOf_hi#ent-4003157-9487774"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://confOf_hi#c-7246619-4558482 -->
+
+    <owl:Class rdf:about="http://confOf_hi#c-7246619-4558482">
+        <rdfs:label xml:lang="hi">ट्यूटोरियल</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://confOf_hi#c-2151161-4246847"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,1310 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ekaw_pa#"
+     xml:base="http://ekaw_pa"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ekaw_pa="http://ekaw_pa#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://ekaw_pa"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_pa#op-5495645-8380852 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-5495645-8380852">
+        <rdfs:label xml:lang="pa">ਹਵਾਲੇ</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-5146776-6660498"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-5085932-4700451 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-5085932-4700451">
+        <rdfs:label xml:lang="pa">covers topic</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-4703241-9507273"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-7315890-3527085"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pa#c-2205121-9702841"/>
+                    <rdf:Description rdf:about="http://ekaw_pa#c-8624017-5590532"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-1085740-9085233 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-1085740-9085233">
+        <rdfs:label xml:lang="pa">technically organises</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-1254176-9593865"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pa#op-2774318-3199551"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-9778898-7179724 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-9778898-7179724">
+        <rdfs:label xml:lang="pa">ਦੀ ਸਥਿਤੀ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-5266567-6075903"/>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-6783481-3279675"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-3668669-8528485 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-3668669-8528485">
+        <rdfs:label xml:lang="pa">ਪੇਪਰ ਦੇ ਰੂਪ ਵਿੱਚ ਪੇਸ਼ ਕੀਤਾ</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-7025100-7623119"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pa#c-2205121-9702841"/>
+                    <rdf:Description rdf:about="http://ekaw_pa#c-1560188-1008822"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-1853453-2315423 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-1853453-2315423">
+        <rdfs:label xml:lang="pa">ਸੰਸਕਰਣ ਨੂੰ ਅਪਡੇਟ ਕੀਤਾ ਹੈ</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-9355676-1590418"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-2909505-1174277 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-2909505-1174277">
+        <rdfs:label xml:lang="pa">ਦੁਆਰਾ ਲਿਖਿਆ ਗਿਆ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-8505536-7817142"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-4876659-5399083"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-2677819-4267187 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-2677819-4267187">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="pa">ਦਾ ਹਿੱਸਾ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-3404678-9356220 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-3404678-9356220">
+        <rdfs:label xml:lang="pa">ਕਾਗਜ਼ ਦੀ ਸਮੀਖਿਆ</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-2531593-6652406"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-2774318-3199551 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-2774318-3199551">
+        <rdfs:label xml:lang="pa">ਸੰਗਠਿਤ ਕਰਦਾ ਹੈ</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pa#c-1254176-9593865"/>
+                    <rdf:Description rdf:about="http://ekaw_pa#c-8505536-7817142"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-5146776-6660498 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-5146776-6660498">
+        <rdfs:label xml:lang="pa">ਹਵਾਲਾ ਦਿੱਤਾ ਗਿਆ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-9244066-7397495 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-9244066-7397495">
+        <rdfs:label xml:lang="pa">ਪ੍ਰਕਾਸ਼ਕ ਦੁਆਰਾ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-1254176-9593865"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pa#c-8128135-9110533"/>
+                    <rdf:Description rdf:about="http://ekaw_pa#c-2435656-4401861"/>
+                    <rdf:Description rdf:about="http://ekaw_pa#c-1548677-4565687"/>
+                    <rdf:Description rdf:about="http://ekaw_pa#c-5031345-9561566"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-2315572-9923989 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-2315572-9923989">
+        <rdfs:label xml:lang="pa">ਸਮੀਖਿਆ ਕਰਦਾ ਹੈ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-2531593-6652406"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-3404678-9356220"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-2882105-3705986 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-2882105-3705986">
+        <rdfs:label xml:lang="pa">ਕਾਗਜ਼ ਦੀ ਪੇਸ਼ਕਾਰੀ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-7025100-7623119"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-3668669-8528485"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pa#c-2205121-9702841"/>
+                    <rdf:Description rdf:about="http://ekaw_pa#c-1560188-1008822"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-2174587-6878559 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-2174587-6878559">
+        <rdfs:label xml:lang="pa">ਵਿਗਿਆਨਕ ਤੌਰ 'ਤੇ ਆਯੋਜਿਤ ਕਰਦਾ ਹੈ → ਵਿਗਿਆਨਕ ਆਯੋਜਨ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-1586301-1669207"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pa#op-2774318-3199551"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-2105763-2246561"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-8075281-5032285 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-8075281-5032285">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="pa">ਸਮਾਗਮ ਦਾ ਹਿੱਸਾ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pa#op-2677819-4267187"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-1402121-5351436"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-6233481-8986874 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-6233481-8986874">
+        <rdfs:label xml:lang="pa">ਸੂਚੀ ਵਿਚ ਘਟਨਾ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-9488168-2482482"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pa#c-8128135-9110533"/>
+                    <rdf:Description rdf:about="http://ekaw_pa#c-1548677-4565687"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-9488168-2482482 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-9488168-2482482">
+        <rdfs:label xml:lang="pa">ਸੂਚੀ ਘਟਨਾ</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pa#c-8128135-9110533"/>
+                    <rdf:Description rdf:about="http://ekaw_pa#c-1548677-4565687"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-5237558-8281326 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-5237558-8281326">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="pa">has part</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-2677819-4267187"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-1402121-5351436 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-1402121-5351436">
+        <rdfs:label xml:lang="pa">hasevent</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pa#op-5237558-8281326"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-6757888-5760552 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-6757888-5760552">
+        <rdfs:label xml:lang="pa">ਸਮੀਖਿਅਕ ਦੁਆਰਾ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-3647463-4268007"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-6405456-9791797 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-6405456-9791797">
+        <rdfs:label xml:lang="pa">ਦੁਆਰਾ ਆਯੋਜਿਤ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-2774318-3199551"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pa#c-1254176-9593865"/>
+                    <rdf:Description rdf:about="http://ekaw_pa#c-8505536-7817142"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-4287817-2662539 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-4287817-2662539">
+        <rdfs:label xml:lang="pa">ਦੁਆਰਾ ਲਿਖਿਆ ਗਿਆ ਸਮੀਖਿਆ</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-3647463-4268007"/>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-2531593-6652406"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pa#op-2909505-1174277"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-1659793-4574249 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-1659793-4574249">
+        <rdfs:label xml:lang="pa">ਕਾਗਜ਼ ਦਾ ਸਮੀਖਿਅਕ</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-3647463-4268007"/>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-6757888-5760552"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-8779832-9020297 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-8779832-9020297">
+        <rdfs:label xml:lang="pa">paper in volume</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-7315890-3527085 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-7315890-3527085">
+        <rdfs:label xml:lang="pa">ਦੁਆਰਾ ਕਵਰ ਕੀਤਾ ਵਿਸ਼ਾ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-4703241-9507273"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://ekaw_pa#c-2205121-9702841"/>
+                    <rdf:Description rdf:about="http://ekaw_pa#c-8624017-5590532"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-2105763-2246561 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-2105763-2246561">
+        <rdfs:label xml:lang="pa">ਦੁਆਰਾ ਵਿਗਿਆਨਕ ਤੌਰ 'ਤੇ ਆਯੋਜਿਤ ਕੀਤਾ ਗਿਆ ਹੈ</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-1586301-1669207"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pa#op-6405456-9791797"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-6465393-3703831 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-6465393-3703831">
+        <rdfs:label xml:lang="pa">7 ਦੇ ਹਿੱਸੇ ਦਾ ਉਲਟ</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pa#op-5237558-8281326"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-1865648-6291856 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-1865648-6291856">
+        <rdfs:label xml:lang="pa">ਤਕਨੀਕੀ ਤੌਰ 'ਤੇ ਆਯੋਜਿਤ ਕੀਤਾ ਗਿਆ</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-1085740-9085233"/>
+        <rdfs:subPropertyOf rdf:resource="http://ekaw_pa#op-6405456-9791797"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-9355676-1590418 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-9355676-1590418">
+        <rdfs:label xml:lang="pa">ਦਾ ਅਪਡੇਟ ਕੀਤਾ ਸੰਸਕਰਣ</rdfs:label>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-6783481-3279675 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-6783481-3279675">
+        <rdfs:label xml:lang="pa">ਵਿਚ ਆਯੋਜਿਤ</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-5266567-6075903"/>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-6347470-6697776 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-6347470-6697776">
+        <rdfs:label xml:lang="pa">ਖੰਡ ਵਿੱਚ ਪੇਪਰ ਸ਼ਾਮਲ ਹੈ</rdfs:label>
+        <owl:inverseOf rdf:resource="http://ekaw_pa#op-8779832-9020297"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ekaw_pa#op-4876659-5399083 -->
+
+    <owl:ObjectProperty rdf:about="http://ekaw_pa#op-4876659-5399083">
+        <rdfs:label xml:lang="pa">author of</rdfs:label>
+        <rdfs:range rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+        <rdfs:domain rdf:resource="http://ekaw_pa#c-8505536-7817142"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ekaw_pa#c-8128135-9110533 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-8128135-9110533">
+        <rdfs:label xml:lang="pa">ਪ੍ਰੋਗਰਾਮ ਬ੍ਰੋਸ਼ਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2435656-4401861"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-1548677-4565687"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2531593-6652406"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-7738217-2441499"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-5031345-9561566"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-6058224-7829687 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-6058224-7829687">
+        <rdfs:label xml:lang="pa">ਟਿਊਟੋਰਿਅਲ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-7025100-7623119"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-6077729-9952279"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-7749603-7808151"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-9240607-6298506"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2579219-8191526"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-6280501-4083428"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-4071173-9277046"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2539389-2704733"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-5266567-6075903 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-5266567-6075903">
+        <rdfs:label xml:lang="pa">location</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-8505536-7817142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-1608134-4068325 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-1608134-4068325">
+        <rdfs:label xml:lang="pa">ਦੇਰ ਨਾਲ ਰਜਿਸਟਰਡ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6364266-7074618"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-9467431-6247900"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-2435656-4401861 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-2435656-4401861">
+        <rdfs:label xml:lang="pa">ਬਹੁ-ਲੇਖਕ ਵਾਲੀਅਮ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-1548677-4565687"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2531593-6652406"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-5031345-9561566"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-3176970-5856049 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-3176970-5856049">
+        <rdfs:label xml:lang="pa">rejected paper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-9294323-6005241"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-3660616-5678246"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-1548677-4565687 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-1548677-4565687">
+        <rdfs:label xml:lang="pa">ਵੈੱਬਸਾਈਟ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2531593-6652406"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-7738217-2441499"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-5031345-9561566"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-6077729-9952279 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-6077729-9952279">
+        <rdfs:label xml:lang="pa">invited talk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-7025100-7623119"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-7749603-7808151"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-9240607-6298506"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2579219-8191526"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-6280501-4083428"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-4071173-9277046"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2539389-2704733"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-7749603-7808151 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-7749603-7808151">
+        <rdfs:label xml:lang="pa">ਸਮਾਜਿਕ ਘਟਨਾ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-9240607-6298506"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2579219-8191526"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-4071173-9277046"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2539389-2704733"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-8879869-3404611 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-8879869-3404611">
+        <rdfs:label xml:lang="pa">ਕਾਨਫਰੰਸ ਦੀ ਯਾਤਰਾ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-7749603-7808151"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-4125903-6095139 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-4125903-6095139">
+        <rdfs:label xml:lang="pa">conference proceedings</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-7738217-2441499"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-6347470-6697776"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_pa#c-9530059-2046813"/>
+                            <rdf:Description rdf:about="http://ekaw_pa#c-2986767-3495221"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-9362907-8680461 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-9362907-8680461">
+        <rdfs:label xml:lang="pa">ਕੈਮਰਾ ਤਿਆਰ ਕਾਗਜ਼</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-9355676-1590418"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pa#c-3660616-5678246"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-2909505-1174277"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pa#c-6364266-7074618"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-9294323-6005241"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-6578609-9076318"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-3660616-5678246"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-9294323-6005241 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-9294323-6005241">
+        <rdfs:label xml:lang="pa">ਮੁਲਾਂਕਣ ਕੀਤਾ ਪੇਪਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-7273776-6818225"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-2315572-9923989"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_pa#c-2568270-7756869"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-1866790-7898915 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-1866790-7898915">
+        <rdfs:label xml:lang="pa">ਪੋਸਟਰ ਪੇਪਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-4897359-4214470"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-4631561-9546230"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-8747193-5512611"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-2205121-9702841 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-2205121-9702841">
+        <rdfs:label xml:lang="pa">ਕਾਗਜ਼</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2531593-6652406"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-7738217-2441499"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-5031345-9561566"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-1724602-3199340 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-1724602-3199340">
+        <rdfs:label xml:lang="pa">ਵਰਕਸ਼ਾਪ ਪੇਪਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-9530059-2046813"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-4631561-9546230"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-1513381-4049546 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-1513381-4049546">
+        <rdfs:label xml:lang="pa">ਸਕਾਰਾਤਮਕ ਸਮੀਖਿਆ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2531593-6652406"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-9021866-7072646"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-7680152-7507975"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-2568270-7756869 -->
+    <!--v2
+    <owl:Class rdf:about="http://ekaw_pa#c-2568270-7756869">
+        <rdfs:label xml:lang="pa">null</rdfs:label>
+    </owl:Class>-->
+    
+
+
+    <!-- http://ekaw_pa#c-5240260-4079954 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-5240260-4079954">
+        <rdfs:label xml:lang="pa">invited speaker</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2881087-5311682"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-1254176-9593865 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-1254176-9593865">
+        <rdfs:label xml:lang="pa">ਸੰਸਥਾ</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-8505536-7817142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-9240607-6298506 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-9240607-6298506">
+        <rdfs:label xml:lang="pa">ਟਰੈਕ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-4068663-2434283"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2579219-8191526"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-6280501-4083428"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-4071173-9277046"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2539389-2704733"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-1910135-5482082 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-1910135-5482082">
+        <rdfs:label xml:lang="pa">ਆਯੋਜਨ ਏਜੰਸੀ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-1254176-9593865"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-1586301-1669207"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-9530059-2046813 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-9530059-2046813">
+        <rdfs:label xml:lang="pa">ਕਾਨਫਰੰਸ ਪੇਪਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-2579219-8191526 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-2579219-8191526">
+        <rdfs:label xml:lang="pa">ਕਾਨਫਰੰਸ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-4068663-2434283"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-6280501-4083428"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-4071173-9277046"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2539389-2704733"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-6578609-9076318 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-6578609-9076318">
+        <rdfs:label xml:lang="pa">ਪੇਸ਼ ਕੀਤਾ ਕਾਗਜ਼</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-2995330-4454844 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-2995330-4454844">
+        <rdfs:label xml:lang="pa">regular session</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6280501-4083428"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-3433752-4303858"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-9310577-6583685"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-6364266-7074618 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-6364266-7074618">
+        <rdfs:label xml:lang="pa">ਕਾਨਫਰੰਸ ਭਾਗੀਦਾਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8505536-7817142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-8422991-1362466 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-8422991-1362466">
+        <rdfs:label xml:lang="pa">ਸੈਸ਼ਨ ਦੀ ਕੁਰਸੀ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6364266-7074618"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-9124598-5708788"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-7663950-4275428 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-7663950-4275428">
+        <rdfs:label xml:lang="pa">ਵਰਕਸ਼ਾਪ ਦੀ ਕੁਰਸੀ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6364266-7074618"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-9124598-5708788"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-7550077-9646413"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-9467431-6247900 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-9467431-6247900">
+        <rdfs:label xml:lang="pa">early-registered participant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6364266-7074618"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-1586301-1669207 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-1586301-1669207">
+        <rdfs:label xml:lang="pa">ਅਕਾਦਮਿਕ ਸੰਸਥਾ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-1254176-9593865"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-6280501-4083428 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-6280501-4083428">
+        <rdfs:label xml:lang="pa">ਸੈਸ਼ਨ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-4068663-2434283"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-8075281-5032285"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_pa#c-9240607-6298506"/>
+                            <rdf:Description rdf:about="http://ekaw_pa#c-2579219-8191526"/>
+                            <rdf:Description rdf:about="http://ekaw_pa#c-4071173-9277046"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-1402121-5351436"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pa#c-7025100-7623119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-8075281-5032285"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_pa#c-2579219-8191526"/>
+                            <rdf:Description rdf:about="http://ekaw_pa#c-4071173-9277046"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-4071173-9277046"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-2539389-2704733"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-4703241-9507273 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-4703241-9507273">
+        <rdfs:label xml:lang="pa">research topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-8624017-5590532 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-8624017-5590532">
+        <rdfs:label xml:lang="pa">ਸਮਾਗਮ</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-8505536-7817142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-4071173-9277046 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-4071173-9277046">
+        <rdfs:label xml:lang="pa">ਵਰਕਸ਼ਾਪ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-4068663-2434283"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-7025100-7623119"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-3433752-4303858 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-3433752-4303858">
+        <rdfs:label xml:lang="pa">ਡੈਮੋ ਸੈਸ਼ਨ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6280501-4083428"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-9310577-6583685"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-5301465-9768440 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-5301465-9768440">
+        <rdfs:label xml:lang="pa">ਐਸਸੀ ਮੈਂਬਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-9124598-5708788"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-2939173-4370945 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-2939173-4370945">
+        <rdfs:label xml:lang="pa">ਟਿਊਟੋਰੀਅਲ ਅਮੂਲਯਤਾ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-1560188-1008822"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-3647463-4268007 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-3647463-4268007">
+        <rdfs:label xml:lang="pa">ਸੰਭਵ ਸਮੀਖਿਅਕ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8505536-7817142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-9157216-6623251 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-9157216-6623251">
+        <rdfs:label xml:lang="pa">proceedings publisher</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-1254176-9593865"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-1030708-4891819 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-1030708-4891819">
+        <rdfs:label xml:lang="pa">ਵਿਦਿਆਰਥੀ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8505536-7817142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-2881087-5311682 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-2881087-5311682">
+        <rdfs:label xml:lang="pa">ਪੇਸ਼ਕਾਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6364266-7074618"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-9124598-5708788 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-9124598-5708788">
+        <rdfs:label xml:lang="pa">ਪੀਸੀ ਮੈਂਬਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-3647463-4268007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-8807595-8806469 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-8807595-8806469">
+        <rdfs:label xml:lang="pa">ਦਸਤਾਵੇਜ਼</rdfs:label>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-8505536-7817142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-5618733-6844634 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-5618733-6844634">
+        <rdfs:label xml:lang="pa">oc ਮੈਂਬਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6364266-7074618"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-9310577-6583685 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-9310577-6583685">
+        <rdfs:label xml:lang="pa">poster session</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6280501-4083428"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-8505536-7817142 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-8505536-7817142">
+        <rdfs:label xml:lang="pa">ਵਿਅਕਤੀ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-1560188-1008822 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-1560188-1008822">
+        <rdfs:label xml:lang="pa">ਅਮੂਰਤ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-5079284-4324356 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-5079284-4324356">
+        <rdfs:label xml:lang="pa">agency staff member</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8505536-7817142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-9021866-7072646 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-9021866-7072646">
+        <rdfs:label xml:lang="pa">ਨਕਾਰਾਤਮਕ ਸਮੀਖਿਆ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2531593-6652406"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-7680152-7507975"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-8948546-2984174 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-8948546-2984174">
+        <rdfs:label xml:lang="pa">ਵਰਕਸ਼ਾਪ ਸੈਸ਼ਨ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6280501-4083428"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-8353193-1631998"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-7212990-2137977 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-7212990-2137977">
+        <rdfs:label xml:lang="pa">ਉਦਯੋਗਿਕ ਸੈਸ਼ਨ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8353193-1631998"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-7273776-6818225 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-7273776-6818225">
+        <rdfs:label xml:lang="pa">assigned paper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6578609-9076318"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-6757888-5760552"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_pa#c-2568270-7756869"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-3522142-6715046 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-3522142-6715046">
+        <rdfs:label xml:lang="pa">ਖੋਜ ਸੰਸਥਾਨ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-1586301-1669207"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-6533968-4322427 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-6533968-4322427">
+        <rdfs:label xml:lang="pa">ਯੂਨੀਵਰਸਿਟੀ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-1586301-1669207"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-2986767-3495221 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-2986767-3495221">
+        <rdfs:label xml:lang="pa">ਸੱਦਾ ਭਾਸ਼ਣ ਅਮੂਲਯ ਅਖ਼ਬਾਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-1560188-1008822"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-1575950-8011431 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-1575950-8011431">
+        <rdfs:label xml:lang="pa">ਟਿਊਟੋਰੀਅਲ ਚੇਅਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6364266-7074618"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-9124598-5708788"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-7550077-9646413"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-4897359-4214470 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-4897359-4214470">
+        <rdfs:label xml:lang="pa">ਨਿਯਮਤ ਕਾਗਜ਼</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-4631561-9546230"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-8747193-5512611"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-8632272-9565055 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-8632272-9565055">
+        <rdfs:label xml:lang="pa">oc ਕੁਰਸੀ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-5618733-6844634"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-7550077-9646413 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-7550077-9646413">
+        <rdfs:label xml:lang="pa">ਪੀਸੀ ਚੇਅਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6364266-7074618"/>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-9124598-5708788"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-6400319-7278520 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-6400319-7278520">
+        <rdfs:label xml:lang="pa">ਡੈਮੋ ਚੇਅਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6364266-7074618"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-4631561-9546230 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-4631561-9546230">
+        <rdfs:label xml:lang="pa">ਉਦਯੋਗਿਕ ਪੇਪਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-8747193-5512611"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-2531593-6652406 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-2531593-6652406">
+        <rdfs:label xml:lang="pa">review</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-7738217-2441499"/>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-5031345-9561566"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-7680152-7507975 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-7680152-7507975">
+        <rdfs:label xml:lang="pa">ਨਿਰਪੱਖ ਸਮੀਖਿਆ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2531593-6652406"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-3660616-5678246 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-3660616-5678246">
+        <rdfs:label xml:lang="pa">ਸਵੀਕਾਰ ਕੀਤਾ ਕਾਗਜ਼</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-9294323-6005241"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-2315572-9923989"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pa#c-1513381-4049546"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-2539389-2704733 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-2539389-2704733">
+        <rdfs:label xml:lang="pa">ਯੋਗਦਾਨ ਦਿੱਤਾ ਭਾਸ਼ਣ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-7025100-7623119"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-2882105-3705986"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_pa#c-2568270-7756869"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>-->
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-2882105-3705986"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pa#c-9362907-8680461"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-8353193-1631998 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-8353193-1631998">
+        <rdfs:label xml:lang="pa">ਕਾਨਫਰੰਸ ਸੈਸ਼ਨ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-6280501-4083428"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-8075281-5032285"/>
+                <owl:someValuesFrom rdf:resource="http://ekaw_pa#c-2579219-8191526"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-7025100-7623119 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-7025100-7623119">
+        <rdfs:label xml:lang="pa">ਵਿਅਕਤੀਗਤ ਪੇਸ਼ਕਾਰੀ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-4068663-2434283"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-8747193-5512611 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-8747193-5512611">
+        <rdfs:label xml:lang="pa">ਡੈਮੋ ਪੇਪਰ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2205121-9702841"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-7738217-2441499 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-7738217-2441499">
+        <rdfs:label xml:lang="pa">ਕਾਰਵਾਈਆਂ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-2435656-4401861"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-6347470-6697776"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ekaw_pa#c-2986767-3495221"/>
+                            <rdf:Description rdf:about="http://ekaw_pa#c-3660616-5678246"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ekaw_pa#op-6347470-6697776"/>
+                <!--v2<owl:onClass rdf:resource="http://ekaw_pa#c-2568270-7756869"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://ekaw_pa#c-5031345-9561566"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-5031345-9561566 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-5031345-9561566">
+        <rdfs:label xml:lang="pa">ਪੰਫਲੈਟ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8807595-8806469"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-4068663-2434283 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-4068663-2434283">
+        <rdfs:label xml:lang="pa">ਵਿਗਿਆਨਕ ਘਟਨਾ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8624017-5590532"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-8528098-3958259 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-8528098-3958259">
+        <rdfs:label xml:lang="pa">ਪੇਪਰ ਲੇਖਕ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-8505536-7817142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ekaw_pa#c-2681509-7620103 -->
+
+    <owl:Class rdf:about="http://ekaw_pa#c-2681509-7620103">
+        <rdfs:label xml:lang="pa">ਕਾਨਫਰੰਸ ਭੋਜਨ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ekaw_pa#c-7749603-7808151"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+

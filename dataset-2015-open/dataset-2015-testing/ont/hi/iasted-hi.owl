@@ -1,0 +1,2776 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://iasted_hi#"
+     xml:base="http://iasted_hi"
+     xmlns:iasted_hi="http://iasted_hi#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:iasted="http://iasted#">
+    <owl:Ontology rdf:about="http://iasted_hi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iasted_hi#op-5662736-7292674 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-5662736-7292674">
+        <rdfs:label xml:lang="hi">के लिए प्रयोग किया गया है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-3332148-6738607"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-6183329-9188568"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-1200496-1448136 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-1200496-1448136">
+        <rdfs:label xml:lang="hi">द्वारा भेजा गया</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-9648125-5833313 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-9648125-5833313">
+        <rdfs:label xml:lang="hi">लेखन</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+        <owl:inverseOf rdf:resource="http://iasted_hi#op-7476000-7929722"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-1795529-8489254 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-1795529-8489254">
+        <rdfs:label xml:lang="hi">से पहले आयोजित किया गया</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-4177808-4149136"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3332148-6738607"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-4777187-8385741 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-4777187-8385741">
+        <rdfs:label xml:lang="hi">के साथ भुगतान किया जाता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-6183329-9188568"/>
+        <rdfs:range rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-3185220-7484919 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-3185220-7484919">
+        <rdfs:label xml:lang="hi">के लिए बनाया गया है</rdfs:label>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-3428774-5055666"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-3332148-6738607"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-4177808-4149136"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-3332148-6738607"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-6183329-9188568"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-4463430-3014634 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-4463430-3014634">
+        <rdfs:label xml:lang="hi">से पहले भेजा गया</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-4177808-4149136"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-5745325-7669772 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-5745325-7669772">
+        <rdfs:label xml:lang="hi">द्वारा तैयार किया जाता है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-3143612-7404712 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-3143612-7404712">
+        <rdfs:label xml:lang="hi">के बाद आयोजित किया जाता है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-4177808-4149136"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3332148-6738607"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-7336864-8186883 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-7336864-8186883">
+        <rdfs:label xml:lang="hi">ज़रूरत</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-9815855-9844933 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-9815855-9844933">
+        <rdfs:label xml:lang="hi">के लिए सुसज्जित किया गया है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-6082925-7374277"/>
+        <rdfs:range rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-8438243-5927568 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-8438243-5927568">
+        <rdfs:label xml:lang="hi">भेजता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+        <owl:inverseOf rdf:resource="http://iasted_hi#op-1200496-1448136"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-2101132-8981520 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-2101132-8981520">
+        <rdfs:label xml:lang="hi">द्वारा भुगतान किया गया</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-6183329-9188568"/>
+        <owl:inverseOf rdf:resource="http://iasted_hi#op-2661968-5338155"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-6176398-5235437 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-6176398-5235437">
+        <rdfs:label xml:lang="hi">के लिए आवश्यक है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+        <owl:inverseOf rdf:resource="http://iasted_hi#op-7336864-8186883"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-2751348-9019063 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-2751348-9019063">
+        <rdfs:label xml:lang="hi">समय पर मौजूद है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range rdf:resource="http://iasted_hi#c-4177808-4149136"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-3968787-4205419 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-3968787-4205419">
+        <rdfs:label xml:lang="hi">द्वारा प्रयोग किया जाता है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-2371498-8799697 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-2371498-8799697">
+        <rdfs:label xml:lang="hi">स्थानीय रूप से स्थित है</rdfs:label>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-2610248-5587653"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-6082925-7374277"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-7055175-9938133"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-9940508-8158150"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-2610248-5587653"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-6082925-7374277"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-7055175-9938133"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-2661968-5338155 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-2661968-5338155">
+        <rdfs:label xml:lang="hi">भुगतान करता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range rdf:resource="http://iasted_hi#c-6183329-9188568"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-8396761-8679196 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-8396761-8679196">
+        <rdfs:label xml:lang="hi">के बाद भेजा जाता है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-4177808-4149136"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-3391341-7647474 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-3391341-7647474">
+        <rdfs:label xml:lang="hi">द्वारा हस्ताक्षरित है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+        <owl:inverseOf rdf:resource="http://iasted_hi#op-6194505-5249204"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-6073786-3672651 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-6073786-3672651">
+        <rdfs:label xml:lang="hi">से बनाया गया है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+        <rdfs:range rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-1747598-9880613 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-1747598-9880613">
+        <rdfs:label xml:lang="hi">तैयर करता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+        <owl:inverseOf rdf:resource="http://iasted_hi#op-5745325-7669772"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-5333647-5392980 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-5333647-5392980">
+        <rdfs:label xml:lang="hi">द्वारा दौरा किया गया है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-9940508-8158150"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-2610248-5587653"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-7055175-9938133"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-3155114-1404158 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-3155114-1404158">
+        <rdfs:label xml:lang="hi">के साथ जुड़ा हुआ है</rdfs:label>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-6082925-7374277"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-9737100-5766943"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-3428774-5055666"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-3332148-6738607"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-3708607-5071018 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-3708607-5071018">
+        <rdfs:label xml:lang="hi">के माध्यम से जाता है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3332148-6738607"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-4379284-4602719 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-4379284-4602719">
+        <rdfs:label xml:lang="hi">समय या स्थान में मौजूद है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-4177808-4149136"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-6082925-7374277"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-5564274-7178111 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-5564274-7178111">
+        <rdfs:label xml:lang="hi">द्वारा दिया गया है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <owl:inverseOf rdf:resource="http://iasted_hi#op-8438157-1223051"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-3332148-6738607"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-9737100-5766943"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-7693979-4331377 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-7693979-4331377">
+        <rdfs:label xml:lang="hi">को दिया गया है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-9500155-6886017 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-9500155-6886017">
+        <rdfs:label xml:lang="hi">में आयोजित किया जाता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3332148-6738607"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-4177808-4149136"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-6082925-7374277"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-5059556-9477198 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-5059556-9477198">
+        <rdfs:label xml:lang="hi">समय या स्थान पर बोलता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-4177808-4149136"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-6082925-7374277"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-8438157-1223051 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-8438157-1223051">
+        <rdfs:label xml:lang="hi">देता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-3332148-6738607"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-9737100-5766943"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-8351660-4913040 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-8351660-4913040">
+        <rdfs:label xml:lang="hi">द्वारा कब्जा कर लिया गया है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <owl:inverseOf rdf:resource="http://iasted_hi#op-3407635-1434342"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-9940508-8158150"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-2610248-5587653"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-7055175-9938133"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-1574151-5940920 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-1574151-5940920">
+        <rdfs:label xml:lang="hi">के लिए भुगतान किया गया है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-6183329-9188568"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-3332148-6738607"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-9737100-5766943"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-3407635-1434342 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-3407635-1434342">
+        <rdfs:label xml:lang="hi">रहता है (रहता है, रहता है)</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://iasted_hi#c-9940508-8158150"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-2610248-5587653"/>
+                    <rdf:Description rdf:about="http://iasted_hi#c-7055175-9938133"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-6194505-5249204 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-6194505-5249204">
+        <rdfs:label xml:lang="hi">हस्ताक्षर करता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-3050504-1225020 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-3050504-1225020">
+        <rdfs:label xml:lang="hi">प्राप्त</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:range rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-5489892-8509348 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-5489892-8509348">
+        <rdfs:label xml:lang="hi">में भुगतान किया जाता है</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-2610248-5587653"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-6183329-9188568"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iasted_hi#op-7476000-7929722 -->
+
+    <owl:ObjectProperty rdf:about="http://iasted_hi#op-7476000-7929722">
+        <rdfs:label xml:lang="hi">द्वारा लिखा गया</rdfs:label>
+        <rdfs:range rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iasted_hi#ent-3200949-1818204 -->
+
+    <owl:DatatypeProperty rdf:about="http://iasted_hi#ent-3200949-1818204">
+        <rdfs:label xml:lang="hi">की राशि है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-6183329-9188568"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iasted_hi#ent-7170467-4492994 -->
+
+    <owl:DatatypeProperty rdf:about="http://iasted_hi#ent-7170467-4492994">
+        <rdfs:label xml:lang="hi">दिनांकित है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3332148-6738607"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iasted_hi#ent-2556686-4885991 -->
+
+    <owl:DatatypeProperty rdf:about="http://iasted_hi#ent-2556686-4885991">
+        <rdfs:label xml:lang="hi">तक किया जाना है</rdfs:label>
+        <rdfs:domain rdf:resource="http://iasted_hi#c-3430951-4893518"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iasted_hi#c-9041807-2895863 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9041807-2895863">
+        <rdfs:label xml:lang="hi">चेक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-1257010-1985039"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9913149-1935360 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9913149-1935360">
+        <rdfs:label xml:lang="hi">सीडी के रूप में कार्यवाही प्राप्त करने के लिए एक उपस्थित लेखक द्वारा भुगतान की गई पंजीकरण शुल्क</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-8351396-7068396"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-1574151-5940920"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7465416-2148751"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6534667-7756296 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6534667-7756296">
+        <rdfs:label xml:lang="hi">किसी भी प्रकार का दस्तावेज</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2067601-3322041 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2067601-3322041">
+        <rdfs:label xml:lang="hi">विस्तृत बैठक के सामने व्याख्यान देते वक्ता</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8438157-1223051"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1959036-2995762"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-7990489-7589820"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5059556-9477198"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5115693-4796873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8081287-4638065 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8081287-4638065">
+        <rdfs:label xml:lang="hi">उपरि प्रक्षेपक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3567929-5421278"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8101910-1589640 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8101910-1589640">
+        <rdfs:label xml:lang="hi">पूरे दिन का दौरा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-4381344-2972103"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-9500155-6886017"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7093686-1353067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-9500155-6886017"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-4927795-7497387"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5401725-3419964 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5401725-3419964">
+        <rdfs:label xml:lang="hi">स्वीकृति की अधिसूचना के लिए समय सीमा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3430951-4893518"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3329082-4998665 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3329082-4998665">
+        <rdfs:label xml:lang="hi">कार्यकर्ता जो वक्ता नहीं है</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2661968-5338155"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-2360589-6242611"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-4528836-6556974"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8827803-8833314 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8827803-8833314">
+        <rdfs:label xml:lang="hi">प्रायोजन</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2101132-8981520"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1342600-3624655"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6183329-9188568"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1134432-3957336 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1134432-3957336">
+        <rdfs:label xml:lang="hi">प्रस्थान</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-4381344-2972103"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9426877-2345817 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9426877-2345817">
+        <rdfs:label xml:lang="hi">विश्रामालय प्रस्तोता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://iasted_hi#op-2661968-5338155"/>
+                        <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7424631-6655665"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://iasted_hi#op-3407635-1434342"/>
+                        <owl:someValuesFrom rdf:resource="http://iasted_hi#c-8357162-7921228"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9940508-8158150 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9940508-8158150">
+        <rdfs:label xml:lang="hi">राज्य</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2360589-6242611 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2360589-6242611">
+        <rdfs:label xml:lang="hi">एक गैर लेखक के लिए पंजीकरण शुल्क</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-8351396-7068396"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-4528836-6556974"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9377981-1731353 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9377981-1731353">
+        <rdfs:label xml:lang="hi">प्रायोजक की स्थिति</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9940508-8158150"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1191042-9396803 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1191042-9396803">
+        <rdfs:label xml:lang="hi">प्रस्तुतीकरण</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6534667-7756296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-7476000-7929722"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7515214-9421585"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7272842-4224180 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7272842-4224180">
+        <rdfs:label xml:lang="hi">सम्मेलन पंजीकरण प्रपत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6785993-2517648"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-4463430-3014634"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1494310-3730756"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-1200496-1448136"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1484542-8278122 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1484542-8278122">
+        <rdfs:label xml:lang="hi">मुख्य कार्यालय</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6082925-7374277"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9754964-2831785 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9754964-2831785">
+        <rdfs:label xml:lang="hi">सम्मेलन से पहले हो रही गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3332148-6738607"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-1795529-8489254"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-4530494-6488902"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1240295-1228667 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1240295-1228667">
+        <rdfs:label xml:lang="hi">वीडियो प्रस्तुति</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9392967-8970365"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5095788-9621588 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5095788-9621588">
+        <rdfs:label xml:lang="hi">सत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6648248-6993629"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-9500155-6886017"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-2171223-1063654"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5564274-7178111"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iasted_hi#c-7990489-7589820"/>
+                            <rdf:Description rdf:about="http://iasted_hi#c-7292939-8951705"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2396265-8554689 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2396265-8554689">
+        <rdfs:label xml:lang="hi">सम्मेलन यात्री</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3708607-5071018"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-8101910-1589640"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9417294-7524404 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9417294-7524404">
+        <rdfs:label xml:lang="hi">परिवहन वाहन</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3968787-4205419"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2533426-2009675 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2533426-2009675">
+        <rdfs:label xml:lang="hi">कैमरा तैयार स्क्रिप्ट जमा करने की समय लेख</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3430951-4893518"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3567929-5421278 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3567929-5421278">
+        <rdfs:label xml:lang="hi">श्रव्य दृश्य उपकरण</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-2171223-1063654"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3968787-4205419"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7515214-9421585"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-6597933-7832758"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6539440-1153487 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6539440-1153487">
+        <rdfs:label xml:lang="hi">गाड़ी</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9417294-7524404"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5534173-6896810 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5534173-6896810">
+        <rdfs:label xml:lang="hi">पुस्तक के रूप में कार्यवाही प्राप्त करने के लिए एक उपस्थित लेखक द्वारा भुगतान की गई पंजीकरण शुल्क</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-8351396-7068396"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-1574151-5940920"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7817583-9310097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3519004-7353993 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3519004-7353993">
+        <rdfs:label xml:lang="hi">अंतिम पांडुलिपि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-1191042-9396803"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3708607-5071018"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-2489205-2918582"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1121571-9137611 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1121571-9137611">
+        <rdfs:label xml:lang="hi">जमा करने की समय सीमा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3430951-4893518"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3806749-3051028 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3806749-3051028">
+        <rdfs:label xml:lang="hi">आलोचक</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8438157-1223051"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-2744495-7812670"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-7515214-9421585"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9828134-8041487 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9828134-8041487">
+        <rdfs:label xml:lang="hi">कर</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6183329-9188568"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6238820-4915318 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6238820-4915318">
+        <rdfs:label xml:lang="hi">विश्रामालय का कमरा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6082925-7374277"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-8357162-7921228"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9426877-2345817"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9493821-4126493 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9493821-4126493">
+        <rdfs:label xml:lang="hi">प्रस्तुतकर्ता जो केवल एक दिन प्रस्तुत करता है</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2751348-9019063"/>
+                <!--v2<owl:onClass rdf:resource="http://iasted_hi#c-8940665-6364328"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>-->
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2792321-3340692 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2792321-3340692">
+        <rdfs:label xml:lang="hi">पावरप्वाइंट प्रस्तुति</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9392967-8970365"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1959036-2995762 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1959036-2995762">
+        <rdfs:label xml:lang="hi">ट्यूटोरियल</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5564274-7178111"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1686336-4402074"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6648248-6993629"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3001490-4743732 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3001490-4743732">
+        <rdfs:label xml:lang="hi">पांडुलिपि प्राप्त करने की गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9754964-2831785"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3750696-3279949 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3750696-3279949">
+        <rdfs:label xml:lang="hi">अनुकरण की गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-8568463-4132985"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3428774-5055666 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3428774-5055666">
+        <rdfs:label xml:lang="hi">व्यक्ति</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4530494-6488902 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4530494-6488902">
+        <rdfs:label xml:lang="hi">सम्मेलन के दिन</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-4177808-4149136"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1289159-4786004 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1289159-4786004">
+        <rdfs:label xml:lang="hi">सामाजिक गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3036056-1914311"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4177808-4149136 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4177808-4149136">
+        <rdfs:label xml:lang="hi">समय</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4499519-9281859 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4499519-9281859">
+        <rdfs:label xml:lang="hi">समय क्षेत्र</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4759078-4797538 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4759078-4797538">
+        <rdfs:label xml:lang="hi">तकनीकी समिति</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3708607-5071018"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5350918-8194297"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4557625-7623125 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4557625-7623125">
+        <rdfs:label xml:lang="hi">शहर जहां से एक प्रायोजक आता है</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-7055175-9938133"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8351660-4913040"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1342600-3624655"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2665769-3260215 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2665769-3260215">
+        <rdfs:label xml:lang="hi">वैन</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9417294-7524404"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3036056-1914311 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3036056-1914311">
+        <rdfs:label xml:lang="hi">सम्मेलन के दौरान हो रही गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3332148-6738607"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-9500155-6886017"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9216317-4155566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-9500155-6886017"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-4530494-6488902"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7465416-2148751 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7465416-2148751">
+        <rdfs:label xml:lang="hi">सीडी कार्यवाही</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-4844524-6306385"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4859723-1221576 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4859723-1221576">
+        <rdfs:label xml:lang="hi">मॉडलिंग की गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-8568463-4132985"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3430951-4893518 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3430951-4893518">
+        <rdfs:label xml:lang="hi">समयसीमा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-4177808-4149136"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8357162-7921228 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8357162-7921228">
+        <rdfs:label xml:lang="hi">सम्मेलन विश्रामालय</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-2610248-5587653"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9426877-2345817"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7943130-2035712"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9216317-4155566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8964054-4489525 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8964054-4489525">
+        <rdfs:label xml:lang="hi">संगणक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3567929-5421278"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9514530-1371382 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9514530-1371382">
+        <rdfs:label xml:lang="hi">मूल्य वर्धित कर</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9828134-8041487"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5824664-2720394 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5824664-2720394">
+        <rdfs:label xml:lang="hi">प्रतिनिधि (सम्मेलन का पंजीकरण और दौरा करने वाला व्यक्ति)</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://iasted_hi#op-3708607-5071018"/>
+                        <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7721136-9703909"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://iasted_hi#op-4379284-4602719"/>
+                        <owl:someValuesFrom rdf:resource="http://iasted_hi#c-4530494-6488902"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://iasted_hi#op-4379284-4602719"/>
+                        <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9415960-3694374"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3050504-1225020"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9996881-8725859"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3407635-1434342"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1144501-1988724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3407635-1434342"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1002165-7850620"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8438243-5927568"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7272842-4224180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3407635-1434342"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7392794-3754855"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2661968-5338155"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-8351396-7068396"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-7336864-8186883"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-2417337-5248870"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8483989-1197468 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8483989-1197468">
+        <rdfs:label xml:lang="hi">सत्र अध्यक्ष के लिए संक्षिप्त परिचय</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6534667-7756296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-7693979-4331377"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7292939-8951705"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5564274-7178111"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7990489-7589820"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6785993-2517648 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6785993-2517648">
+        <rdfs:label xml:lang="hi">प्रपत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6534667-7756296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-7693979-4331377"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5115693-4796873 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5115693-4796873">
+        <rdfs:label xml:lang="hi">सम्मेलन सभा-भवन</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6082925-7374277"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9415960-3694374"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2610248-5587653 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2610248-5587653">
+        <rdfs:label xml:lang="hi">इमारत</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6082925-7374277"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6966309-8306751 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6966309-8306751">
+        <rdfs:label xml:lang="hi">एक गैर सदस्य के लिए पंजीकरण शुल्क</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-8351396-7068396"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7891124-2608219"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9834476-2401117 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9834476-2401117">
+        <rdfs:label xml:lang="hi">लेखक जो सीडी के रूप में कार्यवाही प्राप्त करेंगे</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-7990489-7589820"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3050504-1225020"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7465416-2148751"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6082925-7374277 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6082925-7374277">
+        <rdfs:label xml:lang="hi">स्थान</rdfs:label>
+        <!--v2<rdfs:subClassOf rdf:resource="http://iasted_hi#c-8940665-6364328"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7943130-2035712"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9216317-4155566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6597933-7832758 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6597933-7832758">
+        <rdfs:label xml:lang="hi">श्रोता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-4379284-4602719"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iasted_hi#c-5115693-4796873"/>
+                            <rdf:Description rdf:about="http://iasted_hi#c-2171223-1063654"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-6194505-5249204"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-4459692-6794605"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9303905-1895584 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9303905-1895584">
+        <rdfs:label xml:lang="hi">प्रारंभिक पांडुलिपि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-1191042-9396803"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3708607-5071018"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7689378-2913004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1507452-4068415 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1507452-4068415">
+        <rdfs:label xml:lang="hi">एक सदस्य के लिए पंजीकरण शुल्क </rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-8351396-7068396"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5778256-6152117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1494310-3730756 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1494310-3730756">
+        <rdfs:label xml:lang="hi">पंजीकरण की समय सीमा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3430951-4893518"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9392967-8970365 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9392967-8970365">
+        <rdfs:label xml:lang="hi">प्रस्तुतीकरण</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3036056-1914311"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2270868-6824231 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2270868-6824231">
+        <rdfs:label xml:lang="hi">क्रेडिट कार्ड</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-2225338-9592816"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iasted_hi#c-8827803-8833314"/>
+                            <rdf:Description rdf:about="http://iasted_hi#c-9828134-8041487"/>
+                            <rdf:Description rdf:about="http://iasted_hi#c-9803244-1254498"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1257010-1985039 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1257010-1985039">
+        <rdfs:label xml:lang="hi">भुगतान दस्तावेज</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6534667-7756296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iasted_hi#c-9828134-8041487"/>
+                            <rdf:Description rdf:about="http://iasted_hi#c-9803244-1254498"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7817583-9310097 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7817583-9310097">
+        <rdfs:label xml:lang="hi">पुस्तक कार्यवाही</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-4844524-6306385"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2489205-2918582 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2489205-2918582">
+        <rdfs:label xml:lang="hi">पांडुलिपि स्वीकार करने की गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9754964-2831785"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9626233-6736371 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9626233-6736371">
+        <rdfs:label xml:lang="hi">लेखक जो पुस्तक के रूप में कार्यवाही प्राप्त करेगा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-7990489-7589820"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3050504-1225020"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7817583-9310097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2744495-7812670 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2744495-7812670">
+        <rdfs:label xml:lang="hi">समीक्षा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6534667-7756296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-7476000-7929722"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-3806749-3051028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7515214-9421585 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7515214-9421585">
+        <rdfs:label xml:lang="hi">वक्ता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-9648125-5833313"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-3519004-7353993"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8438157-1223051"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-6648248-6993629"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://iasted_hi#c-4528836-6556974"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4927795-7497387 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4927795-7497387">
+        <rdfs:label xml:lang="hi">शहर जो एक यात्रा के लिए स्थान है</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-7055175-9938133"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5333647-5392980"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-2396265-8554689"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9292491-2554591 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9292491-2554591">
+        <rdfs:label xml:lang="hi">विश्रामालय पंजीकरण प्रपत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6785993-2517648"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-4463430-3014634"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-8349782-4908238"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6938809-9769563 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6938809-9769563">
+        <rdfs:label xml:lang="hi">एक वक्ता द्वारा दिया गया व्याख्यान</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-5095788-9621588"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1242696-5588283 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1242696-5588283">
+        <rdfs:label xml:lang="hi">प्रायोजक होने के नाते कंपनी का घर</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-2610248-5587653"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-4557625-7623125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9377981-1731353"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8351660-4913040"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1342600-3624655"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2417337-5248870 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2417337-5248870">
+        <rdfs:label xml:lang="hi">विज़ा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6534667-7756296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-6176398-5235437"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7891124-2608219 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7891124-2608219">
+        <rdfs:label xml:lang="hi">iasted के सदस्य नहीं</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2661968-5338155"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-6966309-8306751"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9069252-2287932 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9069252-2287932">
+        <rdfs:label xml:lang="hi">बैंक ट्रांसफर</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-1257010-1985039"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3160308-7736836 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3160308-7736836">
+        <rdfs:label xml:lang="hi">सम्मेलन हवाई अड्डा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-2610248-5587653"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9216317-4155566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7943130-2035712"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9996881-8725859 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9996881-8725859">
+        <rdfs:label xml:lang="hi">निमंत्रण पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6534667-7756296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4918971-5202979 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4918971-5202979">
+        <rdfs:label xml:lang="hi">एक प्रस्तुतकर्ता का विश्वविद्यालय</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-2610248-5587653"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7392794-3754855"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1144501-1988724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4428814-8135421 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4428814-8135421">
+        <rdfs:label xml:lang="hi">कॉफी के लिए विराम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3036056-1914311"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7055175-9938133 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7055175-9938133">
+        <rdfs:label xml:lang="hi">शहर</rdfs:label>
+        <!--v2<rdfs:subClassOf rdf:resource="http://iasted_hi#c-8940665-6364328"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9940508-8158150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5303832-8153144 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5303832-8153144">
+        <rdfs:label xml:lang="hi">मेलिंग सूची</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6534667-7756296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6561893-7494018 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6561893-7494018">
+        <rdfs:label xml:lang="hi">एक सम्मेलन दिवस</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-4530494-6488902"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5508652-8130205 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5508652-8130205">
+        <rdfs:label xml:lang="hi">उपरि पारदर्शिता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6534667-7756296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5745325-7669772"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7515214-9421585"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7264096-1247972 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7264096-1247972">
+        <rdfs:label xml:lang="hi">छात्र व्याख्याता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-1508813-8775531"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4844524-6306385 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4844524-6306385">
+        <rdfs:label xml:lang="hi">प्रकाशन</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-6073786-3672651"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-3519004-7353993"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3332148-6738607 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3332148-6738607">
+        <rdfs:label xml:lang="hi">गतिविधि</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1002165-7850620 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1002165-7850620">
+        <rdfs:label xml:lang="hi">एक प्रस्तुतकर्ता का घर</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-2610248-5587653"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1144501-1988724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7392794-3754855"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8351660-4913040"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8285909-8033632 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8285909-8033632">
+        <rdfs:label xml:lang="hi">लेखक सूचना प्रपत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6785993-2517648"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8396761-8679196"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5401725-3419964"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6183329-9188568 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6183329-9188568">
+        <rdfs:label xml:lang="hi">पैसे की राशि</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9415960-3694374 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9415960-3694374">
+        <rdfs:label xml:lang="hi">सम्मेलन भवन</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-2610248-5587653"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8351660-4913040"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9216317-4155566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7943130-2035712"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4176003-5401513 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4176003-5401513">
+        <rdfs:label xml:lang="hi">पूर्ण व्याख्यान</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5564274-7178111"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-2067601-3322041"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6648248-6993629"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4459692-6794605 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4459692-6794605">
+        <rdfs:label xml:lang="hi">उपस्थिति का लिपिबद्ध करना</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6534667-7756296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-2171223-1063654"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3391341-7647474"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-6597933-7832758"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9737100-5766943 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9737100-5766943">
+        <rdfs:label xml:lang="hi">वस्तु (सामान्य रूप से)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4434049-8469594 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4434049-8469594">
+        <rdfs:label xml:lang="hi">वीडियो कैसेट प्लेयर</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3567929-5421278"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5496974-4566019 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5496974-4566019">
+        <rdfs:label xml:lang="hi">रात्रिभोज</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-1289159-4786004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://iasted_hi#c-9493821-4126493"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7943130-2035712 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7943130-2035712">
+        <rdfs:label xml:lang="hi">शहर जहां सम्मेलन होता है</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-7055175-9938133"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5333647-5392980"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6175554-8316114 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6175554-8316114">
+        <rdfs:label xml:lang="hi">सम्मेलन भोजनालय</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-2610248-5587653"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-7943130-2035712"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8351660-4913040"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9216317-4155566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5778256-6152117 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5778256-6152117">
+        <rdfs:label xml:lang="hi">IASTED के सदस्य</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2661968-5338155"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1507452-4068415"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7093686-1353067 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7093686-1353067">
+        <rdfs:label xml:lang="hi">यात्रा के लिए नियत दिन</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-4177808-4149136"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9216317-4155566 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9216317-4155566">
+        <rdfs:label xml:lang="hi">वह राज्य जहां सम्मेलन होता है</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9940508-8158150"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5333647-5392980"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2963555-9666128 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2963555-9666128">
+        <rdfs:label xml:lang="hi">बख्शीश</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6183329-9188568"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5489892-8509348"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-6175554-8316114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7689378-2913004 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7689378-2913004">
+        <rdfs:label xml:lang="hi">पांडुलिपि को अस्वीकार करने की गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9754964-2831785"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5073457-6347271 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5073457-6347271">
+        <rdfs:label xml:lang="hi">जोड़े का विश्रामालय कक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6238820-4915318"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7424631-6655665 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7424631-6655665">
+        <rdfs:label xml:lang="hi">विश्रामालय शुल्क</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9803244-1254498"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2101132-8981520"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9426877-2345817"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7633334-3349710 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7633334-3349710">
+        <rdfs:label xml:lang="hi">एल सी डी प्रक्षेपक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3567929-5421278"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-9803244-1254498 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-9803244-1254498">
+        <rdfs:label xml:lang="hi">शुल्क</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6183329-9188568"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-4777187-8385741"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iasted_hi#c-2270868-6824231"/>
+                            <rdf:Description rdf:about="http://iasted_hi#c-1257010-1985039"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7990489-7589820 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7990489-7589820">
+        <rdfs:label xml:lang="hi">लेखक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-7515214-9421585"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-1747598-9880613"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5508652-8130205"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8438157-1223051"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-8483989-1197468"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6546477-2463749 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6546477-2463749">
+        <rdfs:label xml:lang="hi">छात्र जो वक्ता नहीं है</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2661968-5338155"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-8448363-3955524"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-4528836-6556974"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4528836-6556974 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4528836-6556974">
+        <rdfs:label xml:lang="hi">गैर वक्ता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5350918-8194297 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5350918-8194297">
+        <rdfs:label xml:lang="hi">तकनीकी गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3036056-1914311"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5564274-7178111"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-4759078-4797538"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2171223-1063654 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2171223-1063654">
+        <rdfs:label xml:lang="hi">सत्र कक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6082925-7374277"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-9815855-9844933"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-3567929-5421278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2371498-8799697"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9415960-3694374"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6599605-7822869 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6599605-7822869">
+        <rdfs:label xml:lang="hi">स्वागत भाषण</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3036056-1914311"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4403203-8713214 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4403203-8713214">
+        <rdfs:label xml:lang="hi">सिंगल विश्रामालय रूम</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6238820-4915318"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1508813-8775531 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1508813-8775531">
+        <rdfs:label xml:lang="hi">व्याख्याता</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8438157-1223051"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5095788-9621588"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-7990489-7589820"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5059556-9477198"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-2171223-1063654"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8005230-1625326 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8005230-1625326">
+        <rdfs:label xml:lang="hi">वक्ता का परिचय</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-6693536-7435555"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1144501-1988724 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1144501-1988724">
+        <rdfs:label xml:lang="hi">शहर जहां से प्रस्तुतकर्ता आता है</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-7055175-9938133"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8351660-4913040"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3451439-9903951 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3451439-9903951">
+        <rdfs:label xml:lang="hi">कार्यकर्ता व्याख्याता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-1508813-8775531"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8448363-3955524 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8448363-3955524">
+        <rdfs:label xml:lang="hi">एक छात्र के लिए पंजीकरण शुल्क</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-8351396-7068396"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://iasted_hi#c-7264096-1247972"/>
+                            <rdf:Description rdf:about="http://iasted_hi#c-6546477-2463749"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8940665-6364328 -->
+    <!--v2
+    <owl:Class rdf:about="http://iasted_hi#c-8940665-6364328">
+        <rdfs:label xml:lang="hi">null</rdfs:label>
+    </owl:Class>-->
+    
+
+
+    <!-- http://iasted_hi#c-8349782-4908238 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8349782-4908238">
+        <rdfs:label xml:lang="hi">विश्रामालय आरक्षण के लिए समय सीमा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3430951-4893518"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1686336-4402074 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1686336-4402074">
+        <rdfs:label xml:lang="hi">वक्ता जो एक ट्यूटोरियल प्रस्तुत करता है</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8438157-1223051"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-4176003-5401513"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-7990489-7589820"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-5059556-9477198"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5115693-4796873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3742861-6415180 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3742861-6415180">
+        <rdfs:label xml:lang="hi">अतिरिक्त यात्रा के लिए शुल्क</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9803244-1254498"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-1574151-5940920"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-8101910-1589640"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2101132-8981520"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-2396265-8554689"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6693536-7435555 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6693536-7435555">
+        <rdfs:label xml:lang="hi">परिचय</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3036056-1914311"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-3518376-1179117 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-3518376-1179117">
+        <rdfs:label xml:lang="hi">प्रस्थान कर</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9828134-8041487"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1134432-3957336"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7392794-3754855 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7392794-3754855">
+        <rdfs:label xml:lang="hi">प्रस्तुतकर्ता की स्थिति</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9940508-8158150"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8351660-4913040"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4864707-9859253 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4864707-9859253">
+        <rdfs:label xml:lang="hi">मुद्रा</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6596344-8135976 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6596344-8135976">
+        <rdfs:label xml:lang="hi">कॉकटेल स्वागत</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3036056-1914311"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5143973-5162923 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5143973-5162923">
+        <rdfs:label xml:lang="hi">किराये पर चलने वाली मोटर गाडी</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9417294-7524404"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-2225338-9592816 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-2225338-9592816">
+        <rdfs:label xml:lang="hi">कार्ड</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9737100-5766943"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7721136-9703909 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7721136-9703909">
+        <rdfs:label xml:lang="hi">पंजीकरण</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3036056-1914311"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7292939-8951705 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7292939-8951705">
+        <rdfs:label xml:lang="hi">सत्र के अध्यक्ष</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3708607-5071018"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-8005230-1625326"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3050504-1225020"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-8483989-1197468"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8568463-4132985 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8568463-4132985">
+        <rdfs:label xml:lang="hi">अनुसंधान गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9754964-2831785"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-4381344-2972103 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-4381344-2972103">
+        <rdfs:label xml:lang="hi">सम्मेलन के बाद हो रही गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3332148-6738607"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3143612-7404712"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-4530494-6488902"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-8351396-7068396 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-8351396-7068396">
+        <rdfs:label xml:lang="hi">पंजीकरण शुल्क</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9803244-1254498"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-2101132-8981520"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-5824664-2720394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-1574151-5940920"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-3036056-1914311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-6648248-6993629 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-6648248-6993629">
+        <rdfs:label xml:lang="hi">भाषण</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3036056-1914311"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3185220-7484919"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-6597933-7832758"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-1342600-3624655 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-1342600-3624655">
+        <rdfs:label xml:lang="hi">प्रायोजक</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-8438157-1223051"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-8827803-8833314"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-3428774-5055666"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3407635-1434342"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-1242696-5588283"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3407635-1434342"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-4557625-7623125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3407635-1434342"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-9377981-1731353"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-7756298-3867635 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-7756298-3867635">
+        <rdfs:label xml:lang="hi">लोकल बस</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9417294-7524404"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iasted_hi#c-5524930-1825966 -->
+
+    <owl:Class rdf:about="http://iasted_hi#c-5524930-1825966">
+        <rdfs:label xml:lang="hi">कार किराए पर लेने की गतिविधि</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://iasted_hi#c-9754964-2831785"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iasted_hi#op-3155114-1404158"/>
+                <owl:someValuesFrom rdf:resource="http://iasted_hi#c-6539440-1153487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iasted#Cancun -->
+
+    <owl:NamedIndividual rdf:about="http://iasted#Cancun">
+        <rdf:type rdf:resource="http://iasted_hi#c-7943130-2035712"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iasted#Chichen_Itza -->
+
+    <owl:NamedIndividual rdf:about="http://iasted#Chichen_Itza">
+        <rdf:type rdf:resource="http://iasted_hi#c-4927795-7497387"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iasted#Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://iasted#Mexico">
+        <rdf:type rdf:resource="http://iasted_hi#c-9216317-4155566"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iasted#peso -->
+
+    <owl:NamedIndividual rdf:about="http://iasted#peso">
+        <rdf:type rdf:resource="http://iasted_hi#c-4864707-9859253"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+

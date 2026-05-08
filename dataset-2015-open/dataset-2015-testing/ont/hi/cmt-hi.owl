@@ -1,0 +1,1090 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cmt_hi#"
+     xml:base="http://cmt_hi"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cmt_hi="http://cmt_hi#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://cmt_hi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cmt_hi#op-2734620-9608364 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-2734620-9608364">
+        <rdfs:label xml:lang="hi">सदस्य है</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-1573191-2656835"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-8135078-6763174"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-5588411-2343788 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-5588411-2343788">
+        <rdfs:label xml:lang="hi">सदस्य है</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6623853-4020320"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-3467223-2896223"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-4169580-5468536"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-3641772-7816141 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-3641772-7816141">
+        <rdfs:label xml:lang="hi">शोध पत्र सौपने की अधिकतम संख्या निर्धारित करें</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6623853-4020320"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-1867162-1290258 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-1867162-1290258">
+        <rdfs:label xml:lang="hi">द्वारा डाक घोषणापत्र को कागज़ी रूप मे छापा गया</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-2077614-3609427"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-6657139-6647275 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-6657139-6647275">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">इसके द्वारा स्वीकृत</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-2159306-6347590 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-2159306-6347590">
+        <rdfs:label xml:lang="hi">के संबंध में हितों का टकराव है</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6190062-5776288"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-7455857-4318538 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-7455857-4318538">
+        <rdfs:label xml:lang="hi">शोध पत्र असाइन किए गए उपकरण चलाएं</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-6445360-3702997"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-3110933-3829347 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-3110933-3829347">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">बोली है</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-9468918-3811209"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-3397874-1309170 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-3397874-1309170">
+        <rdfs:label xml:lang="hi">समीक्षा मानदंड दर्ज करें</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-4169580-5468536 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-4169580-5468536">
+        <rdfs:label xml:lang="hi">कार्यक्रम समिति के सदस्य</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6623853-4020320"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-3467223-2896223"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-2928482-4797537 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-2928482-4797537">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">मेटा-समीक्षक द्वारा पढ़ा गया</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-2234077-7139752"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-7265519-9399004 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-7265519-9399004">
+        <rdfs:label xml:lang="hi">विवरण दर्ज किया गया</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-9269150-6847813 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-9269150-6847813">
+        <rdfs:label xml:lang="hi">सौंपना</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-4462355-3171470"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-8081805-6070396 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-8081805-6070396">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">शोध पत्र लिखें</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-2020028-2191954"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-4937843-3213919 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-4937843-3213919">
+        <rdfs:label xml:lang="hi">शोध पत्र पढ़ें</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-9598370-4460409"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-9555284-8075401 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-9555284-8075401">
+        <rdfs:label xml:lang="hi">द्वारा समीक्षक बोली शुरू की गई</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-2186229-6037318 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-2186229-6037318">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">सौंपना</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-1076612-9400724"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-9080072-2352571 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-9080072-2352571">
+        <rdfs:label xml:lang="hi">विषय क्षेत्र है</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-3010445-5735707"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-3209402-2334918 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-3209402-2334918">
+        <rdfs:label xml:lang="hi">को सौंपना</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-2183174-6360807 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-2183174-6360807">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">द्वारा लिखित</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-2945495-3729726"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-6684081-5333285"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-2698396-1725476 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-2698396-1725476">
+        <rdfs:label xml:lang="hi">आभासी बैठक सक्षम करें</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-9198419-9256222"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-8135078-6763174 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-8135078-6763174">
+        <rdfs:label xml:lang="hi">सम्मेलन के सदस्य</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1573191-2656835"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-4236505-7876040 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-4236505-7876040">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">द्वारा समायोजित</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-9468918-3811209"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-6445360-3702997 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-6445360-3702997">
+        <rdfs:label xml:lang="hi">शोध पत्र कार्यभार उपकारणो द्वारा चलाया जाता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-2908713-7674400 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-2908713-7674400">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">द्वारा जोड़ा</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6623853-4020320"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-7272497-8003562"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-4400268-7176755 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-4400268-7176755">
+        <rdfs:label xml:lang="hi">शोध पत्र जमा करें</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-2020028-2191954"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-2077614-3609427 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-2077614-3609427">
+        <rdfs:label xml:lang="hi">डाक घोषणापत्र कागज़ी रूप मे छापे </rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-2971712-4676634 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-2971712-4676634">
+        <rdfs:label xml:lang="hi">सह-लिखना</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-3333487-1167612"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-8994250-5791520 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-8994250-5791520">
+        <rdfs:label xml:lang="hi">समीक्षा का समय समाप्त करें</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-2945495-3729726"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-9832466-9045475"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-7272497-8003562 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-7272497-8003562">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">जोड़ें</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6623853-4020320"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-8580335-3439612 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-8580335-3439612">
+        <rdfs:label xml:lang="hi">हितों के टकराव को चिह्नित करें</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cmt_hi#c-2020028-2191954"/>
+                    <rdf:Description rdf:about="http://cmt_hi#c-1699889-8520236"/>
+                    <rdf:Description rdf:about="http://cmt_hi#c-9012943-4237093"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-2972928-9936560 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-2972928-9936560">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">द्वारा अस्वीकृत किया गया</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-9171313-5687059 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-9171313-5687059">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">शोध पत्र को अस्वीकार करें</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-2972928-9936560"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-9946504-1594538 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-9946504-1594538">
+        <rdfs:label xml:lang="hi">शोध पत्र कार्यभार को अंतिम रूप दिया गया</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-9198419-9256222 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-9198419-9256222">
+        <rdfs:label xml:lang="hi">आभासी बैठक द्वारा सक्षम किया गया</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-1264767-6216388 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-1264767-6216388">
+        <rdfs:label xml:lang="hi">समीक्षक बोली शुरू करें</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-9555284-8075401"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-6684081-5333285 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-6684081-5333285">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समीक्षा लिखो</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-2945495-3729726"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-4131940-1736571 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-4131940-1736571">
+        <rdfs:label xml:lang="hi">शोध पत्र कार्यभार को अंतिम रूप दें</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-9946504-1594538"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-4011287-4713604 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-4011287-4713604">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">द्वारा लिखित</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-2020028-2191954"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-8081805-6070396"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-1415495-9108643 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-1415495-9108643">
+        <rdfs:label xml:lang="hi">द्वारा सह-लिखित</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-3333487-1167612"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-2971712-4676634"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-4462355-3171470 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-4462355-3171470">
+        <rdfs:label xml:lang="hi">व्यवस्थापक द्वारा सौंपा गया</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-8847079-6077014 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-8847079-6077014">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">स्वीकार</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-6657139-6647275"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-9026675-3545547 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-9026675-3545547">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">निर्णय लिया गया है (स्वीकार किया जाना है, अस्वीकार किया जाना है, ...)</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-4559029-8103080"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-6162694-9295834 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-6162694-9295834">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समीक्षक द्वारा सौंपा गया</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1076612-9400724"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-2186229-6037318"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-7694148-2652309 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-7694148-2652309">
+        <rdfs:label xml:lang="hi">प्रभार दिया जा चुका है</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-3209402-2334918"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-5327266-5245175 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-5327266-5245175">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="hi">समायोजित करना</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-9468918-3811209"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-4236505-7876040"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-9979035-3462064 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-9979035-3462064">
+        <rdfs:label xml:lang="hi">द्वारा समीक्षा मानदंड दर्ज</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-3397874-1309170"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-6162723-9851878 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-6162723-9851878">
+        <rdfs:label xml:lang="hi">पर विवरण दर्ज करें</rdfs:label>
+        <rdfs:range rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6642700-3776703"/>
+        <owl:inverseOf rdf:resource="http://cmt_hi#op-7265519-9399004"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cmt_hi#op-9598370-4460409 -->
+
+    <owl:ObjectProperty rdf:about="http://cmt_hi#op-9598370-4460409">
+        <rdfs:label xml:lang="hi">समीक्षक द्वारा पढ़ा गया</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <rdfs:range rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cmt_hi#ent-5356260-3309356 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_hi#ent-5356260-3309356">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">शोध पत्र सौपने की अधिकतम संख्या</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6623853-4020320"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_hi#ent-7878821-4904461 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_hi#ent-7878821-4904461">
+        <rdfs:label xml:lang="hi">ईमेल है</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_hi#ent-8687256-1621165 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_hi#ent-8687256-1621165">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">यूआरएल पर वेबसाइट है</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_hi#ent-9620818-9208822 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_hi#ent-9620818-9208822">
+        <rdfs:label xml:lang="hi">तारीख है</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_hi#ent-7277239-5165152 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_hi#ent-7277239-5165152">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">प्रति शोध पत्र समीक्षा</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_hi#ent-9374754-9149635 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_hi#ent-9374754-9149635">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">पहचान है</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_hi#ent-2995789-8714547 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_hi#ent-2995789-8714547">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">यूआरएल पर प्रतीक चिन्ह है</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_hi#ent-1953446-7959767 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_hi#ent-1953446-7959767">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">हार्डकॉपी सबमिशन स्वीकार करता है</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_hi#ent-8156935-6995994 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_hi#ent-8156935-6995994">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">शीर्षक है</rdfs:label>
+        <rdfs:domain rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://cmt_hi#ent-1698405-6682857 -->
+
+    <owl:DatatypeProperty rdf:about="http://cmt_hi#ent-1698405-6682857">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="hi">नाम है</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cmt_hi#c-6657686-7614249"/>
+                    <rdf:Description rdf:about="http://cmt_hi#c-9523933-1050504"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cmt_hi#c-8142310-7323883 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-8142310-7323883">
+        <rdfs:label xml:lang="hi">शोध पत्र का सार</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-1384588-1366831 -->
+    <!--v2
+    <owl:Class rdf:about="http://cmt_hi#c-1384588-1366831">
+        <rdfs:label xml:lang="hi">null</rdfs:label>
+    </owl:Class>
+    -->
+    
+
+
+    <!-- http://cmt_hi#c-3088534-6443302 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-3088534-6443302">
+        <rdfs:label xml:lang="hi">पसंद</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-9468918-3811209"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-3467223-2896223"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-4559029-8103080"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-6190062-5776288"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-3333487-1167612 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-3333487-1167612">
+        <rdfs:label xml:lang="hi">सह लेखक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-2020028-2191954"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-2234077-7139752 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-2234077-7139752">
+        <rdfs:label xml:lang="hi">मेटा-समीक्षक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-2020028-2191954 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-2020028-2191954">
+        <rdfs:label xml:lang="hi">लेखक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-2527167-5531085"/>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-1573191-2656835"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-4841812-5322080 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-4841812-5322080">
+        <rdfs:label xml:lang="hi">सम्मेलन के अध्यक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-1573191-2656835"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-2990398-6306148"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-6820925-9071135 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-6820925-9071135">
+        <rdfs:label xml:lang="hi">मेटा-समीक्षा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-2945495-3729726"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-9468918-3811209 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-9468918-3811209">
+        <rdfs:label xml:lang="hi">बोली</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-6657686-7614249"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-3467223-2896223"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-4559029-8103080"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-6190062-5776288"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-6657686-7614249 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-6657686-7614249">
+        <rdfs:label xml:lang="hi">सम्मेलन</rdfs:label>
+        <!--v2<rdfs:subClassOf rdf:resource="http://cmt_hi#c-1384588-1366831"/>-->
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_hi#ent-1698405-6682857"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_hi#ent-9620818-9208822"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_hi#ent-7277239-5165152"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-3467223-2896223"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-4559029-8103080"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-6190062-5776288"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-6642700-3776703 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-6642700-3776703">
+        <rdfs:label xml:lang="hi">प्रशासक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-2527167-5531085"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-1699889-8520236 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-1699889-8520236">
+        <rdfs:label xml:lang="hi">अध्यक्ष</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cmt_hi#c-4841812-5322080"/>
+                    <rdf:Description rdf:about="http://cmt_hi#c-2990398-6306148"/>
+                    <rdf:Description rdf:about="http://cmt_hi#c-9832466-9045475"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-2990398-6306148 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-2990398-6306148">
+        <rdfs:label xml:lang="hi">संबद्ध अध्यक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-1573191-2656835"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-1145969-5674774 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-1145969-5674774">
+        <rdfs:label xml:lang="hi">स्वीकृति</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-4559029-8103080"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-8181126-8102157"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-3010445-5735707 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-3010445-5735707">
+        <rdfs:label xml:lang="hi">विषय क्षेत्र</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-6623853-4020320 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-6623853-4020320">
+        <rdfs:label xml:lang="hi">कार्यक्रम समिति के सदस्य</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-1573191-2656835"/>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-8658381-1510744"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-2158187-4334252 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-2158187-4334252">
+        <rdfs:label xml:lang="hi">शोध पत्र का पूर्ण संस्करण</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-1312227-1988532"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-8658381-1510744 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-8658381-1510744">
+        <rdfs:label xml:lang="hi">लेखक, जो समीक्षक नहीं है</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-2020028-2191954"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-3467223-2896223 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-3467223-2896223">
+        <rdfs:label xml:lang="hi">कार्यक्रम समिति</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-4559029-8103080"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-6190062-5776288"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-1312227-1988532 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-1312227-1988532">
+        <rdfs:label xml:lang="hi">शोध पत्र</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-6190062-5776288"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_hi#op-9026675-3545547"/>
+                <!--v2<owl:onClass rdf:resource="http://cmt_hi#c-1384588-1366831"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>-->
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_hi#op-9598370-4460409"/>
+                <!--v2<owl:onClass rdf:resource="http://cmt_hi#c-1384588-1366831"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_hi#op-9026675-3545547"/>
+                <!--v2<owl:onClass rdf:resource="http://cmt_hi#c-1384588-1366831"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>-->
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_hi#op-2928482-4797537"/>
+                <!--v2<owl:onClass rdf:resource="http://cmt_hi#c-1384588-1366831"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>-->          
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-2945495-3729726"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-8181126-8102157 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-8181126-8102157">
+        <rdfs:label xml:lang="hi">अस्वीकार</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-4559029-8103080"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-2945495-3729726 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-2945495-3729726">
+        <rdfs:label xml:lang="hi">समीक्षा</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-6190062-5776288"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-9832466-9045475 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-9832466-9045475">
+        <rdfs:label xml:lang="hi">कार्यक्रम समिति के अध्यक्ष</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-6623853-4020320"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-2527167-5531085 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-2527167-5531085">
+        <rdfs:label xml:lang="hi">उपयोगकर्ता</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-1076612-9400724 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-1076612-9400724">
+        <rdfs:label xml:lang="hi">बाहरी समीक्षक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cmt_hi#op-6162694-9295834"/>
+                <!--v2<owl:onClass rdf:resource="http://cmt_hi#c-1384588-1366831"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>-->
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-9012943-4237093"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-1573191-2656835 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-1573191-2656835">
+        <rdfs:label xml:lang="hi">सम्मेलन के सदस्य</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-4559029-8103080 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-4559029-8103080">
+        <rdfs:label xml:lang="hi">फेसला</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-6190062-5776288"/>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-6190062-5776288 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-6190062-5776288">
+        <rdfs:label xml:lang="hi">दस्तावेज़</rdfs:label>
+        <owl:disjointWith rdf:resource="http://cmt_hi#c-9523933-1050504"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-9012943-4237093 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-9012943-4237093">
+        <rdfs:label xml:lang="hi">आलोचक</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-2527167-5531085"/>
+        <rdfs:subClassOf rdf:resource="http://cmt_hi#c-1573191-2656835"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cmt_hi#c-9523933-1050504 -->
+
+    <owl:Class rdf:about="http://cmt_hi#c-9523933-1050504">
+        <rdfs:label xml:lang="hi">व्यक्ति</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+
